@@ -14,7 +14,8 @@
     } catch { return false; }
   };
   if (connect('newsletter-link', config.newsletterUrl)) {
-    document.getElementById('newsletter-pending').hidden = true;
+    const pending = document.getElementById('newsletter-pending');
+    if (pending) pending.hidden = true;
   }
   connect('support-link', config.supportUrl);
   connect('shop-link', config.shopUrl);
