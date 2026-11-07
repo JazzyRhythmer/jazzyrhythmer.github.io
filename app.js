@@ -31,6 +31,17 @@
   });
   document.getElementById('year').textContent = new Date().getFullYear();
 
+  const productNames = {
+    'jr-acid': 'JR ACID', 'jr-fx': 'JR FX', 'jr-trek': 'JR TREK',
+    'jr-rytm': 'JR RYTM', 'jr-play': 'JR PLAY'
+  };
+  const product = new URLSearchParams(location.search).get('product');
+  const signupContext = document.getElementById('signup-context');
+  if (signupContext && Object.hasOwn(productNames, product)) {
+    signupContext.textContent = `${productNames[product]} / EXPECTED 2027`;
+    signupContext.hidden = false;
+  }
+
   const canvas = document.getElementById('dot-field');
   if (!canvas) return;
   const context = canvas.getContext('2d');
