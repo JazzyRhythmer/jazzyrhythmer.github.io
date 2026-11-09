@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="#181818"/>
+  <rect x="14" y="14" width="228" height="228" fill="#202020" stroke="#666" stroke-width="2"/>
+  <path d="M40 45h176" stroke="#666" stroke-width="2"/>
+  <g fill="#777">
+    <rect x="40" y="61" width="36" height="29"/><rect x="86" y="61" width="36" height="29"/><rect x="132" y="61" width="36" height="29"/><rect x="178" y="61" width="36" height="29"/>
+    <rect x="40" y="99" width="36" height="29"/><rect x="86" y="99" width="36" height="29"/><rect x="132" y="99" width="36" height="29"/><rect x="178" y="99" width="36" height="29"/>
+    <rect x="40" y="137" width="36" height="29"/><rect x="86" y="137" width="36" height="29"/><rect x="132" y="137" width="36" height="29"/><rect x="178" y="137" width="36" height="29"/>
+    <rect x="40" y="175" width="36" height="29"/><rect x="86" y="175" width="36" height="29"/><rect x="132" y="175" width="36" height="29"/><rect x="178" y="175" width="36" height="29"/>
+  </g>
+  <path d="M40 61h36v29H40zM86 99h36v29H86zM132 137h36v29h-36zM178 175h36v29h-36z" fill="#eee"/>
+  <path d="M40 220h36m10 0h36m10 0h36m10 0h36" stroke="#777" stroke-width="2"/>
+</svg>

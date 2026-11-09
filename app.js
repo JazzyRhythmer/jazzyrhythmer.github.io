@@ -33,7 +33,8 @@
 
   const productNames = {
     'jr-acid': 'JR ACID', 'jr-fx': 'JR FX', 'jr-trek': 'JR TREK',
-    'jr-rytm': 'JR RYTM', 'jr-play': 'JR PLAY'
+    'jr-rytm': 'JR RYTM', 'jr-play': 'JR PLAY',
+    'jr-smpl': 'JR SMPL', 'jr-draw': 'JR DRAW'
   };
   const product = new URLSearchParams(location.search).get('product');
   const signupContext = document.getElementById('signup-context');
