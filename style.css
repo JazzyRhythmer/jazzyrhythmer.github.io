@@ -102,6 +102,32 @@
   font-weight: 600;
   letter-spacing: -1px;
 }
+.firmware-preview {
+  width: 100%;
+  margin: 4px 0 18px;
+}
+.firmware-display {
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  border: 1px solid var(--line);
+  background: radial-gradient(circle, #242424 1px, transparent 1px) 0 0 / 8px 8px #101010;
+}
+.firmware-screen {
+  display: block;
+  width: min(100%, 240px);
+  height: auto;
+  aspect-ratio: 1;
+  background: #000;
+  outline: 1px solid #333;
+  image-rendering: pixelated;
+}
+.firmware-preview figcaption {
+  margin-top: 9px;
+  color: #aaa;
+  font: 10px/1.4 ui-monospace, monospace;
+  letter-spacing: .1em;
+}
 .firmware-card p {
   max-width: 40ch;
   flex: 1;
