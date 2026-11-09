@@ -7,9 +7,9 @@
   <meta name="theme-color" content="#161b19">
   <title>Software — Jazzy Rhythmer</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css?v=firmware-previews">
+  <link rel="stylesheet" href="style.css?v=firmware-motion">
   <script src="config.js" defer></script>
-  <script src="app.js" defer></script>
+  <script src="app.js?v=firmware-motion" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -117,14 +117,22 @@
       </div>
     </section>
     <section class="wrap catalog-group" id="firmware" aria-labelledby="firmware-title">
-      <div class="category-label"><span>06 / CATEGORY</span><h2 id="firmware-title">FM-1 firmware</h2></div>
-      <div class="firmware-grid">
+      <div class="category-label">
+        <span>06 / CATEGORY</span>
+        <h2 id="firmware-title">FM-1 firmware</h2>
+        <p class="firmware-intro">Jazzy and Rhythmer turn the M-VAVE FM-1 into a playground for sound and rhythm. Explore synth engines with Jazzy, or build beats and chop breaks with Rhythmer.</p>
+        <button class="firmware-motion-toggle" type="button" aria-controls="firmware-previews" hidden>Pause previews</button>
+      </div>
+      <div class="firmware-grid" id="firmware-previews">
         <article class="firmware-card" id="jazzy">
           <span class="tag">SYNTH EXPLORATION FIRMWARE</span>
           <h3>Jazzy</h3>
           <figure class="firmware-preview">
             <div class="firmware-display">
-              <img class="firmware-screen" src="firmware-jazzy.png" width="240" height="240" alt="Jazzy FM+STAT engine screen with a pixel-art boxer and four FM controls" loading="lazy" decoding="async">
+              <picture>
+                <source type="image/webp" media="(prefers-reduced-motion: no-preference)" srcset="firmware-jazzy.webp">
+                <img class="firmware-screen" src="firmware-jazzy.png" width="240" height="240" alt="Jazzy FM+STAT engine screen with a pixel-art boxer and four FM controls" loading="lazy" decoding="async">
+              </picture>
             </div>
             <figcaption>FM+STAT ENGINE</figcaption>
           </figure>
@@ -136,7 +144,10 @@
           <h3>Rhythmer</h3>
           <figure class="firmware-preview">
             <div class="firmware-display">
-              <img class="firmware-screen" src="firmware-rhythmer.png" width="480" height="480" alt="Rhythmer Break screen with Amen and Think selections, slice levels, and a 16-step pattern" loading="lazy" decoding="async">
+              <picture>
+                <source type="image/webp" media="(prefers-reduced-motion: no-preference)" srcset="firmware-rhythmer.webp">
+                <img class="firmware-screen" src="firmware-rhythmer.png" width="240" height="240" alt="Rhythmer Break screen with Amen and Think selections, slice levels, and a 16-step pattern" loading="lazy" decoding="async">
+              </picture>
             </div>
             <figcaption>BREAK PERFORMANCE</figcaption>
           </figure>

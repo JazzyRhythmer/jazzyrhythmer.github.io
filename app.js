@@ -43,11 +43,31 @@
     signupContext.hidden = false;
   }
 
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+  const firmwareToggle = document.querySelector('.firmware-motion-toggle');
+  if (firmwareToggle) {
+    const previews = document.querySelectorAll('.firmware-display source');
+    const syncPreviews = playing => {
+      previews.forEach(source => { source.media = playing ? 'all' : 'not all'; });
+      firmwareToggle.textContent = playing ? 'Pause previews' : 'Play previews';
+    };
+    let playing = !reducedMotion.matches;
+    firmwareToggle.addEventListener('click', () => {
+      playing = !playing;
+      syncPreviews(playing);
+    });
+    reducedMotion.addEventListener('change', event => {
+      playing = !event.matches;
+      syncPreviews(playing);
+    });
+    syncPreviews(playing);
+    firmwareToggle.hidden = false;
+  }
+
   const canvas = document.getElementById('dot-field');
   if (!canvas) return;
   const context = canvas.getContext('2d');
   const toggle = document.getElementById('motion-toggle');
-  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   let paused = reducedMotion.matches;
   let frame = 0;
   let time = 0;

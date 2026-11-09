@@ -75,10 +75,36 @@
   margin-top: 46px;
 }
 .firmware-feature h2 {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 .firmware-machine {
   white-space: nowrap;
+}
+.firmware-intro {
+  max-width: 64ch;
+  margin: 0 0 14px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #b4b4b4;
+}
+.category-label .firmware-intro {
+  margin-top: 10px;
+}
+.firmware-motion-toggle {
+  min-height: 36px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: #ccc;
+  font: 11px ui-monospace, monospace;
+  cursor: pointer;
+}
+.firmware-motion-toggle:hover {
+  border-color: #aaa;
+  color: #fff;
+}
+.firmware-feature .firmware-grid {
+  margin-top: 16px;
 }
 .firmware-grid {
   display: grid;
@@ -113,9 +139,12 @@
   border: 1px solid var(--line);
   background: radial-gradient(circle, #242424 1px, transparent 1px) 0 0 / 8px 8px #101010;
 }
+.firmware-display picture {
+  width: min(100%, 240px);
+}
 .firmware-screen {
   display: block;
-  width: min(100%, 240px);
+  width: 100%;
   height: auto;
   aspect-ratio: 1;
   background: #000;
