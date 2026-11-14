@@ -6,10 +6,15 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer SoundRack / VST2 offline performance",
-    "peak": 0.30984,
-    "rms": 0.05123,
+    "peak": 0.64682,
+    "rms": 0.106359,
     "gain": 2.34231,
-    "sha256": "197643b216d5dfe7d7e466320c6d9d49e38f20eef08d93a091c1b4515b54a093"
+    "sha256": "c1c4307c854a9fdf6277bc814bf9bda7a0e5c8a52080a45f4a262debd716183a",
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.0,
+    "measured_true_peak_dbtp": -3.79
   },
   "CS-1": {
     "src": "assets/audio/cs-1.wav",
@@ -18,10 +23,15 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer SoundRack / VST2 offline performance",
-    "peak": 0.18234,
-    "rms": 0.02566,
+    "peak": 0.665558,
+    "rms": 0.097076,
     "gain": 4.49703,
-    "sha256": "a4b0abc4e413966b5f55ff7014a3b5cf6c22fe5c1b73fe04d116987717c624e9"
+    "sha256": "e094d5a35700b41d44dfbbaa3df1ed6fd9172ed53de844861177d95765ec7f71",
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.34,
+    "measured_true_peak_dbtp": -3.53
   },
   "Elixir": {
     "src": "assets/audio/elixir.wav",
@@ -30,15 +40,20 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer Kit / SoundRack, full multi-pad drum performance",
-    "peak": 0.5,
-    "rms": 0.13076,
+    "peak": 0.423889,
+    "rms": 0.126032,
     "gain": 1.55404,
-    "sha256": "ecaa368c498ffc2d58dbf2b48fae698a8be220b145b5d5a885329bbb2564f58f",
+    "sha256": "f3b262fa372cb942a73023dea3a32a6246c949a739795d1dd5ea70ccda03a869",
     "processing": [
       "Demo loudness gain with smooth tanh peak limiting, target RMS 0.19"
     ],
     "deliveredRms": 0.19004,
-    "deliveredPeak": 0.63791
+    "deliveredPeak": 0.63791,
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.01,
+    "measured_true_peak_dbtp": -6.36
   },
   "FM-106": {
     "src": "assets/audio/fm-106.wav",
@@ -47,10 +62,15 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer SoundRack / VST2 offline performance",
-    "peak": 0.57037,
-    "rms": 0.15803,
+    "peak": 0.368622,
+    "rms": 0.102109,
     "gain": 0.75937,
-    "sha256": "32363e39bbba516796c5b7db67d2804fb78a3c9e062cc067f68b8fde09a6801f"
+    "sha256": "28860ff220a9eb70af782fd1b19387c60dfd2df0c31ef629cfe564a7c0372121",
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.0,
+    "measured_true_peak_dbtp": -8.67
   },
   "FMini-1": {
     "src": "assets/audio/fmini-1.wav",
@@ -59,10 +79,15 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer SoundRack / VST2 offline performance",
-    "peak": 0.52051,
-    "rms": 0.1353,
+    "peak": 0.365021,
+    "rms": 0.094762,
     "gain": 0.88694,
-    "sha256": "e454efc5cc1fc031c94c163cb8c5a511db515660939e7f6a1aca8b54edfeae2f"
+    "sha256": "08cfe6a891c4ceb545ffaf18a8cde6ad3162b5294b8c654377dfc4cc2cb19b28",
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -17.99,
+    "measured_true_peak_dbtp": -8.75
   },
   "Guru-600": {
     "src": "assets/audio/guru-600.wav",
@@ -71,11 +96,15 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer SoundRack / VST2 offline performance",
-    "peak": 0.305862,
-    "rms": 0.077689,
+    "peak": 0.356873,
+    "rms": 0.090605,
     "gain": 0.70802,
-    "sha256": "b466b002208bab7b7024c9935ad90211c7ea32887f5e94b26d73e120a96f4220",
-    "post_processing": "Four-pole 1.8 kHz low-pass, no resonance boost; 38 Hz high-pass; -3 dB; 18 ms edge fades"
+    "sha256": "aa0d87070cb982d61c414d6bd3c1bdd0b53beaa6e1bf1df0bc45e6388287de68",
+    "post_processing": "Four-pole 1.8 kHz low-pass, no resonance boost; 38 Hz high-pass; -3 dB; 18 ms edge fades; Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "measured_lufs": -18.0,
+    "measured_true_peak_dbtp": -8.94
   },
   "Hortator": {
     "src": "assets/audio/hortator.wav",
@@ -84,10 +113,10 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer Kit / SoundRack, full multi-pad drum performance",
-    "peak": 0.27353,
-    "rms": 0.02426,
+    "peak": 0.561493,
+    "rms": 0.113955,
     "gain": 9.13384,
-    "sha256": "dce84f6ca4c7db29a6bc08c38557ea5b99c44687c6435d43ba5ef9464300b614",
+    "sha256": "ab3405a2ee162ce7bdb4e9bd021432bb903fd0caf0d648852cebee5e7731c439",
     "processing": [
       "Demo loudness gain with smooth tanh peak limiting, target RMS 0.19"
     ],
@@ -110,7 +139,12 @@
       "tomNativeLevel": 0.27,
       "tomVelocity": 62,
       "firstBarCymbal": false
-    }
+    },
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.02,
+    "measured_true_peak_dbtp": -5.01
   },
   "K-WASUB": {
     "src": "assets/audio/k-wasub.wav",
@@ -119,10 +153,15 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer SoundRack / VST2 offline performance",
-    "peak": 0.78232,
-    "rms": 0.17371,
+    "peak": 0.497314,
+    "rms": 0.112033,
     "gain": 0.6908,
-    "sha256": "9fc64a59368963b85bc0131859c8dc5449e588863cfc15e4bb9376b3cda189f6"
+    "sha256": "fb5a2ab5230cb5bbef0c915eb79c72b14f24d95ad95795e1437a3a659842e404",
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.01,
+    "measured_true_peak_dbtp": -6.04
   },
   "MONO2K": {
     "src": "assets/audio/mono2k.wav",
@@ -131,10 +170,10 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer SoundRack / VST2 offline performance",
-    "peak": 0.57501,
-    "rms": 0.19706,
+    "peak": 0.197205,
+    "rms": 0.067467,
     "gain": 0.73583,
-    "sha256": "4491f4b5c63b2ee06080b0216644fdf56b25b2b7beacc27ff6dd3dbc341b30d8",
+    "sha256": "75076159560ae3ae13749bcf1909f2eca076d7f5015fa4d135ef5cd36fbc082d",
     "processing": [
       "120 ms end fade finishing at 8.05 s, after explicit MIDI Note Off and native release 0.08"
     ],
@@ -144,7 +183,12 @@
       "filterBase": 0.04,
       "filterWidth": 0.66,
       "release": 0.08
-    }
+    },
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.01,
+    "measured_true_peak_dbtp": -14.09
   },
   "OberVave": {
     "src": "assets/audio/obervave.wav",
@@ -153,10 +197,15 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer SoundRack / VST2 offline performance",
-    "peak": 0.25177,
-    "rms": 0.04044,
+    "peak": 0.606476,
+    "rms": 0.097405,
     "gain": 2.96704,
-    "sha256": "712dc4dccbac4c8cd5ae1b59223a18069aed6bf4b5d25800032c3aff757f8b43"
+    "sha256": "56e5feedba5f3397251de94072abd5fbd4eae70ba74db483c1e911d4330e9420",
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.02,
+    "measured_true_peak_dbtp": -4.34
   },
   "Prophet": {
     "src": "assets/audio/prophet.wav",
@@ -165,14 +214,19 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer SoundRack / VST2 offline performance",
-    "peak": 0.70966,
-    "rms": 0.281,
+    "peak": 0.253326,
+    "rms": 0.100099,
     "gain": 0.51602,
-    "sha256": "1de23eeb68b89670c64e59ba074425ed0044bdf093790e16fb1a6d3c15d913be",
+    "sha256": "d12d3bc8d6a39c6123e4069ff59b648b640f316efea94b24acdbd76810ea9f92",
     "processing": [],
     "deliveredRms": 0.1449,
     "deliveredPeak": 0.36618,
-    "presetSource": "Original Sequential v1.03 Forever Keys record, 57 exposed native patch fields applied in demo-only catalogue; full bank not installed"
+    "presetSource": "Original Sequential v1.03 Forever Keys record, 57 exposed native patch fields applied in demo-only catalogue; full bank not installed",
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.0,
+    "measured_true_peak_dbtp": -11.93
   },
   "S1Vave": {
     "src": "assets/audio/s1vave.wav",
@@ -181,10 +235,15 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production VST2 engine, offline MIDI performance / original factory PTN 1-02",
-    "peak": 0.45728,
-    "rms": 0.1576,
+    "peak": 0.315369,
+    "rms": 0.108525,
     "gain": 0.76143,
-    "sha256": "4ef03087456800d394385a6297034b2d09a8f2e9ffaab2bce39523b70ae194ac"
+    "sha256": "aa9b2be43d4c4ec98a62ff1372eba0dfb16c3aebc24c883fa955dffef7e42aa5",
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.0,
+    "measured_true_peak_dbtp": -10.02
   },
   "Aphex": {
     "src": "assets/audio/aphex.wav",
@@ -193,10 +252,15 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer SoundRack / VST2 offline performance",
-    "peak": 0.39511,
-    "rms": 0.18177,
+    "peak": 0.220154,
+    "rms": 0.101857,
     "gain": 0.66018,
-    "sha256": "70b0ef8f9c5f7f2251f2d2f4755046bc33700b0f3b1b95b5314cb57f9cc3dae0"
+    "sha256": "70426a73079db771178ad87a81230d089364ba689469e3b97bb2cd5a3d458ce4",
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.01,
+    "measured_true_peak_dbtp": -13.15
   },
   "Braids": {
     "src": "assets/audio/braids.wav",
@@ -205,10 +269,15 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer SoundRack / VST2 offline performance",
-    "peak": 0.47964,
-    "rms": 0.13018,
+    "peak": 0.360199,
+    "rms": 0.097255,
     "gain": 0.92177,
-    "sha256": "0ffe0e9fa251fc79385d6deb607ef0af1aea3f664d3fccc029cb7c1e03e9c348"
+    "sha256": "356cc269281e39eca8bc700ed96c52ee4204ca6dcb432ceba63d4a2b4ad18ac9",
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.03,
+    "measured_true_peak_dbtp": -8.86
   },
   "Dexed": {
     "src": "assets/audio/dexed.wav",
@@ -217,10 +286,15 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer SoundRack / VST2 offline performance",
-    "peak": 0.54538,
-    "rms": 0.09898,
+    "peak": 0.581879,
+    "rms": 0.105229,
     "gain": 1.21238,
-    "sha256": "ee2236d1f41380f9a510682ff369e9d6eb5cf985827497a9815a211c81cd8f1e"
+    "sha256": "4651720334106e19bdf60c3e887464d7ed328e52070e6bc13899ccaa716bb888",
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.01,
+    "measured_true_peak_dbtp": -4.7
   },
   "Hera": {
     "src": "assets/audio/hera.wav",
@@ -229,10 +303,15 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer SoundRack / VST2 offline performance",
-    "peak": 0.04233,
-    "rms": 0.01462,
+    "peak": 0.263916,
+    "rms": 0.091131,
     "gain": 8.20995,
-    "sha256": "fe8f1230ef703771d429ee5fb9f20677783a75b32aedf16161d8606e30eaddc2"
+    "sha256": "95af0938b98c6d5e9a82bb03f1bb99da30834a7413c09252291cc7140386c63c",
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.0,
+    "measured_true_peak_dbtp": -11.56
   },
   "Plaits": {
     "src": "assets/audio/plaits.wav",
@@ -241,10 +320,15 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer SoundRack / VST2 offline performance",
-    "peak": 0.33331,
-    "rms": 0.26831,
+    "peak": 0.125427,
+    "rms": 0.100825,
     "gain": 0.44724,
-    "sha256": "77426d7170bd376c24dcc1c4318477e96ed1f21fa10b1cd531fa09f74d0ff0eb"
+    "sha256": "e0c1684c60e24689352878a6dd9d4b328fd66bc10fc275c00f58cc051f345dca",
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.0,
+    "measured_true_peak_dbtp": -18.03
   },
   "Sophie": {
     "src": "assets/audio/sophie.wav",
@@ -253,10 +337,15 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer Kit / SoundRack, full multi-pad drum performance",
-    "peak": 0.55569,
-    "rms": 0.08713,
+    "peak": 0.701355,
+    "rms": 0.131081,
     "gain": 1.37728,
-    "sha256": "9a45908974395470e7b4aa7f8747bbe93c3410a4d03ed279e6b121d6c40929ae"
+    "sha256": "f67be85f9f3f1b31a787939d0ca2287d8ebc2d1686fa350148461c0ad3985b5b",
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.19,
+    "measured_true_peak_dbtp": -2.95
   },
   "Acid Engine": {
     "src": "assets/audio/acid-engine.wav",
@@ -265,10 +354,10 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production VST2 engine, offline MIDI performance with cutoff and resonance automation",
-    "peak": 0.40555,
-    "rms": 0.06639,
+    "peak": 0.257935,
+    "rms": 0.101485,
     "gain": 0.61371,
-    "sha256": "c7273ef9e644153e23c21591ce6e4edc8c6503ff150aa99fbc97318518a0d5e1",
+    "sha256": "d276787750475b526629d8d6c7902ae2b874ae3858d3cd6415571674b9f2ece0",
     "processing": [
       "Offline demo saturation: Fixed 9x tanh drive after the production synth; not a new firmware effect"
     ],
@@ -288,7 +377,12 @@
       "accent": 0.7,
       "distortionDrive": 9,
       "distortionModulation": false
-    }
+    },
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.01,
+    "measured_true_peak_dbtp": -11.77
   },
   "Break Engine": {
     "src": "assets/audio/break-engine.wav",
@@ -297,9 +391,14 @@
     "duration": 7.999,
     "stepsPerSecond": 4.000362844702467,
     "render": "Production Melodee-derived sampler, 16 slices of existing FM-1 Amen asset",
-    "peak": 0.57507,
-    "rms": 0.0975,
+    "peak": 0.557709,
+    "rms": 0.093906,
     "gain": 1.23081,
-    "sha256": "9da106072f03c6fd8f0fe6de9733f4f8ec235a40d8fb98aacd5ddb4782e8a35f"
+    "sha256": "c1f9cd5415937ca2591a64b2be5a849158d39e9a8fe44affa189c7bed4aca41d",
+    "loudness_target_lufs": -18,
+    "true_peak_ceiling_dbtp": -3,
+    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
+    "measured_lufs": -18.04,
+    "measured_true_peak_dbtp": -5.06
   }
 }
