@@ -1,0 +1,1537 @@
+[
+  {
+    "name": "Rhythmer Kit",
+    "category": "Drums",
+    "hook": "A whole kit. A new starting point.",
+    "description": "Explore 36 curated kits drawn from ten source families, then replace and shape individual pad sounds.",
+    "parameters": [],
+    "programs": [],
+    "capture": "motion/rhythmer-kit-still.png"
+  },
+  {
+    "name": "Acid Engine",
+    "category": "Bass",
+    "hook": "Follow the squelch.",
+    "description": "Hortator\u2019s ACID synthesis meets dedicated generation: energy, accents, repeatable seeds, slides and mutation.",
+    "parameters": [
+      {
+        "name": "Tune",
+        "text": "0 st"
+      },
+      {
+        "name": "Decay",
+        "text": "50"
+      },
+      {
+        "name": "SWEEP",
+        "text": "40"
+      },
+      {
+        "name": "SDEC",
+        "text": "64"
+      },
+      {
+        "name": "PUNCH",
+        "text": "64"
+      },
+      {
+        "name": "NOISE",
+        "text": "64"
+      },
+      {
+        "name": "SUB",
+        "text": "SAW"
+      },
+      {
+        "name": "CLIP",
+        "text": "56"
+      },
+      {
+        "name": "Level",
+        "text": "100"
+      },
+      {
+        "name": "Pan",
+        "text": "64"
+      }
+    ],
+    "programs": [
+      "ACID Bassline",
+      "Rhythmer ACID / Round Bass",
+      "Rhythmer ACID / Squelch",
+      "Rhythmer ACID / Square Bass",
+      "Rhythmer ACID / Dark Pulse"
+    ],
+    "capture": "motion/acid-engine-still.png"
+  },
+  {
+    "name": "Break Engine",
+    "category": "Sampler",
+    "hook": "A loop is only the beginning.",
+    "description": "Load a one-to-four-bar loop, split it into 16 equal slices, and explore straight, genre-based and mutated patterns at project tempo.",
+    "parameters": [],
+    "programs": [],
+    "capture": "motion/break-engine-still.png"
+  },
+  {
+    "name": "Sophie",
+    "category": "Drums",
+    "hook": "Small hits. Big personality.",
+    "description": "A dedicated drum instrument for building rhythmic character from individual sounds.",
+    "parameters": [
+      {
+        "name": "P01 Sound model",
+        "text": "Fuse"
+      },
+      {
+        "name": "P01 Tune",
+        "text": "-5"
+      },
+      {
+        "name": "P01 Color",
+        "text": "24"
+      },
+      {
+        "name": "P01 Metal",
+        "text": "8"
+      },
+      {
+        "name": "P01 Feedback",
+        "text": "6"
+      },
+      {
+        "name": "P01 Metal Metal Decay",
+        "text": "0"
+      },
+      {
+        "name": "P01 Feedback Feedback Mode",
+        "text": "Raw"
+      },
+      {
+        "name": "P01 Tail Tail Mode",
+        "text": "Hit"
+      },
+      {
+        "name": "P01 Sweep",
+        "text": "55"
+      },
+      {
+        "name": "P01 Decay",
+        "text": "0.3"
+      },
+      {
+        "name": "P01 Crush",
+        "text": "0"
+      },
+      {
+        "name": "P01 Drive",
+        "text": "58"
+      },
+      {
+        "name": "P01 Level",
+        "text": "100"
+      },
+      {
+        "name": "P01 Cutoff",
+        "text": "100"
+      },
+      {
+        "name": "P01 Resonance",
+        "text": "0"
+      },
+      {
+        "name": "P01 Filter Filter Type",
+        "text": "LPF"
+      },
+      {
+        "name": "P01 Ring Ring Time",
+        "text": "6"
+      },
+      {
+        "name": "P01 Ring Ring Feedback",
+        "text": "0"
+      }
+    ],
+    "programs": [
+      "Kick",
+      "Snare",
+      "Snare 2",
+      "Clap",
+      "Closed Hat",
+      "Pedal Hat",
+      "Open Hat",
+      "Low Tom"
+    ],
+    "capture": "motion/sophie-still.png"
+  },
+  {
+    "name": "Elixir",
+    "category": "Drums",
+    "hook": "Percussion beyond the familiar.",
+    "description": "Explore LXR, modal, Plaits and noise-oriented drum palettes.",
+    "parameters": [
+      {
+        "name": "Oscilltr Waveform 1",
+        "text": "SINE"
+      },
+      {
+        "name": "Oscilltr Coarse 1",
+        "text": "31"
+      },
+      {
+        "name": "Oscilltr Fine 1",
+        "text": "63"
+      },
+      {
+        "name": "Oscilltr Waveform 7",
+        "text": "SINE"
+      },
+      {
+        "name": "Filter Frequncy 1",
+        "text": "127"
+      },
+      {
+        "name": "Filter Resnance 1",
+        "text": "0"
+      },
+      {
+        "name": "Veloc EG Attack 1",
+        "text": "0"
+      },
+      {
+        "name": "Veloc EG Decay 1",
+        "text": "21"
+      },
+      {
+        "name": "Veloc EG Slope 1",
+        "text": "46"
+      },
+      {
+        "name": "Mod EG Decay 1",
+        "text": "26"
+      },
+      {
+        "name": "PitchMod Amount 1",
+        "text": "44"
+      },
+      {
+        "name": "Veloc EG Slope 7",
+        "text": "22"
+      },
+      {
+        "name": "FM Amount 1",
+        "text": "0"
+      },
+      {
+        "name": "FM Frequncy 1",
+        "text": "0"
+      },
+      {
+        "name": "Voice Volume 1",
+        "text": "127"
+      },
+      {
+        "name": "Voice Panning 1",
+        "text": "63"
+      },
+      {
+        "name": "Voice Overdriv 1",
+        "text": "63"
+      },
+      {
+        "name": "Voice SampleRt 1",
+        "text": "127"
+      }
+    ],
+    "programs": [
+      "Industrial / Kick",
+      "Industrial / Snare",
+      "Industrial / Closed Hat",
+      "Industrial / Open Hat"
+    ],
+    "capture": "motion/elixir-still.png"
+  },
+  {
+    "name": "Aphex",
+    "category": "Synths",
+    "hook": "Take the less obvious turn.",
+    "description": "Explore the Aphex engine\u2019s sound palette through the shared instrument interface.",
+    "parameters": [
+      {
+        "name": "Filter LPF Cut",
+        "text": "0.6"
+      },
+      {
+        "name": "Filter LPF Peak",
+        "text": "0.2"
+      },
+      {
+        "name": "Filter HPF Cut",
+        "text": "0.0"
+      },
+      {
+        "name": "Filter HPF Peak",
+        "text": "0.0"
+      },
+      {
+        "name": "MG / ESP MG Freq",
+        "text": "0.3"
+      },
+      {
+        "name": "MG / ESP MG Depth",
+        "text": "0.4"
+      },
+      {
+        "name": "Patch M.Tune",
+        "text": "0.0"
+      },
+      {
+        "name": "Volume",
+        "text": "0.7"
+      },
+      {
+        "name": "Patch Octave",
+        "text": "0.0"
+      },
+      {
+        "name": "Patch Portamento",
+        "text": "0.0"
+      },
+      {
+        "name": "Patch Trigger",
+        "text": "0.0"
+      },
+      {
+        "name": "Patch Rnd Patch",
+        "text": "0.0"
+      },
+      {
+        "name": "Patch Mutate",
+        "text": "0.0"
+      },
+      {
+        "name": "Patch Rnd Mod",
+        "text": "0.0"
+      },
+      {
+        "name": "Patch Reset Patch",
+        "text": "0.0"
+      },
+      {
+        "name": "VCO 1+2 Scale 1",
+        "text": "4'"
+      },
+      {
+        "name": "VCO 1+2 Wave 1",
+        "text": "Saw"
+      },
+      {
+        "name": "VCO 1+2 PW",
+        "text": "0.5"
+      }
+    ],
+    "programs": [
+      "Init",
+      "Init",
+      "Sticky Bass",
+      "Acid Squelch",
+      "Sub Wobbler",
+      "FM Bass",
+      "Reso Bass",
+      "Pluck Bass"
+    ],
+    "capture": "motion/aphex-still.png"
+  },
+  {
+    "name": "FM-106",
+    "category": "Synths",
+    "hook": "A little frequency friction.",
+    "description": "An FM voice for exploring bright tones, metallic edges and expressive synthetic sounds.",
+    "parameters": [
+      {
+        "name": "Bend DCO",
+        "text": "0"
+      },
+      {
+        "name": "Bend VCF",
+        "text": "0"
+      },
+      {
+        "name": "Arp Rate",
+        "text": "120"
+      },
+      {
+        "name": "LFO Rate",
+        "text": "0"
+      },
+      {
+        "name": "LFO Delay",
+        "text": "0"
+      },
+      {
+        "name": "DCO LFO",
+        "text": "0"
+      },
+      {
+        "name": "DCO PWM",
+        "text": "0"
+      },
+      {
+        "name": "Sub Level",
+        "text": "0"
+      },
+      {
+        "name": "Noise Level",
+        "text": "0"
+      },
+      {
+        "name": "HPF Mode",
+        "text": "0"
+      },
+      {
+        "name": "VCF Cutoff",
+        "text": "110"
+      },
+      {
+        "name": "VCF Resonance",
+        "text": "0"
+      },
+      {
+        "name": "VCF Envelope",
+        "text": "0"
+      },
+      {
+        "name": "VCF LFO",
+        "text": "0"
+      },
+      {
+        "name": "VCF Keytrack",
+        "text": "0"
+      },
+      {
+        "name": "VCA Level",
+        "text": "100"
+      },
+      {
+        "name": "Attack",
+        "text": "0"
+      },
+      {
+        "name": "Decay",
+        "text": "60"
+      }
+    ],
+    "programs": [
+      "A11 Brass"
+    ],
+    "capture": "motion/fm-106-still.png"
+  },
+  {
+    "name": "FMini-1",
+    "category": "Synths",
+    "hook": "Make room for FM.",
+    "description": "FM patch controls and effects brought into the shared sound-editing workflow.",
+    "parameters": [
+      {
+        "name": "Track Amp Level",
+        "text": "104"
+      },
+      {
+        "name": "Track Amp Attack",
+        "text": "15"
+      },
+      {
+        "name": "Track Amp Decay",
+        "text": "81"
+      },
+      {
+        "name": "Track Amp Sustain",
+        "text": "110"
+      },
+      {
+        "name": "Track Amp Release",
+        "text": "70"
+      },
+      {
+        "name": "Track Amp Filter",
+        "text": "0"
+      },
+      {
+        "name": "Track Amp Pitch",
+        "text": "0"
+      },
+      {
+        "name": "Track Amp Shape",
+        "text": "0"
+      },
+      {
+        "name": "Track FX",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO RATE",
+        "text": "60"
+      },
+      {
+        "name": "Track LFO Wave",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO Phase",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO FADE",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO Pitch",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO Filter",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO Shape",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO AMP",
+        "text": "0"
+      },
+      {
+        "name": "Track Destination",
+        "text": "30"
+      }
+    ],
+    "programs": [
+      "Init",
+      "MINI LEAD",
+      "MOOG BASS",
+      "PLUCK ARP",
+      "PAD SWELL",
+      "SINE SOLO",
+      "SPACE DRONE",
+      "CS-80 BRASS"
+    ],
+    "capture": "motion/fmini-1-still.png"
+  },
+  {
+    "name": "CS-1",
+    "category": "Synths",
+    "hook": "Start simple. Shape something yours.",
+    "description": "Explore a compact synthesis voice through its exposed sound parameters and presets.",
+    "parameters": [
+      {
+        "name": "Channel 1 feet",
+        "text": "1"
+      },
+      {
+        "name": "Channel 1 wave",
+        "text": "0"
+      },
+      {
+        "name": "Channel 1 pw",
+        "text": "0"
+      },
+      {
+        "name": "Channel 1 pwm",
+        "text": "0"
+      },
+      {
+        "name": "Channel 1 pwm_spd",
+        "text": "0"
+      },
+      {
+        "name": "Channel 1 noise",
+        "text": "0"
+      },
+      {
+        "name": "Channel 1 sine",
+        "text": "38"
+      },
+      {
+        "name": "Channel 1 vcf_lv",
+        "text": "127"
+      },
+      {
+        "name": "Channel 1 level",
+        "text": "115"
+      },
+      {
+        "name": "Channel 1 hp_cut",
+        "text": "0"
+      },
+      {
+        "name": "Channel 1 hp_res",
+        "text": "0"
+      },
+      {
+        "name": "Channel 1 lp_cut",
+        "text": "88"
+      },
+      {
+        "name": "Channel 1 lp_res",
+        "text": "57"
+      },
+      {
+        "name": "Channel 1 f_il",
+        "text": "83"
+      },
+      {
+        "name": "Channel 1 f_al",
+        "text": "88"
+      },
+      {
+        "name": "Channel 1 f_a",
+        "text": "75"
+      },
+      {
+        "name": "Channel 1 f_d",
+        "text": "110"
+      },
+      {
+        "name": "Channel 1 f_r",
+        "text": "60"
+      }
+    ],
+    "programs": [
+      "Init",
+      "BLADE BRASS",
+      "BR BLUES",
+      "BR FLUTE",
+      "BR STRINGS",
+      "CHARIOTS",
+      "UNKNOWN MAN",
+      "BR BRASS 2"
+    ],
+    "capture": "motion/cs-1-still.png"
+  },
+  {
+    "name": "OberVave",
+    "category": "Synths",
+    "hook": "Oscillators with room to move.",
+    "description": "Dual-oscillator shaping, envelopes and modulation, with chorus, delay and reverb controls.",
+    "parameters": [
+      {
+        "name": "Osc 1 Wave",
+        "text": "1"
+      },
+      {
+        "name": "Osc 1 PW",
+        "text": "64"
+      },
+      {
+        "name": "Osc 1 LEVEL",
+        "text": "110"
+      },
+      {
+        "name": "Osc 1 NOISE",
+        "text": "0"
+      },
+      {
+        "name": "Osc 2 Wave",
+        "text": "1"
+      },
+      {
+        "name": "Osc 2 PW",
+        "text": "64"
+      },
+      {
+        "name": "Osc 2 LEVEL",
+        "text": "105"
+      },
+      {
+        "name": "Osc 2 SEMI",
+        "text": "24"
+      },
+      {
+        "name": "Osc 2 SYNC",
+        "text": "0"
+      },
+      {
+        "name": "Osc 2 X-MOD",
+        "text": "0"
+      },
+      {
+        "name": "Osc 2 ENV>O2",
+        "text": "64"
+      },
+      {
+        "name": "Osc 2 FINE",
+        "text": "69"
+      },
+      {
+        "name": "Filter CUTOFF",
+        "text": "46"
+      },
+      {
+        "name": "Filter Resonance",
+        "text": "22"
+      },
+      {
+        "name": "Filter ENV Amount",
+        "text": "92"
+      },
+      {
+        "name": "Filter KEY TRK",
+        "text": "70"
+      },
+      {
+        "name": "Filter TYPE",
+        "text": "4"
+      },
+      {
+        "name": "Filter DRIVE",
+        "text": "0"
+      }
+    ],
+    "programs": [
+      "Init",
+      "DARK ARP",
+      "POLY BRASS",
+      "SYNC LEAD",
+      "UNISON LD",
+      "PWM STRING",
+      "BELL XMOD",
+      "FAT BASS"
+    ],
+    "capture": "motion/obervave-still.png"
+  },
+  {
+    "name": "K-WASUB",
+    "category": "Synths",
+    "hook": "Go deep under the groove.",
+    "description": "Oscillators, sub, noise and a modulation matrix, with drive and lo-fi shaping.",
+    "parameters": [
+      {
+        "name": "Osc A A ENGINE",
+        "text": "0"
+      },
+      {
+        "name": "Osc A A LEVEL",
+        "text": "70"
+      },
+      {
+        "name": "Osc A A P1",
+        "text": "0"
+      },
+      {
+        "name": "Osc A A P2",
+        "text": "0"
+      },
+      {
+        "name": "Osc A A P3",
+        "text": "0"
+      },
+      {
+        "name": "Osc A A OCTAVE",
+        "text": "0"
+      },
+      {
+        "name": "Osc A A SEMI",
+        "text": "0"
+      },
+      {
+        "name": "Osc A A FINE",
+        "text": "0"
+      },
+      {
+        "name": "Osc B B ENGINE",
+        "text": "1"
+      },
+      {
+        "name": "Osc B B LEVEL",
+        "text": "0"
+      },
+      {
+        "name": "Osc B B P1",
+        "text": "85"
+      },
+      {
+        "name": "Osc B B P2",
+        "text": "0"
+      },
+      {
+        "name": "Osc B B P3",
+        "text": "0"
+      },
+      {
+        "name": "Osc B B OCTAVE",
+        "text": "0"
+      },
+      {
+        "name": "Osc B B SEMI",
+        "text": "0"
+      },
+      {
+        "name": "Osc B B FINE",
+        "text": "0"
+      },
+      {
+        "name": "SUB WAVE",
+        "text": "0"
+      },
+      {
+        "name": "SUB OCTAVE",
+        "text": "1"
+      }
+    ],
+    "programs": [
+      "Init",
+      "DEEP PRESSURE",
+      "SUB TIDE",
+      "IRON DUB",
+      "NIGHT BUS",
+      "CONCRETE",
+      "REESE CLASSIC",
+      "WIDE REESE"
+    ],
+    "capture": "motion/k-wasub-still.png"
+  },
+  {
+    "name": "Hera",
+    "category": "Synths",
+    "hook": "A familiar warmth. A fresh context.",
+    "description": "Explore the Hera engine through a hardware-focused parameter and preset interface.",
+    "parameters": [
+      {
+        "name": "Volume",
+        "text": "0.8"
+      },
+      {
+        "name": "Octave",
+        "text": "0.0"
+      },
+      {
+        "name": "dco Saw Level",
+        "text": "1.0"
+      },
+      {
+        "name": "dco Pulse Level",
+        "text": "0.0"
+      },
+      {
+        "name": "dco Sub Level",
+        "text": "0.0"
+      },
+      {
+        "name": "dco Noise Level",
+        "text": "0.0"
+      },
+      {
+        "name": "dco PWM Depth",
+        "text": "0.0"
+      },
+      {
+        "name": "dco PWM Mod",
+        "text": "1.0"
+      },
+      {
+        "name": "dco Range",
+        "text": "1.0"
+      },
+      {
+        "name": "dco Pitch Mod",
+        "text": "0.0"
+      },
+      {
+        "name": "VCF Cutoff",
+        "text": "0.7"
+      },
+      {
+        "name": "VCF Reso",
+        "text": "0.0"
+      },
+      {
+        "name": "VCF Env",
+        "text": "0.0"
+      },
+      {
+        "name": "VCF LFO",
+        "text": "0.0"
+      },
+      {
+        "name": "VCF Key",
+        "text": "1.0"
+      },
+      {
+        "name": "VCF Bend",
+        "text": "0.0"
+      },
+      {
+        "name": "VCA Depth",
+        "text": "0.5"
+      },
+      {
+        "name": "VCA Type",
+        "text": "0.0"
+      }
+    ],
+    "programs": [
+      "Init",
+      "Strings 1",
+      "Strings 2",
+      "Strings 3",
+      "Organ 1",
+      "Organ 2",
+      "Organ 3",
+      "Brass"
+    ],
+    "capture": "motion/hera-still.png"
+  },
+  {
+    "name": "Braids",
+    "category": "Synths",
+    "hook": "One voice. Many directions.",
+    "description": "A macro-oscillator palette for exploring contrasting synthesis colours.",
+    "parameters": [
+      {
+        "name": "oscillator Algorithm",
+        "text": "CSAW"
+      },
+      {
+        "name": "oscillator Timbre",
+        "text": "0.5"
+      },
+      {
+        "name": "oscillator Color",
+        "text": "0.5"
+      },
+      {
+        "name": "envelope Attack",
+        "text": "0.0"
+      },
+      {
+        "name": "envelope Decay",
+        "text": "0.5"
+      },
+      {
+        "name": "envelope Sustain",
+        "text": "1.0"
+      },
+      {
+        "name": "envelope Release",
+        "text": "0.3"
+      },
+      {
+        "name": "oscillator FM",
+        "text": "0.0"
+      },
+      {
+        "name": "filter Cutoff",
+        "text": "1.0"
+      },
+      {
+        "name": "filter Resonance",
+        "text": "0.0"
+      },
+      {
+        "name": "filter Filt Env",
+        "text": "0.0"
+      },
+      {
+        "name": "filter F.Attack",
+        "text": "0.0"
+      },
+      {
+        "name": "filter F.Decay",
+        "text": "0.3"
+      },
+      {
+        "name": "filter F.Sustain",
+        "text": "0.0"
+      },
+      {
+        "name": "filter F.Release",
+        "text": "0.3"
+      },
+      {
+        "name": "global Volume",
+        "text": "0.7"
+      },
+      {
+        "name": "global Octave",
+        "text": "0.0"
+      }
+    ],
+    "programs": [
+      "Init",
+      "Init",
+      "Pluck",
+      "Bass",
+      "Pad",
+      "Stab",
+      "Acid",
+      "Bells"
+    ],
+    "capture": "motion/braids-still.png"
+  },
+  {
+    "name": "Plaits",
+    "category": "Synths",
+    "hook": "Different models. Different moods.",
+    "description": "Multi-model synthesis for shifting between tonal and percussive textures.",
+    "parameters": [
+      {
+        "name": "Detune",
+        "text": "0.5"
+      },
+      {
+        "name": "Cutoff",
+        "text": "0.5"
+      },
+      {
+        "name": "Resonance",
+        "text": "0.5"
+      },
+      {
+        "name": "Decay",
+        "text": "0.5"
+      },
+      {
+        "name": "LPG Color",
+        "text": "0.5"
+      },
+      {
+        "name": "FM",
+        "text": "0.0"
+      },
+      {
+        "name": "Aux Mix",
+        "text": "0.0"
+      },
+      {
+        "name": "Attack",
+        "text": "0.0"
+      },
+      {
+        "name": "Timbre Mod",
+        "text": "0.0"
+      },
+      {
+        "name": "Morph Mod",
+        "text": "0.0"
+      },
+      {
+        "name": "Legato",
+        "text": "off"
+      },
+      {
+        "name": "Velocity Vel Sens",
+        "text": "0.5"
+      },
+      {
+        "name": "Octave",
+        "text": "0.0"
+      }
+    ],
+    "programs": [
+      "Init",
+      "VA VCF",
+      "Phase Dist",
+      "6-Op I",
+      "6-Op II",
+      "6-Op III",
+      "Wave Terr",
+      "Str Mach"
+    ],
+    "capture": "motion/plaits-still.png"
+  },
+  {
+    "name": "Hortator",
+    "category": "Drums",
+    "hook": "Find another kind of knock.",
+    "description": "A percussion palette spanning TRX, classic drum flavours, FM and experimental textures.",
+    "parameters": [
+      {
+        "name": "Sound model",
+        "text": "MD TRX Kick [BDTRX]"
+      },
+      {
+        "name": "Tune",
+        "text": "-4 st"
+      },
+      {
+        "name": "Decay",
+        "text": "68"
+      },
+      {
+        "name": "SWEEP",
+        "text": "35"
+      },
+      {
+        "name": "SDEC",
+        "text": "35"
+      },
+      {
+        "name": "PUNCH",
+        "text": "14"
+      },
+      {
+        "name": "NOISE",
+        "text": "14"
+      },
+      {
+        "name": "SUB",
+        "text": "35"
+      },
+      {
+        "name": "CLIP",
+        "text": "24"
+      },
+      {
+        "name": "Level",
+        "text": "100"
+      },
+      {
+        "name": "Pan",
+        "text": "64"
+      }
+    ],
+    "programs": [
+      "MD TRX Kick [BDTRX]",
+      "MD EFM Snare [SDEFM]",
+      "MD TRX Clap [CPTRX]",
+      "MD TRX Closed Hat [CHTRX]",
+      "MD TRX Open Hat [OHTRX]",
+      "MD EFM Tom [TMEFM]",
+      "MD EFM Rim [RSEFM]",
+      "MD EFM Cymbal [CYEFM]"
+    ],
+    "capture": "motion/hortator-still.png"
+  },
+  {
+    "name": "MONO2K",
+    "category": "Synths",
+    "hook": "A machine within the machine.",
+    "description": "Machine selection, filtering, arpeggiation, effects and three LFO sections to explore.",
+    "parameters": [
+      {
+        "name": "Machine SINE FOLD",
+        "text": "18"
+      },
+      {
+        "name": "Machine SUB LEVEL",
+        "text": "0"
+      },
+      {
+        "name": "Machine NOISE",
+        "text": "0"
+      },
+      {
+        "name": "Machine PITCH DROP",
+        "text": "0"
+      },
+      {
+        "name": "Machine DROP TIME",
+        "text": "40"
+      },
+      {
+        "name": "Machine CLICK",
+        "text": "0"
+      },
+      {
+        "name": "Machine 2ND HARMONIC",
+        "text": "50"
+      },
+      {
+        "name": "Machine Tune",
+        "text": "64"
+      },
+      {
+        "name": "Amp ATTACK",
+        "text": "0"
+      },
+      {
+        "name": "Amp HOLD",
+        "text": "24"
+      },
+      {
+        "name": "Amp Decay",
+        "text": "113"
+      },
+      {
+        "name": "Amp RELEASE",
+        "text": "37"
+      },
+      {
+        "name": "Amp DISTORTION",
+        "text": "64"
+      },
+      {
+        "name": "Amp VOLUME",
+        "text": "64"
+      },
+      {
+        "name": "Amp PAN",
+        "text": "64"
+      },
+      {
+        "name": "Amp PORTAMENTO",
+        "text": "0"
+      },
+      {
+        "name": "FILTER BASE",
+        "text": "0"
+      },
+      {
+        "name": "FILTER WIDTH",
+        "text": "127"
+      }
+    ],
+    "programs": [
+      "FM Dynamic"
+    ],
+    "capture": "motion/mono2k-still.png"
+  },
+  {
+    "name": "Prophet",
+    "category": "Synths",
+    "hook": "Shape the next phrase.",
+    "description": "Oscillator, filter, envelope and poly-mod sections brought into a paged editing layout.",
+    "parameters": [
+      {
+        "name": "Track Amp Level",
+        "text": "104"
+      },
+      {
+        "name": "Track Amp Attack",
+        "text": "0"
+      },
+      {
+        "name": "Track Amp Decay",
+        "text": "0"
+      },
+      {
+        "name": "Track Amp Sustain",
+        "text": "127"
+      },
+      {
+        "name": "Track Amp Release",
+        "text": "0"
+      },
+      {
+        "name": "Track Amp Filter",
+        "text": "0"
+      },
+      {
+        "name": "Track Amp Pitch",
+        "text": "0"
+      },
+      {
+        "name": "Track Amp Shape",
+        "text": "0"
+      },
+      {
+        "name": "Track Quantize 1",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO RATE",
+        "text": "60"
+      },
+      {
+        "name": "Track LFO Wave",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO Phase",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO FADE",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO Pitch",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO Filter",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO Shape",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO AMP",
+        "text": "0"
+      },
+      {
+        "name": "Track Voice Mode",
+        "text": "0"
+      }
+    ],
+    "programs": [
+      "Forever Keys"
+    ],
+    "capture": "motion/prophet-still.png"
+  },
+  {
+    "name": "S1Vave",
+    "category": "Synths",
+    "hook": "Another voice in the box.",
+    "description": "An additional FM-1-derived instrument, adapted to the MPC Sample sound host.",
+    "parameters": [
+      {
+        "name": "RANGE",
+        "text": "3"
+      },
+      {
+        "name": "SQR Level",
+        "text": "100"
+      },
+      {
+        "name": "SAW Level",
+        "text": "110"
+      },
+      {
+        "name": "SUB Level",
+        "text": "80"
+      },
+      {
+        "name": "SUB TYP",
+        "text": "2"
+      },
+      {
+        "name": "NOISE",
+        "text": "0"
+      },
+      {
+        "name": "NOI MOD",
+        "text": "0"
+      },
+      {
+        "name": "FINE",
+        "text": "64"
+      },
+      {
+        "name": "PWM Source",
+        "text": "1"
+      },
+      {
+        "name": "PW/DUTY",
+        "text": "64"
+      },
+      {
+        "name": "DRAW SW",
+        "text": "0"
+      },
+      {
+        "name": "DRW MLT",
+        "text": "0"
+      },
+      {
+        "name": "OVRTONE",
+        "text": "0"
+      },
+      {
+        "name": "COMB",
+        "text": "0"
+      },
+      {
+        "name": "CUTOFF",
+        "text": "85"
+      },
+      {
+        "name": "Resonance",
+        "text": "25"
+      },
+      {
+        "name": "ENV Amount",
+        "text": "0"
+      },
+      {
+        "name": "Filter LFO",
+        "text": "0"
+      }
+    ],
+    "programs": [
+      "PTN 1-02"
+    ],
+    "capture": "motion/s1vave-still.png"
+  },
+  {
+    "name": "Dexed",
+    "category": "Synths",
+    "hook": "FM, with depth.",
+    "description": "Explore the open-source FM instrument through its ported parameters and preset workflow.",
+    "parameters": [
+      {
+        "name": "Global Output Level",
+        "text": "50"
+      },
+      {
+        "name": "Global Octave",
+        "text": "0.0"
+      },
+      {
+        "name": "Global Algorithm",
+        "text": "5"
+      },
+      {
+        "name": "Global Feedback",
+        "text": "3.0"
+      },
+      {
+        "name": "Global Osc Sync",
+        "text": "1.0"
+      },
+      {
+        "name": "Global Transpose",
+        "text": "24"
+      },
+      {
+        "name": "LFO Speed",
+        "text": "34"
+      },
+      {
+        "name": "LFO Delay",
+        "text": "33"
+      },
+      {
+        "name": "LFO Pitch Mod",
+        "text": "0"
+      },
+      {
+        "name": "LFO Amp Mod",
+        "text": "0"
+      },
+      {
+        "name": "LFO Pitch Sens",
+        "text": "2.0"
+      },
+      {
+        "name": "LFO Waveform",
+        "text": "4.0"
+      },
+      {
+        "name": "LFO Key Sync",
+        "text": "1.0"
+      },
+      {
+        "name": "Pitch EG Rate 1",
+        "text": "99"
+      },
+      {
+        "name": "Pitch EG Rate 2",
+        "text": "99"
+      },
+      {
+        "name": "Pitch EG Rate 3",
+        "text": "99"
+      },
+      {
+        "name": "Pitch EG Rate 4",
+        "text": "99"
+      },
+      {
+        "name": "Pitch EG Level 1",
+        "text": "50"
+      }
+    ],
+    "programs": [
+      "Init",
+      "TINE EP   ",
+      "GLASS BELL",
+      "ROUND BASS",
+      "BRASS SECT",
+      "SOFT PAD  ",
+      "WOOD BARS ",
+      "DRAWBARS  "
+    ],
+    "capture": "motion/dexed-still.png"
+  },
+  {
+    "name": "Guru-600",
+    "category": "Synths",
+    "hook": "From a patch to a part.",
+    "description": "Synth and effects controls integrated with the shared preset and sound-editing pages.",
+    "parameters": [
+      {
+        "name": "Track Amp Level",
+        "text": "104"
+      },
+      {
+        "name": "Track Amp Attack",
+        "text": "0"
+      },
+      {
+        "name": "Track Amp Decay",
+        "text": "70"
+      },
+      {
+        "name": "Track Amp Sustain",
+        "text": "127"
+      },
+      {
+        "name": "Track Amp Release",
+        "text": "40"
+      },
+      {
+        "name": "Track Amp Filter",
+        "text": "0"
+      },
+      {
+        "name": "Track Amp Pitch",
+        "text": "0"
+      },
+      {
+        "name": "Track Amp Shape",
+        "text": "0"
+      },
+      {
+        "name": "Track FX",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO RATE",
+        "text": "60"
+      },
+      {
+        "name": "Track LFO Wave",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO Phase",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO FADE",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO Pitch",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO Filter",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO Shape",
+        "text": "0"
+      },
+      {
+        "name": "Track LFO AMP",
+        "text": "0"
+      },
+      {
+        "name": "Track Destination",
+        "text": "0"
+      }
+    ],
+    "programs": [
+      "Init",
+      "Rhythmer Init",
+      "Rhythmer Bass",
+      "Rhythmer Pad",
+      "Rhythmer Lead",
+      "Rhythmer Pluck"
+    ],
+    "capture": "motion/guru-600-still.png"
+  }
+]

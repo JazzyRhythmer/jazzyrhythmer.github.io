@@ -1,0 +1,222 @@
+{
+  "Rhythmer Kit": {
+    "src": "assets/motion/rhythmer-kit.webp",
+    "still": "assets/motion/rhythmer-kit-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "DRUM-X / DRUM-X",
+    "sha256": "e0ce859fed009e74b3cfed799f026f737ac5455d6b8a85636390345eb710a323"
+  },
+  "CS-1": {
+    "src": "assets/motion/cs-1.webp",
+    "still": "assets/motion/cs-1-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "BLADE BRASS",
+    "sha256": "c00325543611203e903abfd0a5ddf7b0fc4a8c3f548e0133d9d14ae5c222b9e9"
+  },
+  "Elixir": {
+    "src": "assets/motion/elixir.webp",
+    "still": "assets/motion/elixir-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "Elixir / Industrial",
+    "sha256": "67bd7b444368a66bef28bd06bfa2a34799486ecd2c1c54a0036fb277c1e21a98"
+  },
+  "FM-106": {
+    "src": "assets/motion/fm-106.webp",
+    "still": "assets/motion/fm-106-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "A11 Brass",
+    "sha256": "ffe30c3976d813b8b0135fa4e481afb9a5c089e52bb99efc6a3655af8a12c470"
+  },
+  "FMini-1": {
+    "src": "assets/motion/fmini-1.webp",
+    "still": "assets/motion/fmini-1-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "MINI LEAD",
+    "sha256": "0f71b580602d71e5147e29ac24d46e04a1326fea77967c0f75e824aa010fba0b"
+  },
+  "Guru-600": {
+    "src": "assets/motion/guru-600.webp",
+    "still": "assets/motion/guru-600-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "Rhythmer Lead",
+    "sha256": "21ffb4fdab2a12d43ef2f10fcd5a1b7ad3434b5f836d6d5fcfb656328ffcd550"
+  },
+  "Hortator": {
+    "src": "assets/motion/hortator.webp",
+    "still": "assets/motion/hortator-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "Hortator / MD TRX + EFM (demo kit)",
+    "sha256": "965310637dced7aa5ae0f34b16c18bca99584dc37702dcf7c2fd4ef0a1f44d90"
+  },
+  "K-WASUB": {
+    "src": "assets/motion/k-wasub.webp",
+    "still": "assets/motion/k-wasub-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "DEEP PRESSURE",
+    "sha256": "81b26e10cd18c3a7f26e38749422321aabadb573376606e72a349f034ce7c541"
+  },
+  "MONO2K": {
+    "src": "assets/motion/mono2k.webp",
+    "still": "assets/motion/mono2k-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "FM Dynamic",
+    "sha256": "fe49d1efaec4207ebc180177ff7b1b3cb6f0fa4accc319f80c1263a173d441be"
+  },
+  "OberVave": {
+    "src": "assets/motion/obervave.webp",
+    "still": "assets/motion/obervave-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "DARK ARP",
+    "sha256": "8a479da36cc8035338d72acb117b5bf6d5bd0bc55b52dfe9632579471e8f234e"
+  },
+  "Prophet": {
+    "src": "assets/motion/prophet.webp",
+    "still": "assets/motion/prophet-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "Forever Keys",
+    "sha256": "e9087f9fcd3afce280500c4ccfc78351465dd1fe11a3b535a4cd15da0773fd78"
+  },
+  "S1Vave": {
+    "src": "assets/motion/s1vave.webp",
+    "still": "assets/motion/s1vave-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "PTN 1-02",
+    "sha256": "fd1e94d0e01ffb3e20e0a79eac2b9c9143c89d0a425eb32b789151bf38156d39"
+  },
+  "Aphex": {
+    "src": "assets/motion/aphex.webp",
+    "still": "assets/motion/aphex-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "Sticky Bass",
+    "sha256": "99e9aaa6c0b8a35dcb9bcb36237dd3ed07e48c4097fac477a329700e6eb60bcd"
+  },
+  "Braids": {
+    "src": "assets/motion/braids.webp",
+    "still": "assets/motion/braids-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "Init",
+    "sha256": "3682907454c33e54f3e0dab2487c7e32e72f9198d0e548dcb1e32de5881bad60"
+  },
+  "Dexed": {
+    "src": "assets/motion/dexed.webp",
+    "still": "assets/motion/dexed-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "TINE EP",
+    "sha256": "7765497326082ec9d7f1025b720d2a8e31b10b4d848151839d983453a898e6af"
+  },
+  "Hera": {
+    "src": "assets/motion/hera.webp",
+    "still": "assets/motion/hera-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "Strings 1",
+    "sha256": "93589d5194900ad3fde7b50f3d0cba1a7b0412da876fe3f3af98fff4c47a6019"
+  },
+  "Plaits": {
+    "src": "assets/motion/plaits.webp",
+    "still": "assets/motion/plaits-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "VA VCF",
+    "sha256": "9c1f09e79c466460a90f58cce850d79df4ed3364293b6687b9c147cbd1fe02da"
+  },
+  "Sophie": {
+    "src": "assets/motion/sophie.webp",
+    "still": "assets/motion/sophie-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "Sophie / metallic performance edit",
+    "sha256": "f68d6c20af621d2a368badc2bd3681a5b0e8711e5ffcc92562dce8db575f4e33"
+  },
+  "Acid Engine": {
+    "src": "assets/motion/acid-engine.webp",
+    "still": "assets/motion/acid-engine-still.png",
+    "frames": 90,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "ACID Bassline / driven techno performance",
+    "sha256": "5b54999a29359652d9d6e1e7f3ec8f76be0e7107cac70a336df11dc59084ac4e"
+  },
+  "Break Engine": {
+    "src": "assets/motion/break-engine.webp",
+    "still": "assets/motion/break-engine-still.png",
+    "frames": 80,
+    "fps": 10,
+    "columns": 10,
+    "width": 320,
+    "height": 240,
+    "preset": "Amen Break / 16-slice performance",
+    "sha256": "67abf32472f956f1061ca24e2c8ef04e7f457b1e458b48c695879bb0288fb87c"
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "Rhythmer Kit": {
+    "src": "assets/audio/rhythmer-kit.wav",
+    "preset": "DRUM-X / DRUM-X",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production Rhythmer SoundRack / VST2 offline performance",
+    "peak": 0.30984,
+    "rms": 0.05123,
+    "gain": 2.34231,
+    "sha256": "197643b216d5dfe7d7e466320c6d9d49e38f20eef08d93a091c1b4515b54a093"
+  },
+  "CS-1": {
+    "src": "assets/audio/cs-1.wav",
+    "preset": "BLADE BRASS",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production Rhythmer SoundRack / VST2 offline performance",
+    "peak": 0.18234,
+    "rms": 0.02566,
+    "gain": 4.49703,
+    "sha256": "a4b0abc4e413966b5f55ff7014a3b5cf6c22fe5c1b73fe04d116987717c624e9"
+  },
+  "Elixir": {
+    "src": "assets/audio/elixir.wav",
+    "preset": "Elixir / Industrial",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production Rhythmer Kit / SoundRack, full multi-pad drum performance",
+    "peak": 0.5,
+    "rms": 0.13076,
+    "gain": 1.55404,
+    "sha256": "ecaa368c498ffc2d58dbf2b48fae698a8be220b145b5d5a885329bbb2564f58f",
+    "processing": [
+      "Demo loudness gain with smooth tanh peak limiting, target RMS 0.19"
+    ],
+    "deliveredRms": 0.19004,
+    "deliveredPeak": 0.63791
+  },
+  "FM-106": {
+    "src": "assets/audio/fm-106.wav",
+    "preset": "A11 Brass",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production Rhythmer SoundRack / VST2 offline performance",
+    "peak": 0.57037,
+    "rms": 0.15803,
+    "gain": 0.75937,
+    "sha256": "32363e39bbba516796c5b7db67d2804fb78a3c9e062cc067f68b8fde09a6801f"
+  },
+  "FMini-1": {
+    "src": "assets/audio/fmini-1.wav",
+    "preset": "MINI LEAD",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production Rhythmer SoundRack / VST2 offline performance",
+    "peak": 0.52051,
+    "rms": 0.1353,
+    "gain": 0.88694,
+    "sha256": "e454efc5cc1fc031c94c163cb8c5a511db515660939e7f6a1aca8b54edfeae2f"
+  },
+  "Guru-600": {
+    "src": "assets/audio/guru-600.wav",
+    "preset": "Rhythmer Lead",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production Rhythmer SoundRack / VST2 offline performance",
+    "peak": 0.69836,
+    "rms": 0.16949,
+    "gain": 0.70802,
+    "sha256": "e6b34c11305e44ff49ea904419c8026b9591d821b0a34c93095d356ca9cac93c"
+  },
+  "Hortator": {
+    "src": "assets/audio/hortator.wav",
+    "preset": "Hortator / MD TRX + EFM (demo kit)",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production Rhythmer Kit / SoundRack, full multi-pad drum performance",
+    "peak": 0.27353,
+    "rms": 0.02426,
+    "gain": 9.13384,
+    "sha256": "dce84f6ca4c7db29a6bc08c38557ea5b99c44687c6435d43ba5ef9464300b614",
+    "processing": [
+      "Demo loudness gain with smooth tanh peak limiting, target RMS 0.19"
+    ],
+    "deliveredRms": 0.1897,
+    "deliveredPeak": 0.93079,
+    "performance": {
+      "kickStepsPerBar": [
+        1,
+        5,
+        9,
+        13
+      ],
+      "kickVelocity": [
+        110,
+        106,
+        106,
+        106
+      ],
+      "kickNativeLevel": 0.5,
+      "tomNativeLevel": 0.27,
+      "tomVelocity": 62,
+      "firstBarCymbal": false
+    }
+  },
+  "K-WASUB": {
+    "src": "assets/audio/k-wasub.wav",
+    "preset": "DEEP PRESSURE",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production Rhythmer SoundRack / VST2 offline performance",
+    "peak": 0.78232,
+    "rms": 0.17371,
+    "gain": 0.6908,
+    "sha256": "9fc64a59368963b85bc0131859c8dc5449e588863cfc15e4bb9376b3cda189f6"
+  },
+  "MONO2K": {
+    "src": "assets/audio/mono2k.wav",
+    "preset": "FM Dynamic",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production Rhythmer SoundRack / VST2 offline performance",
+    "peak": 0.57501,
+    "rms": 0.19706,
+    "gain": 0.73583,
+    "sha256": "4491f4b5c63b2ee06080b0216644fdf56b25b2b7beacc27ff6dd3dbc341b30d8",
+    "processing": [
+      "120 ms end fade finishing at 8.05 s, after explicit MIDI Note Off and native release 0.08"
+    ],
+    "deliveredRms": 0.1449,
+    "deliveredPeak": 0.4231,
+    "presetEdit": {
+      "filterBase": 0.04,
+      "filterWidth": 0.66,
+      "release": 0.08
+    }
+  },
+  "OberVave": {
+    "src": "assets/audio/obervave.wav",
+    "preset": "DARK ARP",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production Rhythmer SoundRack / VST2 offline performance",
+    "peak": 0.25177,
+    "rms": 0.04044,
+    "gain": 2.96704,
+    "sha256": "712dc4dccbac4c8cd5ae1b59223a18069aed6bf4b5d25800032c3aff757f8b43"
+  },
+  "Prophet": {
+    "src": "assets/audio/prophet.wav",
+    "preset": "Forever Keys",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production Rhythmer SoundRack / VST2 offline performance",
+    "peak": 0.70966,
+    "rms": 0.281,
+    "gain": 0.51602,
+    "sha256": "1de23eeb68b89670c64e59ba074425ed0044bdf093790e16fb1a6d3c15d913be",
+    "processing": [],
+    "deliveredRms": 0.1449,
+    "deliveredPeak": 0.36618,
+    "presetSource": "Original Sequential v1.03 Forever Keys record, 57 exposed native patch fields applied in demo-only catalogue; full bank not installed"
+  },
+  "S1Vave": {
+    "src": "assets/audio/s1vave.wav",
+    "preset": "PTN 1-02",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production VST2 engine, offline MIDI performance / original factory PTN 1-02",
+    "peak": 0.45728,
+    "rms": 0.1576,
+    "gain": 0.76143,
+    "sha256": "4ef03087456800d394385a6297034b2d09a8f2e9ffaab2bce39523b70ae194ac"
+  },
+  "Aphex": {
+    "src": "assets/audio/aphex.wav",
+    "preset": "Sticky Bass",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production Rhythmer SoundRack / VST2 offline performance",
+    "peak": 0.39511,
+    "rms": 0.18177,
+    "gain": 0.66018,
+    "sha256": "70b0ef8f9c5f7f2251f2d2f4755046bc33700b0f3b1b95b5314cb57f9cc3dae0"
+  },
+  "Braids": {
+    "src": "assets/audio/braids.wav",
+    "preset": "Init",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production Rhythmer SoundRack / VST2 offline performance",
+    "peak": 0.47964,
+    "rms": 0.13018,
+    "gain": 0.92177,
+    "sha256": "0ffe0e9fa251fc79385d6deb607ef0af1aea3f664d3fccc029cb7c1e03e9c348"
+  },
+  "Dexed": {
+    "src": "assets/audio/dexed.wav",
+    "preset": "TINE EP",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production Rhythmer SoundRack / VST2 offline performance",
+    "peak": 0.54538,
+    "rms": 0.09898,
+    "gain": 1.21238,
+    "sha256": "ee2236d1f41380f9a510682ff369e9d6eb5cf985827497a9815a211c81cd8f1e"
+  },
+  "Hera": {
+    "src": "assets/audio/hera.wav",
+    "preset": "Strings 1",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production Rhythmer SoundRack / VST2 offline performance",
+    "peak": 0.04233,
+    "rms": 0.01462,
+    "gain": 8.20995,
+    "sha256": "fe8f1230ef703771d429ee5fb9f20677783a75b32aedf16161d8606e30eaddc2"
+  },
+  "Plaits": {
+    "src": "assets/audio/plaits.wav",
+    "preset": "VA VCF",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production Rhythmer SoundRack / VST2 offline performance",
+    "peak": 0.33331,
+    "rms": 0.26831,
+    "gain": 0.44724,
+    "sha256": "77426d7170bd376c24dcc1c4318477e96ed1f21fa10b1cd531fa09f74d0ff0eb"
+  },
+  "Sophie": {
+    "src": "assets/audio/sophie.wav",
+    "preset": "Sophie / metallic performance edit",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production Rhythmer Kit / SoundRack, full multi-pad drum performance",
+    "peak": 0.55569,
+    "rms": 0.08713,
+    "gain": 1.37728,
+    "sha256": "9a45908974395470e7b4aa7f8747bbe93c3410a4d03ed279e6b121d6c40929ae"
+  },
+  "Acid Engine": {
+    "src": "assets/audio/acid-engine.wav",
+    "preset": "ACID Bassline / driven techno performance",
+    "bpm": 120,
+    "duration": 8.999,
+    "stepsPerSecond": 8.000725689404934,
+    "render": "Production VST2 engine, offline MIDI performance with cutoff and resonance automation",
+    "peak": 0.40555,
+    "rms": 0.06639,
+    "gain": 0.61371,
+    "sha256": "c7273ef9e644153e23c21591ce6e4edc8c6503ff150aa99fbc97318518a0d5e1",
+    "processing": [
+      "Offline demo saturation: Fixed 9x tanh drive after the production synth; not a new firmware effect"
+    ],
+    "deliveredRms": 0.1449,
+    "deliveredPeak": 0.36771,
+    "automation": {
+      "cutoff": [
+        0.25,
+        0.48
+      ],
+      "resonance": [
+        0.88,
+        0.64
+      ],
+      "relationship": "opposite direction, 4 second cycle",
+      "filterEnvelope": 0.4,
+      "accent": 0.7,
+      "distortionDrive": 9,
+      "distortionModulation": false
+    }
+  },
+  "Break Engine": {
+    "src": "assets/audio/break-engine.wav",
+    "preset": "Amen Break / 16-slice performance",
+    "bpm": 120,
+    "duration": 7.999,
+    "stepsPerSecond": 4.000362844702467,
+    "render": "Production Melodee-derived sampler, 16 slices of existing FM-1 Amen asset",
+    "peak": 0.57507,
+    "rms": 0.0975,
+    "gain": 1.23081,
+    "sha256": "9da106072f03c6fd8f0fe6de9733f4f8ec235a40d8fb98aacd5ddb4782e8a35f"
+  }
+}

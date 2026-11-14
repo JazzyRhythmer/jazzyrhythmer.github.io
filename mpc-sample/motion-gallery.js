@@ -1,0 +1,14 @@
+// SPDX-License-Identifier: AGPL-3.0-only
+// Visible-only production-UI sprite playback for documentation. No audio playback.
+(async()=>{'use strict';const script=document.currentScript,base=new URL(script.dataset.motionBase||'./',location.href),roots=[...document.querySelectorAll('[data-motion]')];if(!roots.length)return;
+const reduced=matchMedia('(prefers-reduced-motion: reduce)'),manifest=await fetch(new URL('motion.json?v=geometry2',base)).then(r=>{if(!r.ok)throw Error('Motion data');return r.json()}),cache=new Map();let globalPaused=reduced.matches,last=0;
+const states=roots.map(root=>({root,canvas:root.querySelector('canvas'),button:root.querySelector('.motion-toggle'),name:root.dataset.motion,visible:false,paused:globalPaused,frame:-1,elapsed:0}));
+function update(s){if(s.button){s.button.textContent=s.paused?'PLAY MOTION ▶':'PAUSE MOTION ❚❚';s.button.setAttribute('aria-pressed',String(s.paused))}}
+function picture(s){const m=manifest[s.name];if(!m)return null;let p=cache.get(s.name);if(!p){p=new Image();p.src=new URL(m.src+'?v='+(m.sha256?.slice(0,12)||'geometry2'),base);cache.set(s.name,p)}return p}
+const observer=new IntersectionObserver(entries=>{for(const e of entries){const s=states.find(s=>s.root===e.target);s.visible=e.isIntersecting;if(s.visible)picture(s)}},{rootMargin:'80px'});
+for(const s of states){update(s);observer.observe(s.root);s.button?.addEventListener('click',()=>{s.paused=!s.paused;update(s)})}
+const groups=[...document.querySelectorAll('[data-motion-group-toggle]')];function updateGroup(){groups.forEach(b=>{b.textContent=globalPaused?'PLAY ANIMATIONS ▶':'PAUSE ANIMATIONS ❚❚';b.setAttribute('aria-pressed',String(globalPaused))})}updateGroup();groups.forEach(b=>b.addEventListener('click',()=>{globalPaused=!globalPaused;states.forEach(s=>{s.paused=globalPaused;update(s)});updateGroup()}));
+reduced.addEventListener('change',e=>{globalPaused=e.matches;states.forEach(s=>{s.paused=globalPaused;update(s)});updateGroup()});
+function tick(now){requestAnimationFrame(tick);const delta=last?Math.min(.2,(now-last)/1000):0;last=now;if(document.hidden)return;for(const s of states){if(!s.visible)continue;const m=manifest[s.name],img=picture(s);if(!m||!img?.complete||!img.naturalWidth)continue;if(!s.paused)s.elapsed+=delta;const f=Math.floor(s.elapsed*m.fps)%m.frames;if(s.frame===f)continue;s.frame=f;s.canvas.width=m.width;s.canvas.height=m.height;s.canvas.getContext('2d').drawImage(img,(f%m.columns)*m.width,Math.floor(f/m.columns)*m.height,m.width,m.height,0,0,m.width,m.height);s.canvas.hidden=false;s.canvas.dataset.frame=String(f);s.root.dataset.motionReady='true'}}
+requestAnimationFrame(tick);
+})().catch(error=>{console.error("Motion preview unavailable",error);document.querySelectorAll('.motion-toggle,[data-motion-group-toggle]').forEach(b=>{b.textContent='STILL PREVIEW';b.disabled=true})});

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jazzyrhythmer.github.io/sitemap.xml
