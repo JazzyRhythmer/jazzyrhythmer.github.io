@@ -71,10 +71,11 @@
     "duration": 8.999,
     "stepsPerSecond": 8.000725689404934,
     "render": "Production Rhythmer SoundRack / VST2 offline performance",
-    "peak": 0.69836,
-    "rms": 0.16949,
+    "peak": 0.303024,
+    "rms": 0.085203,
     "gain": 0.70802,
-    "sha256": "e6b34c11305e44ff49ea904419c8026b9591d821b0a34c93095d356ca9cac93c"
+    "sha256": "8cca53ef6d73fe07837078f178dd7881e7d92aa8179eebe8a92777982800abd8",
+    "post_processing": "Presence reduction 1.8\u20135.4 kHz; 6.5 kHz low-pass; -3 dB gain"
   },
   "Hortator": {
     "src": "assets/audio/hortator.wav",
