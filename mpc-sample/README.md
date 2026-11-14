@@ -4,7 +4,7 @@
 
 [Explore the website](https://jazzyrhythmer.github.io/mpc-sample/) · [User manual](https://jazzyrhythmer.github.io/mpc-sample/manual/) · [Make your first pattern](https://jazzyrhythmer.github.io/mpc-sample/manual/quickstart.html)
 
-![RHYTHMER OS for MPC Sample startup animation](assets/boot/startup.gif)
+![RHYTHMER OS for MPC Sample startup animation](assets/boot/startup.gif?v=miniatures1)
 
 A groovebox environment built on **Melodee by Kerem Kiliç (Ellic Studio)**, with additional engine ports, Rhythmer Kit, dedicated Acid generation and hands-on Break performance tools by Jazzy Rhythmer. Original DSP and factory sounds remain the work of their creators.
 
