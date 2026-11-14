@@ -165,6 +165,31 @@
       "file": "assets/engine-presets.png",
       "sha256": "d1cd7ea16a44ea6c651b1844adb7464e788938512fc0ac68ab2ec13faac91abe",
       "origin": "RHYTHMER OS production UI render"
+    },
+    {
+      "file": "assets/first-bass-home.png",
+      "sha256": "e9d81dc799e2b6dbdadb723531cfaaebf87bc18432eab991aa635aca42c1a595",
+      "origin": "RHYTHMER OS production UI render"
+    },
+    {
+      "file": "assets/first-bass-presets.png",
+      "sha256": "95676e2c61102a7a86da6e7429aeb22feb1a0db603a6154c70b524d3e9b1f4a6",
+      "origin": "RHYTHMER OS production UI render"
+    },
+    {
+      "file": "assets/first-melody-home.png",
+      "sha256": "38811e3c742a8de4bca3e15115c6ef9ab023ed4a8a60db8bdf6c8585ddf588b4",
+      "origin": "RHYTHMER OS production UI render"
+    },
+    {
+      "file": "assets/first-melody-presets.png",
+      "sha256": "9841ce53a7932b2c7ae1d6fedaccfdc5fe5b125996f793d9e8a6cf8b43ff0db5",
+      "origin": "RHYTHMER OS production UI render"
+    },
+    {
+      "file": "assets/first-synth-select.png",
+      "sha256": "de7a9d11141b2234500c2b23e46268607a24a9bf0c45c84129ce0eb1c64b91ec",
+      "origin": "RHYTHMER OS production UI render"
     }
   ]
 }
