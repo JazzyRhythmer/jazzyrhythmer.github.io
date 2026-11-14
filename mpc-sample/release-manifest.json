@@ -1,24 +1,10 @@
 {
-  "version": "0.4.0-beta.1",
-  "status": "published-prerelease",
-  "published_at": "2026-11-14T16:57:47Z",
+  "status": "paused",
+  "downloads_enabled": false,
+  "version": null,
   "hardware_validation": "pending",
-  "hardware": "MPC Sample AC50",
-  "stock_firmware": "1.3.0.12",
-  "release_url": "https://github.com/JazzyRhythmer/mpc-sample-rhythmer-os/releases/tag/v0.4.0-beta.1",
-  "checksum_url": "https://github.com/JazzyRhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.1/RHYTHMER-OS-0.4.0-beta.1-SHA256SUMS.txt",
-  "packages": [
-    {
-      "kind": "full-sd",
-      "url": "https://github.com/JazzyRhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.1/RHYTHMER-OS-0.4.0-beta.1-SD.zip",
-      "bytes": 70610363,
-      "sha256": "39f89f652949bf7ca9e7559d965fc401675bb5d8acdc10c9cf888a8dc9132269"
-    },
-    {
-      "kind": "app-update-only",
-      "url": "https://github.com/JazzyRhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.1/RHYTHMER-OS-0.4.0-beta.1-UPDATE.zip",
-      "bytes": 6050266,
-      "sha256": "d79eca35f08bc5885d5b22d098224055af7cb52a0b2abcf1d67a4b113b3db31c"
-    }
-  ]
+  "release_url": null,
+  "checksum_url": null,
+  "packages": [],
+  "message": "In development. Installation and downloads are temporarily paused."
 }
