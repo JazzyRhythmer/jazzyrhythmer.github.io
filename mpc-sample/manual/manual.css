@@ -9,4 +9,4 @@
 
 footer{flex-wrap:wrap;gap:18px}footer>a{font:9px monospace;letter-spacing:.04em}
 
-@media(min-width:901px){.contents{top:165px}}
+@media(min-width:1101px){.contents{top:95px}}@media(min-width:901px) and (max-width:1100px){.contents{top:135px}}
