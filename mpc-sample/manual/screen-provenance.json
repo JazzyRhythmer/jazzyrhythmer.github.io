@@ -190,6 +190,66 @@
       "file": "assets/first-synth-select.png",
       "sha256": "de7a9d11141b2234500c2b23e46268607a24a9bf0c45c84129ce0eb1c64b91ec",
       "origin": "RHYTHMER OS production UI render"
+    },
+    {
+      "file": "assets/tutorial-drum-pattern.png",
+      "sha256": "cc30edea0a14dcab887bfe773f4121a212da7462abf6463cef896bc7d700e909",
+      "origin": "RHYTHMER OS production UI render"
+    },
+    {
+      "file": "assets/tutorial-drum-armed.png",
+      "sha256": "9db7c5a84b28e3135c7ec98c7db161e8afb49644821f984c2833cc2f3bcd2d07",
+      "origin": "RHYTHMER OS production UI render"
+    },
+    {
+      "file": "assets/tutorial-drum-recording.png",
+      "sha256": "0300b1ce424d6bfe493723c83b597e1d0b4e3800c163c8007885c3254e8d25c2",
+      "origin": "RHYTHMER OS production UI render"
+    },
+    {
+      "file": "assets/tutorial-bass-pattern.png",
+      "sha256": "99be2fefc85b2c509ff8e8c37edd5c0d5527ae58d6d65de66e59d0e3c9c07f7a",
+      "origin": "RHYTHMER OS production UI render"
+    },
+    {
+      "file": "assets/tutorial-bass-recording.png",
+      "sha256": "9b35785c608c12166ae7c95b7a583ab959fa889944126ff8fed9f6bb82585db3",
+      "origin": "RHYTHMER OS production UI render"
+    },
+    {
+      "file": "assets/tutorial-melody-pattern.png",
+      "sha256": "f0dfee9d250789181da644ad3116815f812beaccec40f918aabb105d0cb90a13",
+      "origin": "RHYTHMER OS production UI render"
+    },
+    {
+      "file": "assets/tutorial-melody-recording.png",
+      "sha256": "1ebc7d2000297d8af06e3bb3bab2e62aa7be2702cfb72240cbfafd80c6ee4a0b",
+      "origin": "RHYTHMER OS production UI render"
+    },
+    {
+      "file": "assets/tutorial-acid-gen.png",
+      "sha256": "4da9d7ff7bf67f301ef6e49ad518d9b8b0b75783d31920c50e50c41d13f7e6b7",
+      "origin": "RHYTHMER OS production UI render"
+    },
+    {
+      "file": "assets/tutorial-acid-settings.png",
+      "sha256": "4da9d7ff7bf67f301ef6e49ad518d9b8b0b75783d31920c50e50c41d13f7e6b7",
+      "origin": "RHYTHMER OS production UI render"
+    },
+    {
+      "file": "assets/tutorial-break-gen.png",
+      "sha256": "d88cc210ab67daec0790355a5cfcef3ae25a41b23b97e99f64754338a0ba8839",
+      "origin": "RHYTHMER OS production UI render"
+    },
+    {
+      "file": "assets/tutorial-break-perf.png",
+      "sha256": "045f289cc4065c82fb88bd3bc3dd00aa443fb02d374ea6dcc3299b84b2e9a564",
+      "origin": "RHYTHMER OS production UI render"
+    },
+    {
+      "file": "assets/tutorial-break-source.png",
+      "sha256": "4ade25b9ea89ff00630c75a72ffc9f656647a70efa5d194d33185902177a0e33",
+      "origin": "RHYTHMER OS production UI render"
     }
   ]
 }
