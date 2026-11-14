@@ -3,7 +3,7 @@
 (async()=>{
   const script=document.currentScript, base=new URL(script.dataset.bootBase||'./',location.href);
   const roots=[...document.querySelectorAll('[data-boot-preview]')];if(!roots.length)return;
-  const m=await fetch(new URL('assets/boot/startup.json?v=miniatures1',base)).then(r=>{if(!r.ok)throw Error('Boot preview');return r.json()});
+  const m=await fetch(new URL('assets/boot/startup.json?v=miniatures-fit1',base)).then(r=>{if(!r.ok)throw Error('Boot preview');return r.json()});
   const image=new Image();image.src=new URL('assets/boot/'+m.src+'?v='+m.sha256.slice(0,12),base);await image.decode();
   const reduced=matchMedia('(prefers-reduced-motion: reduce)'),total=m.durations.reduce((a,b)=>a+b,0);
   for(const root of roots){
