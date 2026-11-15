@@ -9,6 +9,6 @@ window.JR_SITE = Object.freeze({
     'jr-trek': null,
     'jr-rytm': null,
     'jr-play': null,
-    'rhythmer': 'https://jazzyrhythmer.github.io/Rhythmer/#home'
+    'rhythmer': 'https://jazzyrhythmer.github.io/rhythmer/#home'
   }) // Public release/store URLs only, when available.
 });

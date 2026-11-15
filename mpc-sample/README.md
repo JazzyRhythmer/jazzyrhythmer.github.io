@@ -20,6 +20,6 @@ Early beta in development. The firmware and engine-source release is being prepa
 
 ## Shared foundations
 
-[Melodee](https://github.com/keremimo/melodee-sample) · [Original authors and full manual credits](https://jazzyrhythmer.github.io/mpc-sample/manual/#credits) · [RHYTHMER for FM-1](https://jazzyrhythmer.github.io/Rhythmer/)
+[Melodee](https://github.com/keremimo/melodee-sample) · [Original authors and full manual credits](https://jazzyrhythmer.github.io/mpc-sample/manual/#credits) · [RHYTHMER for FM-1](https://jazzyrhythmer.github.io/rhythmer/)
 
 MPC Sample and its device marks belong to their respective owners. Independent project; no manufacturer or upstream endorsement. Code, documentation, recordings, preset data and marks retain their separate notices. See manual/SOURCE-NOTES.md, manual/LICENSE.txt and assets/MPC-SAMPLE-NOTICE.md.

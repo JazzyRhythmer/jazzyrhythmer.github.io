@@ -9,8 +9,8 @@ Source for the [Jazzy Rhythmer website](https://jazzyrhythmer.github.io/): music
 | Platform | Project | Explore | Source |
 | --- | --- | --- | --- |
 | MPC Sample | **RHYTHMER OS** — synths, drums, generation and chopped breaks. Early beta; owner hardware validation pending. | [Website & manual](https://jazzyrhythmer.github.io/mpc-sample/) · [Install](https://jazzyrhythmer.github.io/mpc-sample/installer/) | [OS](https://github.com/JazzyRhythmer/mpc-sample-rhythmer-os) · [Engine ports](https://github.com/JazzyRhythmer/mpc-sample-engine-ports) |
-| FM-1 | **JAZZY** — Explore the unheard. Discover synth, drum and Break engines, one sound per track. | [Website](https://jazzyrhythmer.github.io/Jazzy/) · [Install](https://jazzyrhythmer.github.io/Jazzy/installer/) | [JAZZY](https://github.com/JazzyRhythmer/Jazzy) |
-| FM-1 | **RHYTHMER** — Sound into motion. Build grooves, swap drums and perform break chops. | [Website & guide](https://jazzyrhythmer.github.io/Rhythmer/) · [Install](https://jazzyrhythmer.github.io/Rhythmer/installer/) | [RHYTHMER](https://github.com/JazzyRhythmer/Rhythmer) |
+| FM-1 | **JAZZY** — Explore the unheard. Discover synth, drum and Break engines, one sound per track. | [Website](https://jazzyrhythmer.github.io/jazzy/) · [Install](https://jazzyrhythmer.github.io/jazzy/installer/) | [JAZZY](https://github.com/JazzyRhythmer/jazzy) |
+| FM-1 | **RHYTHMER** — Sound into motion. Build grooves, swap drums and perform break chops. | [Website & guide](https://jazzyrhythmer.github.io/rhythmer/) · [Install](https://jazzyrhythmer.github.io/rhythmer/installer/) | [RHYTHMER](https://github.com/JazzyRhythmer/rhythmer) |
 
 RHYTHMER OS for MPC Sample is based on [Melodee](https://github.com/keremimo/melodee) by Kerem Kiliç (Ellic Studio). The OS and engine repositories contain implementation sources, original author credits and component licenses; this repository hosts their website and web manual. See [MPC Sample credits](https://jazzyrhythmer.github.io/mpc-sample/manual/#credits).
 
