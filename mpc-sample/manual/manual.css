@@ -16,3 +16,4 @@ footer{flex-wrap:wrap;gap:18px}footer>a{font:9px monospace;letter-spacing:.04em}
 
 /* First-session title and early manual invitation. */
 .quickstart .manual-hero h1{font-size:clamp(44px,6.4vw,76px);line-height:1.04;letter-spacing:-3.4px}.groove-start-card{margin:28px 0 24px}.groove-start-card strong{font-size:clamp(27px,3vw,37px);line-height:1.12;letter-spacing:-1px}.groove-start-card>span:last-child{max-width:620px;line-height:1.65}@media(max-width:760px){.quickstart .manual-hero h1{font-size:43px;letter-spacing:-2px}.groove-start-card strong{font-size:29px}}@media print{.quickstart .manual-hero h1{font-size:30pt;letter-spacing:-1.5pt}}
+@media(max-width:760px){.quickstart .manual-hero h1{font-size:clamp(31px,9vw,42px);letter-spacing:-1.7px}}
