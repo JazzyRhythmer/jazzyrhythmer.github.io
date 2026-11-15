@@ -19,7 +19,7 @@
     "width": 320,
     "height": 240,
     "preset": "BLADE BRASS",
-    "sha256": "c00325543611203e903abfd0a5ddf7b0fc4a8c3f548e0133d9d14ae5c222b9e9"
+    "sha256": "c6e8a03fa5053ae38311a27fcd3d7784ca9dc612adc3bd26bc0143ff476b2c5e"
   },
   "Elixir": {
     "src": "assets/motion/elixir.webp",
@@ -30,7 +30,7 @@
     "width": 320,
     "height": 240,
     "preset": "Elixir / Industrial",
-    "sha256": "67bd7b444368a66bef28bd06bfa2a34799486ecd2c1c54a0036fb277c1e21a98"
+    "sha256": "5c61fc7ed8a6acf0684e8754ef316ce634d1d6d709e64554289775114b366048"
   },
   "FM-106": {
     "src": "assets/motion/fm-106.webp",
@@ -41,7 +41,7 @@
     "width": 320,
     "height": 240,
     "preset": "A11 Brass",
-    "sha256": "ffe30c3976d813b8b0135fa4e481afb9a5c089e52bb99efc6a3655af8a12c470"
+    "sha256": "926689a604fdee26e9bd407c3e7b53fe66197764d2488e4ddea41ae623c6a0ec"
   },
   "FMini-1": {
     "src": "assets/motion/fmini-1.webp",
@@ -52,7 +52,7 @@
     "width": 320,
     "height": 240,
     "preset": "MINI LEAD",
-    "sha256": "0f71b580602d71e5147e29ac24d46e04a1326fea77967c0f75e824aa010fba0b"
+    "sha256": "f44c487d9882bd2340dbeed009a438e5d855d02ed5cbe60ffe2adbaeafc2a5d8"
   },
   "Guru-600": {
     "src": "assets/motion/guru-600.webp",
@@ -63,7 +63,7 @@
     "width": 320,
     "height": 240,
     "preset": "Rhythmer Lead",
-    "sha256": "21ffb4fdab2a12d43ef2f10fcd5a1b7ad3434b5f836d6d5fcfb656328ffcd550"
+    "sha256": "ec7e89c622be6f8fe3d95244b260099d18698c15982e1daac8e66ecb8b35a083"
   },
   "Hortator": {
     "src": "assets/motion/hortator.webp",
@@ -74,7 +74,7 @@
     "width": 320,
     "height": 240,
     "preset": "Hortator / MD TRX + EFM (demo kit)",
-    "sha256": "965310637dced7aa5ae0f34b16c18bca99584dc37702dcf7c2fd4ef0a1f44d90"
+    "sha256": "00376881bb36da5a10e33d0671e51f5ad5bce4ce3b862299cdef7fb43df92a22"
   },
   "K-WASUB": {
     "src": "assets/motion/k-wasub.webp",
@@ -85,7 +85,7 @@
     "width": 320,
     "height": 240,
     "preset": "DEEP PRESSURE",
-    "sha256": "81b26e10cd18c3a7f26e38749422321aabadb573376606e72a349f034ce7c541"
+    "sha256": "58f1182a3842e84669b98195162002e33ea3df5701e18760b09b50629ce94fd8"
   },
   "MONO2K": {
     "src": "assets/motion/mono2k.webp",
@@ -96,7 +96,7 @@
     "width": 320,
     "height": 240,
     "preset": "FM Dynamic",
-    "sha256": "fe49d1efaec4207ebc180177ff7b1b3cb6f0fa4accc319f80c1263a173d441be"
+    "sha256": "6e46eb7fea1ddd76175b0fcbd4225f2392ad41a963dd5d0b029b8c2179bf58c7"
   },
   "OberVave": {
     "src": "assets/motion/obervave.webp",
@@ -107,7 +107,7 @@
     "width": 320,
     "height": 240,
     "preset": "DARK ARP",
-    "sha256": "8a479da36cc8035338d72acb117b5bf6d5bd0bc55b52dfe9632579471e8f234e"
+    "sha256": "8e3f4935fb70c4d393072d858fd9a0033e44f75e4f78ca1e5d48fc2ebcae92e5"
   },
   "Prophet": {
     "src": "assets/motion/prophet.webp",
@@ -118,7 +118,7 @@
     "width": 320,
     "height": 240,
     "preset": "Forever Keys",
-    "sha256": "e9087f9fcd3afce280500c4ccfc78351465dd1fe11a3b535a4cd15da0773fd78"
+    "sha256": "1c6db81b1fccbddc5cb8c1323918b441357f3e61fd2fd997e435659848ea7c95"
   },
   "S1Vave": {
     "src": "assets/motion/s1vave.webp",
@@ -129,7 +129,7 @@
     "width": 320,
     "height": 240,
     "preset": "PTN 1-02",
-    "sha256": "fd1e94d0e01ffb3e20e0a79eac2b9c9143c89d0a425eb32b789151bf38156d39"
+    "sha256": "503db408958708bc0faf0ca5008a81c627318f72e49b8674779f42d2c7eaa985"
   },
   "Aphex": {
     "src": "assets/motion/aphex.webp",
@@ -140,7 +140,7 @@
     "width": 320,
     "height": 240,
     "preset": "Sticky Bass",
-    "sha256": "99e9aaa6c0b8a35dcb9bcb36237dd3ed07e48c4097fac477a329700e6eb60bcd"
+    "sha256": "7666d68d49e0267642e173c2a23c74c811a6df22fe0a815dfca36945b98fe5bc"
   },
   "Braids": {
     "src": "assets/motion/braids.webp",
@@ -151,7 +151,7 @@
     "width": 320,
     "height": 240,
     "preset": "Init",
-    "sha256": "3682907454c33e54f3e0dab2487c7e32e72f9198d0e548dcb1e32de5881bad60"
+    "sha256": "92e8950a931d6314224cbc77723d28b0c1c5d26a1fdde884501a68372003ba76"
   },
   "Dexed": {
     "src": "assets/motion/dexed.webp",
@@ -162,7 +162,7 @@
     "width": 320,
     "height": 240,
     "preset": "TINE EP",
-    "sha256": "7765497326082ec9d7f1025b720d2a8e31b10b4d848151839d983453a898e6af"
+    "sha256": "6202a0ae5a6048518af7c5eb1871a58f313be0b61e937c5f1016e60e8066e32d"
   },
   "Hera": {
     "src": "assets/motion/hera.webp",
@@ -173,7 +173,7 @@
     "width": 320,
     "height": 240,
     "preset": "Strings 1",
-    "sha256": "93589d5194900ad3fde7b50f3d0cba1a7b0412da876fe3f3af98fff4c47a6019"
+    "sha256": "5fa7b50e7915cfed5bb4c3c856182619288dfad36aff6b6b6c5c497f549cc2cd"
   },
   "Plaits": {
     "src": "assets/motion/plaits.webp",
@@ -184,7 +184,7 @@
     "width": 320,
     "height": 240,
     "preset": "VA VCF",
-    "sha256": "9c1f09e79c466460a90f58cce850d79df4ed3364293b6687b9c147cbd1fe02da"
+    "sha256": "f47f6f9e90a06b5a37886c800e7348bdc09b554821ff6d201ad3fa6806951624"
   },
   "Sophie": {
     "src": "assets/motion/sophie.webp",
@@ -195,7 +195,7 @@
     "width": 320,
     "height": 240,
     "preset": "Sophie / metallic performance edit",
-    "sha256": "f68d6c20af621d2a368badc2bd3681a5b0e8711e5ffcc92562dce8db575f4e33"
+    "sha256": "dc30073b38fc541896e7f7cbb34c3c3b79487ac3cad70af676d0dae933583d3e"
   },
   "Acid Engine": {
     "src": "assets/motion/acid-engine.webp",
@@ -206,7 +206,7 @@
     "width": 320,
     "height": 240,
     "preset": "ACID Bassline / driven techno performance",
-    "sha256": "5b54999a29359652d9d6e1e7f3ec8f76be0e7107cac70a336df11dc59084ac4e"
+    "sha256": "412a9c46ac4d9835c7799600d3f8e1d48eba181f0ed12543ffc038a23b42366e"
   },
   "Break Engine": {
     "src": "assets/motion/break-engine.webp",
@@ -217,6 +217,6 @@
     "width": 320,
     "height": 240,
     "preset": "Amen Break / 16-slice performance",
-    "sha256": "67abf32472f956f1061ca24e2c8ef04e7f457b1e458b48c695879bb0288fb87c"
+    "sha256": "9c08c78b2eae5137d88448e98d5e9e7db9ca7e719f78ac3e4776d8bf5bd36550"
   }
 }
