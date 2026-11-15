@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 // Visible-only production-UI sprite playback for documentation. No audio playback.
 (async()=>{'use strict';const script=document.currentScript,base=new URL(script.dataset.motionBase||'./',location.href),roots=[...document.querySelectorAll('[data-motion]')];if(!roots.length)return;
-const reduced=matchMedia('(prefers-reduced-motion: reduce)'),manifest=await fetch(new URL('motion.json?v=beta3-native1',base)).then(r=>{if(!r.ok)throw Error('Motion data');return r.json()}),cache=new Map();let globalPaused=reduced.matches,last=0;
+const reduced=matchMedia('(prefers-reduced-motion: reduce)'),manifest=await fetch(new URL('motion.json?v=kit-final-v6',base)).then(r=>{if(!r.ok)throw Error('Motion data');return r.json()}),cache=new Map();let globalPaused=reduced.matches,last=0;
 const states=roots.map(root=>({root,canvas:root.querySelector('canvas'),button:root.querySelector('.motion-toggle'),name:root.dataset.motion,visible:false,paused:globalPaused,frame:-1,elapsed:0}));
 function update(s){if(s.button){s.button.textContent=s.paused?'PLAY MOTION ▶':'PAUSE MOTION ❚❚';s.button.setAttribute('aria-pressed',String(s.paused))}}
 function picture(s){const m=manifest[s.name];if(!m)return null;let p=cache.get(s.name);if(!p){p=new Image();p.src=new URL(m.src+'?v='+(m.sha256?.slice(0,12)||'geometry2'),base);cache.set(s.name,p)}return p}

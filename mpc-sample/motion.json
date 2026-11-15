@@ -2,14 +2,15 @@
   "Rhythmer Kit": {
     "src": "assets/motion/rhythmer-kit.webp",
     "still": "assets/motion/rhythmer-kit-still.png",
-    "frames": 30,
-    "fps": 10,
+    "frames": 96,
+    "fps": 24,
     "columns": 10,
     "width": 320,
     "height": 240,
     "preset": "DRUM-X",
-    "sha256": "c7f0cccbf01af14985aa5da8ee2bb2cc53e1c4a54a7d114f80507fea6d352be7",
-    "ui_version": "0.4.0-beta.3"
+    "sha256": "f18414412acc8f35e22e7e43c0b86f92263bcfc1c8a9b8f92c6e8171584f6d71",
+    "ui_version": "0.4.0-beta.3",
+    "animation_version": "kit-impact-v6-approved"
   },
   "CS-1": {
     "src": "assets/motion/cs-1.webp",
