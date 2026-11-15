@@ -1,0 +1,126 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.847
+Your first groove. 140 BPM / C MINOR / FOUR BARS
+LISTEN → BUILD → SHAPE → JAM
+
+2
+00:00:06.857 --> 00:00:13.704
+Start with four bars. New project. Tempo 140. Grid 1/16. Swing 50%.
+HOLD TAP TEMPO + TURN ENCODER
+
+3
+00:00:13.714 --> 00:00:20.561
+Load the kit. Rhythmer Kit → DRUM-X / 909 CLUB
+ENCODER ↻ SELECT / PUSH → LOAD
+
+4
+00:00:20.571 --> 00:00:27.419
+Record the broken beat. Kick: Pad 1. Snare: Pad 2. Soft hats: Pad 4.
+SAMPLE → SEQ RECORD → PLAY ▶
+
+5
+00:00:27.429 --> 00:00:34.276
+Find the bass. FMini-1 / SUB BASS
+PAD BANK + 3 → PLUG-IN → PRESETS
+
+6
+00:00:34.286 --> 00:00:41.133
+Keep it short + low. C2 → Ab1 → Bb1 → G1. One root per bar.
+C MINOR / SCALE / OCT 1 → RECORD
+
+7
+00:00:41.143 --> 00:00:47.990
+Change the track type. T4: TRACK TYPE → PLUG-IN. Patterns stay.
+PAD FX + KNOB FX → B1 TRACK SETUP
+
+8
+00:00:48.000 --> 00:00:54.847
+Choose the pad sound. FM-106 / original A68 Synth Pad
+SELECT FM-106 → PRESETS → LOAD
+
+9
+00:00:54.857 --> 00:01:01.704
+Open it a little. VCF Cutoff 64. Resonance 8. Voice: POLY I.
+TURN THE LABELLED SOUND CONTROLS ↻
+
+10
+00:01:01.714 --> 00:01:08.561
+Play four chords. Cm7 → Abmaj7 → Bbadd9 → Gm7
+C MINOR / SCALE / OCT 3 → RECORD
+
+11
+00:01:08.571 --> 00:01:15.419
+Soften the top end. TRACK FX → Tone → Filter. Low pass.
+SHIFT + KNOB FX → EMPTY SLOT → PUSH
+
+12
+00:01:15.429 --> 00:01:22.276
+Give the chords space. TRACK FX → Space → Plate
+K1–K3 ↻ EDIT / − + CHANGE ROW
+
+13
+00:01:22.286 --> 00:01:29.133
+Add an acid voice. T5: Acid Engine / SQUELCH. Four bars.
+PAD BANK + 5 → LOAD → SEQ
+
+14
+00:01:29.143 --> 00:01:35.990
+Generate. Then edit. DENSITY 70% / ACCENT 40% / SLIDE 25%
+PATTERNS → SHIFT + B3 → APPLY
+
+15
+00:01:36.000 --> 00:01:42.847
+Make it answer the bass. Edit the generated notes to fit the harmony.
+ROLL → NOTES / LENGTH / ACCENTS
+
+16
+00:01:42.857 --> 00:01:49.704
+Bring in the Think break. think-160-preview.wav / source: 2 bars at 160 BPM
+PAD BANK + 6 → BREAK ENGINE → LOAD
+
+17
+00:01:49.714 --> 00:01:56.561
+Chop it into four bars. Generate a starting pattern. Keep and edit the slices.
+BREAK GEN → APPLY → ROLL
+
+18
+00:01:56.571 --> 00:02:03.419
+Catch the last beat. BRK PERF → ROLLS: Pad 7 / 1/8 UP
+SEQ RECORD → HOLD PAD 7 → RELEASE
+
+19
+00:02:03.429 --> 00:02:10.276
+Balance the five parts. LEVEL: T2 80 / T3 78 / T4 82 / T5 62 / T6 68
+TRACKS → K1 TRACK / K2 LEVEL / K3 PAN
+
+20
+00:02:10.286 --> 00:02:17.133
+Turn the loop into a jam. Stay on TRACKS. Tap MUTE, then numbered pads.
+MUTE → PADS 2–6 TOGGLE TRACKS
+
+21
+00:02:17.143 --> 00:02:23.990
+Mute. Bring it back. Break + bass + chords
+MUTE + TRACK PADS / PLAY ON THE DOWNBEAT
+
+22
+00:02:24.000 --> 00:02:30.847
+Mute. Bring it back. Remove bass; add acid
+MUTE + TRACK PADS / PLAY ON THE DOWNBEAT
+
+23
+00:02:30.857 --> 00:02:37.704
+Mute. Bring it back. Drums + bass + acid
+MUTE + TRACK PADS / PLAY ON THE DOWNBEAT
+
+24
+00:02:37.714 --> 00:02:44.561
+Mute. Bring it back. Full groove returns
+MUTE + TRACK PADS / PLAY ON THE DOWNBEAT
+
+25
+00:02:44.571 --> 00:02:51.419
+Keep the groove. Save the project. Keep the Think WAV on the card.
+SHIFT + PAD 16 → SAVE
