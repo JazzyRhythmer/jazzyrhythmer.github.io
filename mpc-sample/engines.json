@@ -12,7 +12,7 @@
     "name": "Acid Engine",
     "category": "Bass",
     "hook": "Follow the squelch.",
-    "description": "Hortator ACID and eight original Aphex presets, with source-native filters and sound editing. Dedicated Acid GEN adds accents, slides and mutation.",
+    "description": "Twelve original presets from Hortator ACID and Aphex, with source-native filters and sound editing. Dedicated Acid GEN provides accents, slides and mutation.",
     "parameters": [
       {
         "name": "Cutoff",

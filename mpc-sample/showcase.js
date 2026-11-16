@@ -1,5 +1,5 @@
 (async()=>{
-const $=s=>document.querySelector(s), data=await fetch('engines.json?v=geometry2').then(r=>r.json());
+const $=s=>document.querySelector(s), data=await fetch('engines.json?v=engines-5e9a010a0f').then(r=>r.json());
 const engines=data.map(e=>({...e,type:'engine',capture:e.capture||(e.name==='Break Engine'?'break.png':'kit.png')}));const scenes=engines;let index=0,kind='engine',paused=matchMedia('(prefers-reduced-motion: reduce)').matches,last=performance.now(),elapsed=0;
 const canvas=$('#engine-motion'),ctx=canvas.getContext('2d');
 function picker(){const p=$('#showcase-picker');p.replaceChildren();scenes.forEach((s,i)=>{if(s.type!==kind)return;const b=document.createElement('button');b.textContent=s.name;b.className=i===index?'selected':'';b.setAttribute('aria-pressed',String(i===index));b.onclick=()=>select(i);p.append(b)});document.querySelectorAll('[data-scene-kind]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.sceneKind===kind)))}
