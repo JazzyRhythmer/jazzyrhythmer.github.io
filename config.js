@@ -4,6 +4,10 @@ window.JR_SITE = Object.freeze({
   supportUrl: 'https://ko-fi.com/jazzyrhythmer',    // Paste your actual Ko-fi profile HTTPS URL.
   shopUrl: null,       // Gumroad deferred until digital sales increase.
   productUrls: Object.freeze({
+    'jr-draw': null,
+    'jr-smpl': null,
+    'jr-chord': null,
+    'jr-flow': null,
     'jr-acid': null,
     'jr-fx': null,
     'jr-trek': null,

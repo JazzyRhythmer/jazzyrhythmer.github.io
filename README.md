@@ -16,11 +16,13 @@ RHYTHMER OS for MPC Sample is based on [Melodee](https://github.com/keremimo/mel
 
 ## JR Audio Software
 
-**In development · Expected in 2027.** These pages are product teasers, not released app downloads.
+**In development.** Explore the 2027 previews and new projects taking shape. Release timing is shown in the [software catalog](https://jazzyrhythmer.github.io/software.html).
 
+- **[JR FLOW](https://jazzyrhythmer.github.io/jr-flow.html)** — Audio & MIDI Host · In development. **All your sounds. A little more connected.** Connect instruments, shape effects and catch the moment it all clicks. A mixer for ideas that want to play together.
+- **[JR CHORD](https://jazzyrhythmer.github.io/jr-chord.html)** — Playable Chord Instrument · In development. **Find a chord. Change the mood.** Rich voicings, moving patterns and a bassline that follows your lead. Find a chord and see where it takes you.
 - **[JR ACID](https://jazzyrhythmer.github.io/software.html#jr-acid)** — Generative acid instrument. Generate a squelchy bassline, lock your favorite steps, and mutate the rest.
 - **[JR FX](https://jazzyrhythmer.github.io/software.html#jr-fx)** — Performance effects. Turn loops into live performances with hands-on pads and expressive effects.
-- **[JR SMPL](https://jazzyrhythmer.github.io/software.html#jr-smpl)** — Pad sampler. A sampler with vintage MPC workflow. Chop it, tap it, make a classic.
+- **[JR SMPL](https://jazzyrhythmer.github.io/software.html#jr-smpl)** — Pad sampler. Vintage sampling workflow. Fresh ideas. Chop it, tap it, make a classic.
 - **[JR RYTM](https://jazzyrhythmer.github.io/software.html#jr-rytm)** — Performance groovebox. Build a beat and bend it live with scenes and performance controls.
 - **[JR DRAW](https://jazzyrhythmer.github.io/software.html#jr-draw)** — Drawing instrument. Sketch a line and hear it become a playable musical phrase.
 - **[JR PLAY](https://jazzyrhythmer.github.io/software.html#jr-play)** — Pattern-to-song workstation. Start with a loop and turn it into a song.

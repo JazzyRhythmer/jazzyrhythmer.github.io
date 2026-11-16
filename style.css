@@ -205,3 +205,6 @@
 
 /* Embedded first groove on the artist homepage */
 .mpc-feature-film{margin:0;min-width:0}.artist-tutorial-video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#000}.mpc-feature-film figcaption{font:10px/1.8 monospace;color:#aaa;padding-top:18px}.mpc-feature-film figcaption a{display:inline-block;margin-top:8px}.artist-tutorial-video:focus-visible{outline:2px solid #eee;outline-offset:4px}
+
+/* JR nine-project collection */
+.jr-line .software-index>.jr-tile,.jr-line .software-index>.jr-tile:nth-child(n+5){grid-column:span 4}.preview-signup{margin-top:18px;font:10px monospace}@media(max-width:760px){.jr-line .software-index>.jr-tile,.jr-line .software-index>.jr-tile:nth-child(n+5){grid-column:span 6}}@media(max-width:480px){.jr-line .software-index>.jr-tile,.jr-line .software-index>.jr-tile:nth-child(n+5){grid-column:1/-1}}
