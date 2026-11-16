@@ -16,17 +16,17 @@ RHYTHMER OS for MPC Sample is based on [Melodee](https://github.com/keremimo/mel
 
 ## JR Audio Software
 
-**In development.** Explore the 2027 previews and new projects taking shape. Release timing is shown in the [software catalog](https://jazzyrhythmer.github.io/software.html).
+**Expected in 2027.** All JR apps below are planned for 2027. Join [Studio Notes](https://jazzyrhythmer.github.io/index.html#notes) for previews and release news.
 
-- **[JR FLOW](https://jazzyrhythmer.github.io/jr-flow.html)** — Audio & MIDI Host · In development. **All your sounds. A little more connected.** Connect instruments, shape effects and catch the moment it all clicks. A mixer for ideas that want to play together.
-- **[JR CHORD](https://jazzyrhythmer.github.io/jr-chord.html)** — MIDI Chord Performance & Sequencing · In development. **Find a chord. Change the mood.** Play rich MIDI chords, shape a progression and turn it into a sequence. Give your instruments a new direction.
-- **[JR ACID](https://jazzyrhythmer.github.io/software.html#jr-acid)** — Generative acid instrument. Generate a squelchy bassline, lock your favorite steps, and mutate the rest.
-- **[JR FX](https://jazzyrhythmer.github.io/software.html#jr-fx)** — Performance effects. Turn loops into live performances with hands-on pads and expressive effects.
-- **[JR SMPL](https://jazzyrhythmer.github.io/software.html#jr-smpl)** — Pad sampler. Vintage sampling workflow. Fresh ideas. Chop it, tap it, make a classic.
-- **[JR RYTM](https://jazzyrhythmer.github.io/software.html#jr-rytm)** — Performance groovebox. Build a beat and bend it live with scenes and performance controls.
-- **[JR DRAW](https://jazzyrhythmer.github.io/software.html#jr-draw)** — Drawing instrument. Sketch a line and hear it become a playable musical phrase.
-- **[JR PLAY](https://jazzyrhythmer.github.io/software.html#jr-play)** — Pattern-to-song workstation. Start with a loop and turn it into a song.
-- **[JR TREK](https://jazzyrhythmer.github.io/software.html#jr-trek)** — Generative MIDI sequencer. Generate evolving MIDI patterns for the instruments you already play.
+- **[JR ACID](https://jazzyrhythmer.github.io/software.html#jr-acid)** — Generative acid instrument · Expected 2027. Generate a squelchy bassline, lock your favorite steps, and mutate the rest.
+- **[JR FX](https://jazzyrhythmer.github.io/software.html#jr-fx)** — Performance effects · Expected 2027. Turn loops into live performances with hands-on pads and expressive effects.
+- **[JR FLOW](https://jazzyrhythmer.github.io/jr-flow.html)** — Audio & MIDI Host · Expected 2027. **All your sounds. A little more connected.** Connect instruments, shape effects and catch the moment it all clicks. A mixer for ideas that want to play together.
+- **[JR CHORD](https://jazzyrhythmer.github.io/jr-chord.html)** — MIDI Chord Performance & Sequencing · Expected 2027. **Find a chord. Change the mood.** Play rich MIDI chords, shape a progression and turn it into a sequence. Give your instruments a new direction.
+- **[JR TREK](https://jazzyrhythmer.github.io/software.html#jr-trek)** — Generative MIDI sequencer · Expected 2027. Generate evolving MIDI patterns for the instruments you already play.
+- **[JR SMPL](https://jazzyrhythmer.github.io/software.html#jr-smpl)** — Pad sampler · Expected 2027. Vintage sampling workflow. Fresh ideas. Chop it, tap it, make a classic.
+- **[JR DRAW](https://jazzyrhythmer.github.io/software.html#jr-draw)** — Drawing instrument · Expected 2027. Sketch a line and hear it become a playable musical phrase.
+- **[JR RYTM](https://jazzyrhythmer.github.io/software.html#jr-rytm)** — Performance groovebox · Expected 2027. Build a beat and bend it live with scenes and performance controls.
+- **[JR PLAY](https://jazzyrhythmer.github.io/software.html#jr-play)** — Pattern-to-song workstation · Expected 2027. Start with a loop and turn it into a song.
 
 ## Support & follow
 

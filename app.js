@@ -40,7 +40,7 @@
   const product = new URLSearchParams(location.search).get('product');
   const signupContext = document.getElementById('signup-context');
   if (signupContext && Object.hasOwn(productNames, product)) {
-    signupContext.textContent = `${productNames[product]} / ${['jr-flow', 'jr-chord'].includes(product) ? 'IN DEVELOPMENT' : 'EXPECTED 2027'}`;
+    signupContext.textContent = `${productNames[product]} / EXPECTED 2027`;
     signupContext.hidden = false;
   }
 
