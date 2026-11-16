@@ -466,5 +466,47 @@
       "sha256": "5eab7a99ff267c4168c09888e291e5eeedadba3b29e4174e82a4bce3740942c1",
       "origin": "RHYTHMER OS production UI render"
     }
+  ],
+  "break_workflow_hotfix_2": [
+    {
+      "file": "assets/break-perf-0.png",
+      "sha256": "755bc84e07b9aade13325aee8aebee22a3029592a95b3868ba9658424797df4f",
+      "origin": "RHYTHMER OS beta.3 hotfix.2 production renderer; not a hardware capture"
+    },
+    {
+      "file": "assets/break-perf-1.png",
+      "sha256": "30176f60038df6c662134c2692657f23d9d3d42cda05deaeadcb0edd307bb9ca",
+      "origin": "RHYTHMER OS beta.3 hotfix.2 production renderer; not a hardware capture"
+    },
+    {
+      "file": "assets/break-perf-2.png",
+      "sha256": "e872565717f136191af2426efe38ca7d0fd4db969c8e37aa38278caf737ba069",
+      "origin": "RHYTHMER OS beta.3 hotfix.2 production renderer; not a hardware capture"
+    },
+    {
+      "file": "assets/break-perf-3.png",
+      "sha256": "5283d449dc94be29500116935e605a9635114e623afdaeb55ff832a2310f541d",
+      "origin": "RHYTHMER OS beta.3 hotfix.2 production renderer; not a hardware capture"
+    },
+    {
+      "file": "assets/break-perf-4.png",
+      "sha256": "cfd2dbb55ab1430922d9cf9c20a28c324e5c398d9c5f6264a90e10dd4de8e015",
+      "origin": "RHYTHMER OS beta.3 hotfix.2 production renderer; not a hardware capture"
+    },
+    {
+      "file": "assets/break-perf-5.png",
+      "sha256": "b5cc027e962f1d3228b5816da3532156e1ff68eeed21b992c7aec72f1b5192c7",
+      "origin": "RHYTHMER OS beta.3 hotfix.2 production renderer; not a hardware capture"
+    },
+    {
+      "file": "assets/break-loading-cancel.png",
+      "sha256": "2d9ff00a30110b7bb52aea013e1d025410e448e36b3de95e90938bdbd4446d75",
+      "origin": "RHYTHMER OS beta.3 hotfix.2 production renderer; not a hardware capture"
+    },
+    {
+      "file": "assets/break-loaded-perf.png",
+      "sha256": "af7d6068a8c162b42142bb96dea3defe90eb76f5f933fd2d4555b55d3f91faa8",
+      "origin": "RHYTHMER OS beta.3 hotfix.2 production renderer; not a hardware capture"
+    }
   ]
 }
