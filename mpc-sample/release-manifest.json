@@ -2,51 +2,51 @@
   "status": "published",
   "downloads_enabled": true,
   "version": "0.4.0-beta.3",
-  "release_tag": "v0.4.0-beta.3-hotfix.2",
+  "release_tag": "v0.4.0-beta.3-hotfix.3",
   "hardware_validation": "pending",
   "revision": null,
-  "release_url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/tag/v0.4.0-beta.3-hotfix.2",
-  "checksum_url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.2/RHYTHMER-OS-0.4.0-beta.3-SD.zip.sha256",
+  "release_url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/tag/v0.4.0-beta.3-hotfix.3",
+  "checksum_url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.3/RHYTHMER-OS-0.4.0-beta.3-SD.zip.sha256",
   "packages": [
     {
       "kind": "SD",
       "file": "RHYTHMER-OS-0.4.0-beta.3-SD.zip",
-      "bytes": 71025691,
-      "sha256": "62df8e7767f3c4f74e372658379dd1d9b9e8c2a4cc4458c45a5485287a09338b",
-      "url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.2/RHYTHMER-OS-0.4.0-beta.3-SD.zip",
-      "checksum_url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.2/RHYTHMER-OS-0.4.0-beta.3-SD.zip.sha256"
+      "bytes": 71048915,
+      "sha256": "834bf46ba4b2af280781fb0c08d9d0562c9b3e2dc6aa1f0a279ea842608c5faf",
+      "url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.3/RHYTHMER-OS-0.4.0-beta.3-SD.zip",
+      "checksum_url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.3/RHYTHMER-OS-0.4.0-beta.3-SD.zip.sha256"
     },
     {
       "kind": "UPDATE",
       "file": "RHYTHMER-OS-0.4.0-beta.3-UPDATE.zip",
-      "bytes": 6115870,
-      "sha256": "84008d025abf406a76b5f1aed8248a74ac85565f2a1e3a7d92e9ebf190694cea",
-      "url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.2/RHYTHMER-OS-0.4.0-beta.3-UPDATE.zip",
-      "checksum_url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.2/RHYTHMER-OS-0.4.0-beta.3-UPDATE.zip.sha256"
+      "bytes": 6127050,
+      "sha256": "7dc0d286e8580edb6548fc77621efff992463b1b321bd50e44efd67c9afd00ef",
+      "url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.3/RHYTHMER-OS-0.4.0-beta.3-UPDATE.zip",
+      "checksum_url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.3/RHYTHMER-OS-0.4.0-beta.3-UPDATE.zip.sha256"
     },
     {
       "kind": "SOURCE",
       "file": "RHYTHMER-OS-0.4.0-beta.3-SOURCE.zip",
-      "bytes": 86668238,
-      "sha256": "b84ddb7ea283d2b2dc446cd4a635ccf260d48ad3a380842e0138d774438ef062",
-      "url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.2/RHYTHMER-OS-0.4.0-beta.3-SOURCE.zip",
-      "checksum_url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.2/RHYTHMER-OS-0.4.0-beta.3-SOURCE.zip.sha256"
+      "bytes": 86689146,
+      "sha256": "a7d2f5c4917cadbf93afd8d084e9c4f046316dfcb7294d2c19bba576ad407022",
+      "url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.3/RHYTHMER-OS-0.4.0-beta.3-SOURCE.zip",
+      "checksum_url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.3/RHYTHMER-OS-0.4.0-beta.3-SOURCE.zip.sha256"
     },
     {
       "kind": "MOVE-SOURCE",
       "file": "RHYTHMER-OS-0.4.0-beta.3-MOVE-SOURCE.zip",
       "bytes": 8053008,
       "sha256": "f5e8c3dc909548cf564f65b2fb9fe1497a76dac5ae8d796026d0b8bdb91507ff",
-      "url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.2/RHYTHMER-OS-0.4.0-beta.3-MOVE-SOURCE.zip",
-      "checksum_url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.2/RHYTHMER-OS-0.4.0-beta.3-MOVE-SOURCE.zip.sha256"
+      "url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.3/RHYTHMER-OS-0.4.0-beta.3-MOVE-SOURCE.zip",
+      "checksum_url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.3/RHYTHMER-OS-0.4.0-beta.3-MOVE-SOURCE.zip.sha256"
     },
     {
       "kind": "SUPPORT-SOURCE",
       "file": "RHYTHMER-OS-0.4.0-beta.3-SUPPORT-SOURCE.zip",
       "bytes": 123594651,
       "sha256": "31766009cf34210490928ee79ce7ebe04913fa1d2f8fa665712e996b1531c01f",
-      "url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.2/RHYTHMER-OS-0.4.0-beta.3-SUPPORT-SOURCE.zip",
-      "checksum_url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.2/RHYTHMER-OS-0.4.0-beta.3-SUPPORT-SOURCE.zip.sha256"
+      "url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.3/RHYTHMER-OS-0.4.0-beta.3-SUPPORT-SOURCE.zip",
+      "checksum_url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.4.0-beta.3-hotfix.3/RHYTHMER-OS-0.4.0-beta.3-SUPPORT-SOURCE.zip.sha256"
     }
   ]
 }

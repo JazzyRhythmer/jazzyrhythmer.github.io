@@ -12,55 +12,34 @@
     "name": "Acid Engine",
     "category": "Bass",
     "hook": "Follow the squelch.",
-    "description": "Hortator\u2019s ACID synthesis meets dedicated generation: energy, accents, repeatable seeds, slides and mutation.",
+    "description": "Hortator ACID and eight original Aphex presets, with source-native filters and sound editing. Dedicated Acid GEN adds accents, slides and mutation.",
     "parameters": [
       {
-        "name": "Tune",
-        "text": "0 st"
+        "name": "Cutoff",
+        "text": "Source filter"
       },
       {
-        "name": "Decay",
-        "text": "50"
+        "name": "Resonance",
+        "text": "Source filter"
       },
       {
-        "name": "SWEEP",
-        "text": "40"
-      },
-      {
-        "name": "SDEC",
-        "text": "64"
-      },
-      {
-        "name": "PUNCH",
-        "text": "64"
-      },
-      {
-        "name": "NOISE",
-        "text": "64"
-      },
-      {
-        "name": "SUB",
-        "text": "SAW"
-      },
-      {
-        "name": "CLIP",
-        "text": "56"
-      },
-      {
-        "name": "Level",
-        "text": "100"
-      },
-      {
-        "name": "Pan",
-        "text": "64"
+        "name": "ENV / LFO",
+        "text": "Source EDIT"
       }
     ],
     "programs": [
-      "ACID Bassline",
-      "Rhythmer ACID / Round Bass",
-      "Rhythmer ACID / Squelch",
-      "Rhythmer ACID / Square Bass",
-      "Rhythmer ACID / Dark Pulse"
+      "SQUELCH",
+      "DEEPBASS",
+      "SCREAMER",
+      "SQUAREAC",
+      "Acid Squelch",
+      "Lead Scream",
+      "Whistle Lead",
+      "Resonant Spike",
+      "Acid Seq",
+      "Reso Bass",
+      "Filter Cry",
+      "Techno Pulse"
     ],
     "capture": "motion/acid-engine-still.png"
   },
@@ -255,7 +234,7 @@
     "name": "Aphex",
     "category": "Synths",
     "hook": "Take the less obvious turn.",
-    "description": "Explore the Aphex engine\u2019s sound palette through the shared instrument interface.",
+    "description": "Explore the Aphex engine’s sound palette through the shared instrument interface.",
     "parameters": [
       {
         "name": "Filter LPF Cut",
