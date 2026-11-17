@@ -222,13 +222,13 @@
       "file": "020-kit-save.png",
       "source": "Production UI with host-inspected RHYTHMER engine state and guide track/tempo fixture",
       "sha256": "809cf3a5fdb481f6165829cd2915302a508c2a7e389903e67c725884a05a0cf9",
-      "caption": "User Kit: choose a slot, name it and save"
+      "caption": "User Kit: choose a slot and save"
     },
     {
       "file": "020-fmini-save.png",
       "source": "Production UI with host-inspected RHYTHMER engine state and guide track/tempo fixture",
       "sha256": "72d93472a3cfdd15861cb7179d5309215a42beff83d263b7b64df02749be2ac3",
-      "caption": "User Sound: choose a slot, name it and save"
+      "caption": "User Sound: choose a slot and save"
     },
     {
       "file": "020-fmini-edit.png",
