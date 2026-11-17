@@ -9,8 +9,8 @@
     {
       "kind": "SD",
       "file": "RHYTHMER-OS-0.2.0-SD.zip",
-      "bytes": 167950855,
-      "sha256": "7b9b3176204475ff1c0808f899c556e24420cd4159e6253278bdfc7571ef3efa",
+      "bytes": 169682627,
+      "sha256": "26933c5e094dbadfffd0b8f3b3c271c452c5f35818749537a62e5e2413da307f",
       "url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.2.0/RHYTHMER-OS-0.2.0-SD.zip",
       "checksum_url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.2.0/RHYTHMER-OS-0.2.0-SD.zip.sha256"
     },
@@ -25,8 +25,8 @@
     {
       "kind": "SOURCE",
       "file": "RHYTHMER-OS-0.2.0-SOURCE.zip",
-      "bytes": 199713849,
-      "sha256": "c72dd8916b7e99d86d15906c997549be2d3e2e8c032d872b4f69d7645a48ca51",
+      "bytes": 213998581,
+      "sha256": "cc05ee3936cbbef4122517bb9b2ee9e322617ecb1af9ba3f9a78d6bd97eebf10",
       "url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.2.0/RHYTHMER-OS-0.2.0-SOURCE.zip",
       "checksum_url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/download/v0.2.0/RHYTHMER-OS-0.2.0-SOURCE.zip.sha256"
     },
