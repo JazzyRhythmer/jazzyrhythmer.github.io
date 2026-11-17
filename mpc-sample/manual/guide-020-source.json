@@ -1,0 +1,51 @@
+{
+  "index.html": {
+    "version": "0.2.0",
+    "source": "MANUAL_020_EN.md",
+    "source_sha256": "091ebcd89606f37b6ab94ac3edef752dd8c01647812bd164c9d2be448803d259",
+    "sections": 21,
+    "publication_performed_by_generator": false
+  },
+  "quickstart.html": {
+    "version": "0.2.0",
+    "source": "FIRST_GROOVE_020_EN.md",
+    "source_sha256": "e6733c8fe81b146c974bc2af958a37685ecf630d04cd0efac6046d9ca801f525",
+    "sections": 13,
+    "publication_performed_by_generator": false
+  },
+  "essentials.html": {
+    "version": "0.2.0",
+    "source": "QUICK_REFERENCE_020_EN.md",
+    "source_sha256": "1198dd87fb75662aa3faef9475b47df7fcce03462d59087e8f93e4c4ddcdd495",
+    "sections": 1,
+    "publication_performed_by_generator": false
+  },
+  "structure.html": {
+    "version": "0.2.0",
+    "source": "SYSTEM_MAP_020_EN.md",
+    "source_sha256": "be6947e86f8682e9cbbdf09366c258153994f45de2d371ab37046e88175458ed",
+    "sections": 5,
+    "publication_performed_by_generator": false
+  },
+  "manual-ko.html": {
+    "version": "0.2.0",
+    "source": "USER_MANUAL_KO_DRAFT.md",
+    "source_sha256": "87637a56d2a07a21e925e9977bca2fccaa9b9c5e3e261a0072726e0b32a9dd7c",
+    "sections": 17,
+    "publication_performed_by_generator": false
+  },
+  "first-groove-ko.html": {
+    "version": "0.2.0",
+    "source": "FIRST_GROOVE_020_KO.md",
+    "source_sha256": "4c03c3a1f75c66ede89819be45fb5c62e3748ddd0adb52f6cb05767c7ba14d65",
+    "sections": 13,
+    "publication_performed_by_generator": false
+  },
+  "controls-ko.html": {
+    "version": "0.2.0",
+    "source": "GETTING_STARTED_KO.md",
+    "source_sha256": "8b2d0d83645bdd1ac3598cdd7ebcf26a1d4b41b9c7d178d52201c3cc8dcb0d57",
+    "sections": 4,
+    "publication_performed_by_generator": false
+  }
+}

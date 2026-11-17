@@ -73,21 +73,18 @@
     "measured_true_peak_dbtp": -8.67
   },
   "FMini-1": {
-    "src": "assets/audio/fmini-1.wav",
+    "engine": "FMini-1",
     "preset": "MINI LEAD",
     "bpm": 120,
-    "duration": 8.999,
-    "stepsPerSecond": 8.000725689404934,
-    "render": "Production Rhythmer SoundRack / VST2 offline performance",
-    "peak": 0.365021,
-    "rms": 0.094762,
-    "gain": 0.88694,
-    "sha256": "08cfe6a891c4ceb545ffaf18a8cde6ad3162b5294b8c654377dfc4cc2cb19b28",
-    "loudness_target_lufs": -18,
-    "true_peak_ceiling_dbtp": -3,
-    "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
-    "measured_lufs": -17.99,
-    "measured_true_peak_dbtp": -8.75
+    "duration": 9,
+    "peak": 0.493976682424545,
+    "rms": 0.125892541110573,
+    "gain": 0.870623290538788,
+    "src": "assets/audio/fmini-1.wav",
+    "sha256": "c0bea8d51d3e74b052d21f82a4d00c10043bd94bbd0d3562e732aba2c20cd6aa",
+    "render": "Offline production SoundRack with original factory program; no external substitute synth",
+    "normalisation": "Common per-file gain: target -18 dBFS RMS, capped at -3 dBFS sample peak; edge fades only",
+    "version": "0.2.0"
   },
   "Guru-600": {
     "src": "assets/audio/guru-600.wav",
@@ -400,5 +397,33 @@
     "post_processing": "Loudness matched -18 LUFS / -3 dBTP; 25 ms in / 120 ms out",
     "measured_lufs": -18.04,
     "measured_true_peak_dbtp": -5.06
+  },
+  "Frodhes": {
+    "engine": "Frodhes",
+    "preset": "F01 STAGE 77",
+    "bpm": 120,
+    "duration": 9,
+    "peak": 0.707945764064789,
+    "rms": 0.110392687140007,
+    "gain": 3.155756711959839,
+    "src": "assets/audio/frodhes.wav",
+    "sha256": "adb11332c04a246e463a7088183a49395006fba15f4e4f82595b8161fe7951f2",
+    "render": "Offline production SoundRack with original factory program; no external substitute synth",
+    "normalisation": "Common per-file gain: target -18 dBFS RMS, capped at -3 dBFS sample peak; edge fades only",
+    "version": "0.2.0"
+  },
+  "Tenebrae": {
+    "engine": "Tenebrae",
+    "preset": "BS Night Drive",
+    "bpm": 120,
+    "duration": 9,
+    "peak": 0.707945823669434,
+    "rms": 0.097699524913961,
+    "gain": 1.552534341812134,
+    "src": "assets/audio/tenebrae.wav",
+    "sha256": "42a0f79f9bd535bc820cce3d2ab913b45a03174dcb908c9008d8bca29aff53ee",
+    "render": "Offline production SoundRack with original factory program; no external substitute synth",
+    "normalisation": "Common per-file gain: target -18 dBFS RMS, capped at -3 dBFS sample peak; edge fades only",
+    "version": "0.2.0"
   }
 }
