@@ -208,3 +208,11 @@
 
 /* JR nine-project collection */
 .jr-line .software-index>.jr-tile,.jr-line .software-index>.jr-tile:nth-child(n+5){grid-column:span 4}.preview-signup{margin-top:18px;font:10px monospace}@media(max-width:760px){.jr-line .software-index>.jr-tile,.jr-line .software-index>.jr-tile:nth-child(n+5){grid-column:span 6}}@media(max-width:480px){.jr-line .software-index>.jr-tile,.jr-line .software-index>.jr-tile:nth-child(n+5){grid-column:1/-1}}
+
+/* JR Audio Software identity — owned pixel geometry, November 2026. */
+.company-identity{display:flex;align-items:center;flex-wrap:wrap;gap:18px;margin:0 0 26px}
+.jr-company-logo{display:block;width:clamp(220px,27vw,320px);height:auto;max-width:100%;image-rendering:pixelated}
+.jr-company-logo.compact{width:220px;display:inline-block;vertical-align:middle}
+.back-link:has(.jr-company-logo){display:inline-flex;align-items:center;gap:14px}
+.jr-app-icon{border-radius:0}
+@media(max-width:700px){.company-identity{gap:12px}.jr-company-logo{width:240px}.jr-company-logo.compact{width:180px}}
