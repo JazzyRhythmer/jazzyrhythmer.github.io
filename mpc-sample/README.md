@@ -23,7 +23,3 @@ RHYTHMER OS 0.2.0 is available as an early beta. Use the [installation page](htt
 [Melodee](https://github.com/keremimo/melodee-sample) · [Original authors and full manual credits](https://jazzyrhythmer.github.io/mpc-sample/manual/#credits) · [RHYTHMER for FM-1](https://jazzyrhythmer.github.io/rhythmer/)
 
 MPC Sample and its device marks belong to their respective owners. Independent project; no manufacturer or upstream endorsement. Code, documentation, recordings, preset data and marks retain their separate notices. See manual/SOURCE-NOTES.md, manual/LICENSE.txt and assets/MPC-SAMPLE-NOTICE.md.
-
-## Website media policy
-
-Use landscape videos only. Do not add vertical/Reels embeds, alternate-format accordions or vertical video sections. The manual shares the main website header and uses RHYTHMER instruments for examples.
