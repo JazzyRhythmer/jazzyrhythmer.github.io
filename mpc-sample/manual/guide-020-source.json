@@ -2,15 +2,15 @@
   "index.html": {
     "version": "0.2.0",
     "source": "MANUAL_020_EN.md",
-    "source_sha256": "ebd2e13def5c562098b2ce0e0f83ff8470bd847d8dddd2d59fd7639bf8ad039e",
-    "sections": 27,
+    "source_sha256": "2d40de36b2dc945a15647918bb660a1299c73070554f12582a8ac55e066a6c6f",
+    "sections": 29,
     "publication_performed_by_generator": false
   },
   "quickstart.html": {
     "version": "0.2.0",
     "source": "FIRST_GROOVE_020_EN.md",
-    "source_sha256": "d6e38292c410cde8694e0b7127079e3cbceac14848bb3bd855e860fba299dbaf",
-    "sections": 13,
+    "source_sha256": "4d0e4f435729709bbd2bf0a471253e0b3073e24edd1d91bea0c3a9a2c07edb12",
+    "sections": 14,
     "publication_performed_by_generator": false
   }
 }
