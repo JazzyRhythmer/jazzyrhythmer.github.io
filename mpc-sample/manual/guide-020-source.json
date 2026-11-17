@@ -2,14 +2,14 @@
   "index.html": {
     "version": "0.2.0",
     "source": "MANUAL_020_EN.md",
-    "source_sha256": "2d40de36b2dc945a15647918bb660a1299c73070554f12582a8ac55e066a6c6f",
+    "source_sha256": "fb0f2b77bf7bb180c42cabfd54422505a31c3b43029de4efff8d2e7f11d6fa70",
     "sections": 29,
     "publication_performed_by_generator": false
   },
   "quickstart.html": {
     "version": "0.2.0",
     "source": "FIRST_GROOVE_020_EN.md",
-    "source_sha256": "4d0e4f435729709bbd2bf0a471253e0b3073e24edd1d91bea0c3a9a2c07edb12",
+    "source_sha256": "8cb84919ba5a110210a6fe2f5810dbfa161063c141fd363b1157793eb46c44c4",
     "sections": 14,
     "publication_performed_by_generator": false
   }

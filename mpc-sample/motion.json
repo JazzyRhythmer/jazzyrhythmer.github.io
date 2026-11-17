@@ -302,7 +302,7 @@
     "width": 320,
     "height": 240,
     "preset": "BRK PERF",
-    "sha256": "eaad8eba7f1e6508e2b9930e41fdcaf7838e4ce7aeb04249afdeace507c1d0de",
+    "sha256": "b904a7f1dd11b9db8533672501ce6511179eb43a21b3887c7e8de5473af4f615",
     "ui_version": "0.2.0",
     "capture": "Production native BRK PERF page; static reference"
   }
