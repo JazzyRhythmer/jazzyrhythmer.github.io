@@ -14,7 +14,7 @@ Source for the [Jazzy Rhythmer website](https://jazzyrhythmer.github.io/): music
 
 RHYTHMER OS for MPC Sample is based on [Melodee](https://github.com/keremimo/melodee) by Kerem Kiliç (Ellic Studio). The OS and engine repositories contain implementation sources, original author credits and component licenses; this repository hosts their website and web manual. See [MPC Sample credits](https://jazzyrhythmer.github.io/mpc-sample/manual/#credits).
 
-## JR Audio Software
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="jr-audio-software-logo-chalk.svg"><img src="jr-audio-software-logo-ink.svg" width="360" alt="JR Audio Software"></picture></h2>
 
 **Expected in 2027.** All JR apps below are planned for 2027. Join [Studio Notes](https://jazzyrhythmer.github.io/index.html#notes) for previews and release news.
 
