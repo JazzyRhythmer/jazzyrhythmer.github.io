@@ -2,17 +2,17 @@
 
 **Your MPC Sample. A wider world of sound and groove.**
 
-[Explore the website](https://jazzyrhythmer.github.io/mpc-sample/) · [User manual](https://jazzyrhythmer.github.io/mpc-sample/manual/) · [Make your first pattern](https://jazzyrhythmer.github.io/mpc-sample/manual/quickstart.html)
+[Explore the website](https://jazzyrhythmer.github.io/mpc-sample/) · [User manual](https://jazzyrhythmer.github.io/mpc-sample/manual/) · [Your first groove](https://jazzyrhythmer.github.io/mpc-sample/manual/quickstart.html)
 
 ![RHYTHMER OS for MPC Sample startup animation](assets/boot/startup.gif?v=miniatures-fit1)
 
 A groovebox environment built on **Melodee by Kerem Kiliç (Ellic Studio)**, with additional engine ports, Rhythmer Kit, dedicated Acid generation and hands-on Break performance tools by Jazzy Rhythmer. Original DSP and factory sounds remain the work of their creators.
 
-Explore 20 selected engine entries, synthesizers and percussion, a dedicated Acid Generator and a six-page Break Manipulator. The website includes production UI animation and offline engine performances. These are development previews, not physical-device recordings.
+Explore 22 selected engine entries, synthesizers and percussion, a dedicated Acid Generator and a six-page Break Manipulator. The website includes production UI animation and offline engine performances. These are development previews, not physical-device recordings.
 
 ## Current status
 
-Early beta in development. The firmware and engine-source release is being prepared separately; this folder contains the presentation website and manual, not an SD installer. No firmware download is enabled yet. Device performance and recovery checks remain separate from offline tests.
+RHYTHMER OS 0.2.0 is available as an early beta. Use the [installation page](https://jazzyrhythmer.github.io/mpc-sample/installer/) for the complete SD package and checksums. The illustrated English manual includes First Groove, essential controls, the system map and all chapters in one reading flow. Physical-device validation remains separate from software checks.
 
 ## Keep in touch
 
@@ -23,3 +23,7 @@ Early beta in development. The firmware and engine-source release is being prepa
 [Melodee](https://github.com/keremimo/melodee-sample) · [Original authors and full manual credits](https://jazzyrhythmer.github.io/mpc-sample/manual/#credits) · [RHYTHMER for FM-1](https://jazzyrhythmer.github.io/rhythmer/)
 
 MPC Sample and its device marks belong to their respective owners. Independent project; no manufacturer or upstream endorsement. Code, documentation, recordings, preset data and marks retain their separate notices. See manual/SOURCE-NOTES.md, manual/LICENSE.txt and assets/MPC-SAMPLE-NOTICE.md.
+
+## Website media policy
+
+Use landscape videos only. Do not add vertical/Reels embeds, alternate-format accordions or vertical video sections. The manual shares the main website header and uses RHYTHMER instruments for examples.

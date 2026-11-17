@@ -1,0 +1,256 @@
+{
+  "version": "0.2.0",
+  "physical_device_capture": false,
+  "images": [
+    {
+      "file": "020-project.png",
+      "source": "0.2.0 UI with documentation fixtures / project",
+      "sha256": "80feec9887854e25fac88f8fb00e2103068edfdd64c640996fcd1c466c336eb7",
+      "caption": "Project: NEW, OPEN and SAVE AS"
+    },
+    {
+      "file": "020-newproject.png",
+      "source": "0.2.0 UI with documentation fixtures / newproject",
+      "sha256": "b0c7a8e8178512f56ad0b9307a5532316eb869618685989ee3ffa31267cc313c",
+      "caption": "New project confirmation: choose EMPTY"
+    },
+    {
+      "file": "020-padbankheld.png",
+      "source": "0.2.0 UI with documentation fixtures / padbankheld",
+      "sha256": "30fdca2e55549febe6e7430d595a22d7cfdd612252892fb8addccb536f429a7e",
+      "caption": "Hold PAD BANK and tap a pad to select its track"
+    },
+    {
+      "file": "020-tracktypes.png",
+      "source": "0.2.0 UI with documentation fixtures / tracktypes",
+      "sha256": "10fdaeb9bbf3309369848c919d4bce8bb8e7647cd32254c85184643c187b2eb5",
+      "caption": "Empty track: choose its type"
+    },
+    {
+      "file": "020-patterns.png",
+      "source": "0.2.0 UI with documentation fixtures / patterns",
+      "sha256": "d892cb30a07c7103d1712cd947ace976256e3eedc8b5c6a6ae47c027609cd7ff",
+      "caption": "PATTERNS: length, quantise and swing controls"
+    },
+    {
+      "file": "020-tempo.png",
+      "source": "0.2.0 UI with documentation fixtures / tempo",
+      "sha256": "0511ebcc921b18bfd2c99d23edb30ea350d5b88b851e50518e3a13308b0b5ae1",
+      "caption": "Hold TAP TEMPO and turn the encoder"
+    },
+    {
+      "file": "020-recordseq.png",
+      "source": "0.2.0 UI with documentation fixtures / recordseq",
+      "sha256": "61fee77ddb20dc16c5f650101c5a11cdb243134c9c4b9ab674a282053a10353b",
+      "caption": "Record notes into the selected pattern"
+    },
+    {
+      "file": "020-sampleheldkeys.png",
+      "source": "0.2.0 UI with documentation fixtures / sampleheldkeys",
+      "sha256": "2dcd092609186bbee5eb883b7eccbaba4e78bc3c282e8c0476b65a6cc9051a0e",
+      "caption": "Hold SAMPLE to open the Keys settings"
+    },
+    {
+      "file": "020-keys.png",
+      "source": "0.2.0 UI with documentation fixtures / keys",
+      "sha256": "eeccd957cbf82363e1935615cf5f38e559ca4690dfaef216e9d7a927be85e5f6",
+      "caption": "Keys: choose root, scale and layout"
+    },
+    {
+      "file": "020-tracks.png",
+      "source": "0.2.0 UI with documentation fixtures / tracks",
+      "sha256": "28b571025b530cd88c052f87aba186e40c786e61de546de40d4296bb0ee4ef02",
+      "caption": "TRACKS: select a track and balance LEVEL, PAN and SEND A"
+    },
+    {
+      "file": "020-nameproject.png",
+      "source": "0.2.0 UI with documentation fixtures / nameproject",
+      "sha256": "6e035fac695a5a39d9059e18d23bd1d5cee3af760ebe04af060906a370f25460",
+      "caption": "SAVE AS: name the project, then confirm SAVE"
+    },
+    {
+      "file": "020-projectlist.png",
+      "source": "0.2.0 UI with documentation fixtures / projectlist",
+      "sha256": "9132c2f68e317258dafbb5836eca8431909bbcc4898b43843f12bda16a12d7d0",
+      "caption": "OPEN: select the saved project"
+    },
+    {
+      "file": "020-gen-group-0-main.png",
+      "source": "0.2.0 UI with documentation fixtures / gen-group-0-main",
+      "sha256": "1d10f221d5543500fa5bc2d29d61b4d416beb879ae29b5d2ce32430c0bcd1cb2",
+      "caption": "GEN main menu: check the target tracks before applying"
+    },
+    {
+      "file": "020-gen-group-0-setup.png",
+      "source": "0.2.0 UI with documentation fixtures / gen-group-0-setup",
+      "sha256": "a39ebed6af58f1ca9bc59c1ae04813f980068f40bf8a6ce5d85a0d32acefb2c5",
+      "caption": "GEN setup: select a four-track group and sound replacement mode"
+    },
+    {
+      "file": "020-modlfo.png",
+      "source": "0.2.0 UI with documentation fixtures / modlfo",
+      "sha256": "57b340adeb6890e9f78b3dc4c73c4e0c86c4dcbd1efad9c79edb7b99d71cec6e",
+      "caption": "MOD: connect a project modulator to a target"
+    },
+    {
+      "file": "020-motion.png",
+      "source": "0.2.0 UI with documentation fixtures / motion",
+      "sha256": "e7990dceff6e70602a68c900c4f40a3f07dd6a266a58cf9840c7e29004b433ca",
+      "caption": "MOTION: edit recorded parameter changes"
+    },
+    {
+      "file": "020-break-browse-open.png",
+      "source": "0.2.0 UI with documentation fixtures / break-browse-open",
+      "sha256": "1f07b82900e6e34638609f3d1f7ab447964e9c5d4e435608eca43cbf240874d2",
+      "caption": "Break source browser: select the source and its bar length"
+    },
+    {
+      "file": "020-break-perf-0.png",
+      "source": "0.2.0 UI with documentation fixtures / break-perf-0",
+      "sha256": "3cd0029dcb574dbc7e5ea918c6420f3a1c84eb693f6eda9d52486ce38ed0b439",
+      "caption": "BRK PERF 1: play sixteen chops"
+    },
+    {
+      "file": "020-break-perf-1.png",
+      "source": "0.2.0 UI with documentation fixtures / break-perf-1",
+      "sha256": "ab4509511dc89435de0c9498d3fc72df4e57a219ab88b27ca73e9e76959fd3b9",
+      "caption": "BRK PERF 2: hold and release performance commands"
+    },
+    {
+      "file": "020-break-perf-2.png",
+      "source": "0.2.0 UI with documentation fixtures / break-perf-2",
+      "sha256": "ea10d0387c59bca97132bbc5aefb6986f012d6358b80bde6275f681f1d0e92ca",
+      "caption": "BRK PERF 3: source A, source B and Return"
+    },
+    {
+      "file": "020-break-perf-3.png",
+      "source": "0.2.0 UI with documentation fixtures / break-perf-3",
+      "sha256": "fe88cd07c6ff7bbf007b9c39cda3c18fb8c896511270388d5bbf1eb109f49d3b",
+      "caption": "BRK PERF 4: LOOP variations"
+    },
+    {
+      "file": "020-break-perf-4.png",
+      "source": "0.2.0 UI with documentation fixtures / break-perf-4",
+      "sha256": "c1e2ab1a3f66cee301970b82b4b80f62dd0dce21999711648511e63724fd2641",
+      "caption": "BRK PERF 5: Grain controls while STRETCH is active"
+    },
+    {
+      "file": "020-break-perf-5.png",
+      "source": "0.2.0 UI with documentation fixtures / break-perf-5",
+      "sha256": "ad49484b61ace361018a970111abf131d48df9abc464527b04f7ea228dccff20",
+      "caption": "BRK PERF 6: track mix"
+    },
+    {
+      "file": "020-acid-settings-0.png",
+      "source": "0.2.0 UI with documentation fixtures / acid-settings-0",
+      "sha256": "3e2e4eb74207873264f875fd6ea441544a48cb37c1dac36221df79ffd966f094",
+      "caption": "Acid settings 1 of 2: Density, Accent and Slide"
+    },
+    {
+      "file": "020-acid-settings-1.png",
+      "source": "0.2.0 UI with documentation fixtures / acid-settings-1",
+      "sha256": "868d7f4c7844335b458576a698d39c3ee2ca5be68005992ce2229bf7f96aa066",
+      "caption": "Acid settings 2 of 2: Octaves, Base Octave and Auto Mutate"
+    },
+    {
+      "file": "020-stepedit.png",
+      "source": "0.2.0 UI with documentation fixtures / stepedit",
+      "sha256": "b2165ff6b53061f540fc6b60e90838f02249be9a631f3442bced69434f5d273d",
+      "caption": "Step Edit: select and edit the current pattern"
+    },
+    {
+      "file": "020-sends.png",
+      "source": "0.2.0 UI with documentation fixtures / sends",
+      "sha256": "31560d41de047c1146967a96b4c1326c2115926ded4fc22c7d4727b188bd8ecf",
+      "caption": "Full mode: track sends to shared buses"
+    },
+    {
+      "file": "020-settings.png",
+      "source": "0.2.0 UI with documentation fixtures / settings",
+      "sha256": "f27c27af357a564be5071a1eb8ec2b3fadeb2d0e43ab157b3243e11d58810a44",
+      "caption": "Settings: select Basic or Full features"
+    },
+    {
+      "file": "020-samplespreview.png",
+      "source": "0.2.0 UI with documentation fixtures / samplespreview",
+      "sha256": "0ab216b192edb774ce8332a6fdb312292b760b11cea98af3090a74bcffa242bc",
+      "caption": "Sample browser: select a file and preview it"
+    },
+    {
+      "file": "020-kit-home.png",
+      "source": "Production UI with host-inspected RHYTHMER engine state and guide track/tempo fixture",
+      "sha256": "93462367d8217132f809f70dd246511e8eaa095ab971f2a597a877ad2cabc3d4",
+      "caption": "Rhythmer Kit: kit name, selected pad and whole-kit filter"
+    },
+    {
+      "file": "020-fm106-home.png",
+      "source": "Production UI with host-inspected RHYTHMER engine state and guide track/tempo fixture",
+      "sha256": "35b09d4ef3872c0d5dcb2576030f66c88c16cc7613aab5c331c646bcaff5a3ea",
+      "caption": "FM-106: original A11 Brass preset"
+    },
+    {
+      "file": "020-fmini-home.png",
+      "source": "Production UI with host-inspected RHYTHMER engine state and guide track/tempo fixture",
+      "sha256": "a2fe02ac0e0c51ae409f68318d8528f4e1eba9527f705eac8519a3b0cf2484e5",
+      "caption": "FMini-1: select MOOG BASS in the preset list"
+    },
+    {
+      "file": "020-kit-presets.png",
+      "source": "Production UI with host-inspected RHYTHMER engine state and guide track/tempo fixture",
+      "sha256": "482ff2a90cce4d4ee21113830a22ac08970863db9fa33c6213dae6b2dfb9dbee",
+      "caption": "Rhythmer Kit: choose a complete kit preset"
+    },
+    {
+      "file": "020-fmini-presets.png",
+      "source": "Production UI with host-inspected RHYTHMER engine state and guide track/tempo fixture",
+      "sha256": "4b7e88600b4cb40d77551ec1057b09f92ae0d6977ea6ae70dcd52ce9a88be1f5",
+      "caption": "FMini-1: open the list and choose MOOG BASS"
+    },
+    {
+      "file": "020-kit-edit.png",
+      "source": "Production UI with host-inspected RHYTHMER engine state and guide track/tempo fixture",
+      "sha256": "11725738ea8bf78d1b9b4b421eedffb2de9563a11b01d306dc4b12a80118efc5",
+      "caption": "Rhythmer Kit: selected pad sound controls"
+    },
+    {
+      "file": "020-kit-source.png",
+      "source": "Production UI with host-inspected RHYTHMER engine state and guide track/tempo fixture",
+      "sha256": "cd9beb735a0954bd6967909fc3b5625591b2da419038664315fc5cdf45622c8a",
+      "caption": "Rhythmer Kit: choose a pad engine and sound"
+    },
+    {
+      "file": "020-kit-save.png",
+      "source": "Production UI with host-inspected RHYTHMER engine state and guide track/tempo fixture",
+      "sha256": "809cf3a5fdb481f6165829cd2915302a508c2a7e389903e67c725884a05a0cf9",
+      "caption": "User Kit: choose a slot, name it and save"
+    },
+    {
+      "file": "020-fmini-save.png",
+      "source": "Production UI with host-inspected RHYTHMER engine state and guide track/tempo fixture",
+      "sha256": "72d93472a3cfdd15861cb7179d5309215a42beff83d263b7b64df02749be2ac3",
+      "caption": "User Sound: choose a slot, name it and save"
+    },
+    {
+      "file": "020-fmini-edit.png",
+      "source": "Production UI with host-inspected RHYTHMER engine state and guide track/tempo fixture",
+      "sha256": "13747c8fe64b06dd8d4cd835a53ed103c06d58ffb266c5bf1eb695b1f53fbfaf",
+      "caption": "FMini-1: source sound-design controls"
+    }
+  ],
+  "fixture_settings": {
+    "tempo_bpm": 140,
+    "root": "C",
+    "scale": "Minor",
+    "bars": 4,
+    "instrument_examples": [
+      "Rhythmer Kit",
+      "FMini-1",
+      "FM-106",
+      "Acid Engine",
+      "Break Engine"
+    ],
+    "render_fixture_sha256": "a85286f6d4b36e5efa0adb4c7fec1b994c513053b397eb446b9fe8bb58135193",
+    "shipping_runtime_changed": false,
+    "engine_fixture_sha256": "e7e75a3f360d94cab3ce36e59b1cd334fd55c8a5fc60d5ad5797e11933ad32db"
+  }
+}
