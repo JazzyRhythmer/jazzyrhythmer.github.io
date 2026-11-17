@@ -1,6 +1,6 @@
 # Engine demo provenance
 
-These are original short showcase performances rendered offline through the production Rhythmer sound host and the selected engine ports. They are not recordings from a physical MPC Sample. No substitute browser synthesizer is used.
+These are original short showcase performances rendered offline through the production Rhythmer sound host and the selected engine ports.  No substitute browser synthesizer is used.
 
 Break Engine uses the production Melodee-derived sampler playing 16 equal slices of the requested Amen source. The Break source was later replaced with the requested Amen asset; see the revision note below.
 

@@ -4,7 +4,6 @@
   "version": "0.2.0",
   "release_tag": "v0.2.0",
   "release_url": "https://github.com/jazzyrhythmer/mpc-sample-rhythmer-os/releases/tag/v0.2.0",
-  "hardware_validation": "pending",
   "packages": [
     {
       "kind": "SD",

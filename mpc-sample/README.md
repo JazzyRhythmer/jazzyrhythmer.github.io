@@ -8,11 +8,11 @@
 
 A groovebox environment built on **Melodee by Kerem Kiliç (Ellic Studio)**, with additional engine ports, Rhythmer Kit, dedicated Acid generation and hands-on Break performance tools by Jazzy Rhythmer. Original DSP and factory sounds remain the work of their creators.
 
-Explore 22 selected engine entries, synthesizers and percussion, a dedicated Acid Generator and a six-page Break Manipulator. The website includes production UI animation and offline engine performances. These are development previews, not physical-device recordings.
+Explore 22 selected engine entries, synthesizers and percussion, a dedicated Acid Generator and a six-page Break Manipulator. The website includes production UI animation and offline engine performances. 
 
 ## Current status
 
-RHYTHMER OS 0.2.0 is available as an early beta. Use the [installation page](https://jazzyrhythmer.github.io/mpc-sample/installer/) for the complete SD package and checksums. The illustrated English manual includes First Groove, essential controls, the system map and all chapters in one reading flow. Physical-device validation remains separate from software checks.
+RHYTHMER OS 0.2.0 is available as an early beta. Use the [installation page](https://jazzyrhythmer.github.io/mpc-sample/installer/) for the complete SD package and checksums. The illustrated English manual includes First Groove, essential controls, the system map and all chapters in one reading flow. 
 
 ## Keep in touch
 
