@@ -136,7 +136,7 @@
     if (!response.ok) throw Error('Catalog unavailable');
     const engines = await response.json();
     const optional = await Promise.allSettled([
-      fetch('demos.json?v=mac-preview-20261119').then(r => { if (!r.ok) throw Error(); return r.json(); }),
+      fetch('../mpc-sample/demos.json?v=loudness-match1').then(r => { if (!r.ok) throw Error(); return r.json(); }).then(data => Object.fromEntries(Object.entries(data).map(([name, demo]) => [name, { ...demo, src: new URL(demo.src, new URL('../mpc-sample/', location.href)).href }]))),
       fetch('motion.json?v=mac-preview-20261119').then(r => { if (!r.ok) throw Error(); return r.json(); })
     ]);
     if (optional[0].status === 'fulfilled') demos = optional[0].value;
