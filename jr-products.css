@@ -3,3 +3,16 @@
 @media(max-width:850px){.jr-product .wrap{width:calc(100% - 36px)}.product-hero{grid-template-columns:1fr;padding-top:50px;gap:30px}.product-hero h1{font-size:60px}.feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.story{grid-template-columns:1fr;gap:15px}.manual-layout{grid-template-columns:1fr;gap:15px}.doc-toc{position:static;display:flex;flex-wrap:wrap;gap:6px 16px}.doc-toc a{padding:6px 0}.product-nav nav{gap:15px;font-size:11px}.product-nav .company{width:180px}.support-links{grid-template-columns:1fr}.section{padding:50px 0}.section-head{display:block}.gallery figure{flex-basis:95%}}
 @media(max-width:520px){.product-nav{display:block;padding:22px 0}.product-nav .company{max-width:80%;width:210px}.product-nav nav{margin-top:20px;justify-content:space-between;gap:8px;flex-wrap:wrap}.product-hero h1{font-size:49px;letter-spacing:-2px}.feature-grid{grid-template-columns:1fr}.feature{padding:24px}.p-actions .p-button{flex:1}.product-specs{gap:12px 20px}.doc-head h1{font-size:44px;letter-spacing:-2px}.doc-head{padding-top:42px}.doc-tools .p-button{width:100%}.product-footer .back{margin-left:0}.gallery figure{flex-basis:100%}}
 @media print{.product-nav,.product-footer,.doc-tools,.doc-toc{display:none}.jr-product{background:white;color:black}.jr-product .wrap{width:100%}.manual-layout{display:block}.prose p,.doc-head p{color:#222}.manual-chapter{break-inside:avoid}.manual-chapter[hidden]{display:block!important}}
+
+/* JR ACID Modern BK: JRLookAndFeel::lime(), 0xffd2ee8a. */
+.jr-product[data-product="jr-acid"]{--accent:#d2ee8a}
+.jr-product .skin-intro{max-width:800px;color:#bfc2c2;line-height:1.7}
+.skin-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:25px}
+.skin-card{border:1px solid var(--line);padding:20px;min-width:0}
+.skin-card h3{font-size:16px;letter-spacing:0;margin:16px 0 8px}
+.skin-card p{font-size:13px;line-height:1.6;color:#aeb4b6;margin:0}
+.skin-chips{display:flex;gap:6px;align-items:center}
+.skin-chips i{display:block;width:26px;height:18px;border:1px solid #ffffff35;background:var(--chip)}
+.skin-default{font:10px monospace;color:var(--accent);margin-left:auto}
+@media(max-width:850px){.skin-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:380px){.skin-card{padding:15px}.skin-card h3{font-size:14px}}
