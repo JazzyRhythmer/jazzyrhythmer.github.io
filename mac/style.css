@@ -5,3 +5,59 @@
 h2,h3{letter-spacing:-.02em}@media(max-width:520px){.hero h1{font-size:clamp(54px,15vw,78px);letter-spacing:-.02em}}
 
 .hero h1 .title-break{display:inline-block;width:.18em}@media(max-width:850px){.hero h1 .title-break{display:block;width:0;height:0}}@media(min-width:851px){.hero-lead h2{font-size:clamp(36px,3.8vw,54px)}}
+
+/* Engine demos: original filled 3D faces, shared OS audio and a single player. */
+.engine-preview{position:relative;aspect-ratio:40/27;border:1px solid #555;background:#000;overflow:hidden}
+.engine-preview canvas,.engine-preview img{position:absolute;inset:0;width:100%;height:100%;border:0;object-fit:contain}
+.engine-preview [hidden]{display:none}
+.preview-controls{border:1px solid #555;border-top:0;padding:18px 20px;display:grid;grid-template-columns:1fr auto;gap:16px 20px;align-items:center}
+.preview-buttons{display:flex;flex-wrap:wrap;gap:10px}
+.preview-buttons button{border:1px solid #777;background:none;color:#eee;padding:12px 15px;min-height:44px;font:700 12px/1.3 ui-monospace,Menlo,monospace;cursor:pointer}
+.preview-buttons button:first-child{background:#eee;color:#111;border-color:#eee}
+.preview-buttons button:disabled{opacity:.45;cursor:default}
+.preview-volume{display:flex;align-items:center;gap:12px;font:12px ui-monospace,Menlo,monospace;color:#aaa}
+.preview-volume input{width:90px;accent-color:#eee}
+.preview-controls progress{grid-column:1/-1;display:block;width:100%;height:3px;border:0;background:#333;accent-color:#eee}
+.preview-controls progress::-webkit-progress-bar{background:#333}.preview-controls progress::-webkit-progress-value{background:#eee}
+.preview-controls p{grid-column:1/-1;margin:0;font-size:14px;line-height:1.6}
+.preview-controls .fine{font-size:12px;color:#999;overflow-wrap:anywhere}
+.engine-detail>h3{margin:12px 0 16px}.engine-detail>p{margin-bottom:22px}.section-lead{line-height:1.75}
+/* Same studio, newsletter, support and footer hierarchy as the firmware sites. */
+.studio-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;margin-top:36px}
+.studio-grid article{border:1px solid var(--line);padding:32px;min-width:0}
+.studio-grid h3{font-size:clamp(28px,3vw,40px);line-height:1.12;margin:16px 0 24px}
+.studio-grid p{line-height:1.8}.studio-grid .fine{font:12px/1.9 ui-monospace,monospace}
+.studio-socials{margin:26px 0}.studio-socials>a{display:flex;justify-content:space-between;gap:16px;border-bottom:1px solid var(--line);padding:18px 0;font-size:17px}
+.studio-socials span{font:12px/1.6 ui-monospace,monospace;color:#999;text-align:right}
+.studio-connect .textlink{display:inline-block;margin-top:12px}
+.studio-mail .formkit-form[data-uid="6dd4006c7c"]{background:transparent!important;border:0!important;padding:0!important;max-width:100%!important}
+.studio-mail .formkit-form[data-uid="6dd4006c7c"] .formkit-input{background:#0c0d0d!important;color:#eee!important;border:1px solid #777!important;border-radius:0!important;min-height:48px}
+.studio-mail .formkit-form[data-uid="6dd4006c7c"] .formkit-submit{background:#eee!important;color:#111!important;border-radius:0!important;min-height:48px}
+.studio-mail .formkit-form[data-uid="6dd4006c7c"] .formkit-fields{flex-direction:column!important}
+.studio-mail .formkit-powered-by-convertkit-container{opacity:.6}
+.jr-support-section{border-top:0;padding:48px 0}.jr-support-copy{max-width:680px}
+.jr-support-copy>p{font:16px/1.85 InterTight,Arial,sans-serif}.jr-support-copy h2{font-family:InterTight,Arial,sans-serif;font-size:38px;font-weight:750}
+.product-footer{align-items:center;min-height:105px;font-size:12px;line-height:1.7}
+.product-footer nav{display:flex;flex-wrap:wrap;gap:16px 26px}.footer-brand{color:#eee}
+@media(max-width:1000px){.preview-controls{grid-template-columns:1fr}.preview-volume{justify-content:flex-start}}
+@media(max-width:850px){.studio-grid{grid-template-columns:1fr;gap:24px}.studio-grid article{padding:26px}.product-footer{align-items:flex-start;flex-direction:column;gap:18px}}
+@media(max-width:520px){.preview-controls{padding:16px}.preview-buttons{gap:8px}.preview-buttons button{padding:11px 12px;font-size:11px}.studio-grid article{padding:22px}.studio-socials>a{font-size:16px}.studio-socials span{max-width:135px;font-size:11px}.jr-support-copy h2{font-size:32px}.product-footer nav{gap:12px 20px}}
+
+.engine-choices{align-self:start;position:sticky;top:118px}.mobile-engine-choice{display:none}
+@media(max-width:850px){.engine-choices{position:static}.mobile-engine-choice{display:block}.engine-list{display:none}.mobile-engine-choice label{display:block;font:12px/1.7 ui-monospace,monospace;color:#aaa;margin-bottom:8px}.mobile-engine-choice select{appearance:none;-webkit-appearance:none;width:100%;min-height:54px;border:1px solid #777;border-radius:0;background:#0c0d0d url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10' viewBox='0 0 16 10'%3E%3Cpath d='M2 2l6 6 6-6' fill='none' stroke='%23eee' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 18px center;color:#eee;padding:12px 48px 12px 16px;font:750 22px InterTight,Arial,sans-serif}.explorer{gap:22px}.engine-preview{aspect-ratio:40/27}.engine-detail{margin-top:0}}
+@media(min-width:851px){.engine-choices{max-height:calc(100dvh - 136px);overflow:auto;scrollbar-width:thin}}
+
+section{scroll-margin-top:var(--header-offset,105px)}
+.engine-choices{top:var(--header-offset,118px)}
+@media(min-width:851px){.engine-choices{max-height:calc(100dvh - var(--header-offset,118px) - 16px)}}
+@media(max-width:850px){.engine-choices{position:sticky;top:var(--header-offset,164px);z-index:20;padding:10px 0 12px;background:var(--bg);border-bottom:1px solid var(--line)}.mobile-engine-choice{display:grid;grid-template-columns:auto minmax(0,1fr);gap:14px;align-items:center}.mobile-engine-choice label{margin:0}.mobile-engine-choice select{min-height:48px;font-size:20px}}
+/* Match the firmware sites' readable body copy, keeping the Mac poster headings. */
+body{font-family:Arial,Helvetica,sans-serif;font-weight:400}
+h1,h2,h3{font-family:InterTight,Arial,Helvetica,sans-serif}
+.jr-support-copy>p{font-family:Arial,Helvetica,sans-serif}
+select:focus-visible,input:focus-visible{outline:2px solid #eee;outline-offset:4px}
+.studio-mail .formkit-input:focus-visible{outline:2px solid #eee!important;outline-offset:4px}
+@media(max-width:850px){.explorer{display:block}.engine-detail{margin-top:22px}}
+/* One header offset for anchors and keyboard focus, without double spacing. */
+:root{scroll-padding-top:var(--header-offset,106px)}
+#main>section{scroll-margin-top:0}

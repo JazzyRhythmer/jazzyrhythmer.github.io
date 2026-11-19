@@ -1,0 +1,142 @@
+{
+  "Aphex": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "Sticky Bass",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/aphex.json"
+  },
+  "Braids": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "Init",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/braids.json"
+  },
+  "CS-1": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "BLADE BRASS",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/cs-1.json"
+  },
+  "Dexed": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "SynprezFM_02 / E.-PIANO",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/dexed.json"
+  },
+  "Elixir": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "Dry Circuit / Kick",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/elixir.json"
+  },
+  "FM-106": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "A11 Brass",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/fm-106.json"
+  },
+  "FMini-1": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "MINI LEAD",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/fmini-1.json"
+  },
+  "Frodhes": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "F01 STAGE 77",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/frodhes.json"
+  },
+  "Guru-600": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "15 PERC E.PNO",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/guru-600.json"
+  },
+  "Hera": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "Strings 1",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/hera.json"
+  },
+  "Hortator": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "PUREBELL",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/hortator.json"
+  },
+  "K-WASUB": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "DEEP PRESSURE",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/k-wasub.json"
+  },
+  "MONO2K": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "FM+DYN",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/mono2k.json"
+  },
+  "OberVave": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "DARK ARP",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/obervave.json"
+  },
+  "Plaits": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "VA VCF",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/plaits.json"
+  },
+  "Prophet": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "Soft Chord",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/prophet.json"
+  },
+  "Rhythmer Kit": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "DRUM-X",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/rhythmer-kit.json"
+  },
+  "S1Vave": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "PTN 1-02",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/s1vave.json"
+  },
+  "Sophie": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "Low Mid",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/sophie.json"
+  },
+  "Tenebrae": {
+    "fps": 20,
+    "frames": 180,
+    "preset": "BS Night Drive",
+    "renderer": "Original Rhythmer shared 3D renderer / Mac aspect ratio; demo audio envelope",
+    "src": "assets/motion/tenebrae.json"
+  }
+}
