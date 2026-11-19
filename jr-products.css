@@ -16,3 +16,31 @@
 .skin-default{font:10px monospace;color:var(--accent);margin-left:auto}
 @media(max-width:850px){.skin-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:380px){.skin-card{padding:15px}.skin-card h3{font-size:14px}}
+
+.skin-stage{background:#0a0c0d;border:1px solid var(--line);padding:12px;margin-top:28px;touch-action:pan-y pinch-zoom}
+.skin-stage figure{margin:0}.skin-stage img{display:block;width:100%;height:auto;aspect-ratio:1.405;object-fit:contain;background:#0a0c0d}
+.skin-stage figcaption{padding:15px 4px 4px;font:12px/1.5 monospace;color:#c0c7c5}
+.skin-controls{display:flex;align-items:center;gap:12px;margin-top:14px;font:12px monospace}.skin-controls .p-button{min-width:46px}.skin-auto{margin-left:auto}
+button.skin-card{background:none;color:inherit;font-family:inherit;text-align:left;cursor:pointer}
+button.skin-card[aria-pressed=true]{border-color:var(--accent);box-shadow:inset 0 2px var(--accent)}
+.skin-name{display:block;font-weight:700;font-size:16px;margin:16px 0 8px}.skin-description{display:block;font-size:13px;line-height:1.6;color:#aeb4b6}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:520px){.skin-stage{padding:5px}.skin-controls{gap:8px}.skin-auto{padding-inline:10px;font-size:10px}}
+
+.manual-overview{border:1px solid var(--line);padding:24px;margin-bottom:35px;background:var(--panel)}
+.manual-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;list-style:none;padding:0;margin:22px 0}
+.manual-flow li{padding:18px;border:1px solid #56605a;background:#121614;min-width:0}
+.manual-flow li.flow-route{grid-column:1/-1;background:none;border:0;padding:6px 0;font:11px monospace;color:var(--accent);letter-spacing:1.5px}.manual-flow strong{display:block;font-size:15px;color:var(--accent);margin:8px 0}
+.manual-flow p{font-size:13px!important;margin:0;color:#bbc2be}.flow-number{font:11px monospace;color:#a7b09c}
+.manual-overview .flow-note{font-size:14px;line-height:1.7;color:#c2c8c4}
+.manual-screen{position:relative;margin:25px 0 12px;background:#090b0b}
+.manual-screen img{width:100%;height:auto;display:block}.screen-pin{position:absolute;width:28px;height:28px;display:grid;place-items:center;transform:translate(-50%,-50%);border-radius:50%;background:var(--accent);color:#111;font:700 13px monospace;border:2px solid #111;box-shadow:0 0 0 1px #fff8;text-decoration:none}
+.screen-legend{display:grid;grid-template-columns:1fr 1fr;gap:10px 24px;padding-left:22px;font-size:13px;line-height:1.7}
+.screen-legend strong{color:var(--text)}.manual-key{display:inline-flex;vertical-align:baseline;align-items:center;gap:5px;border:1px solid #778079;border-bottom:3px solid #505851;border-radius:3px;background:linear-gradient(#3b4141,#24292a);padding:3px 7px;margin:2px 1px;font:11px/1.4 monospace;color:#f0eee6;white-space:normal}
+.manual-key svg{width:14px;height:14px;flex:0 0 14px}.manual-task{padding:8px 0 24px;border-bottom:1px solid #303a34;margin-bottom:20px}.manual-task:last-child{border:0}
+.manual-task .goal{font-size:15px;color:#e5e7df}.procedure{padding-left:25px}.procedure li{padding:7px 0 7px 5px;font-size:15px;line-height:1.85;color:#bfc7c2}
+.manual-result{border-left:3px solid var(--accent);padding:14px 18px;background:#171e19;font-size:14px!important;line-height:1.8}
+.chapter-screen{margin:20px 0 30px}.chapter-screen img{width:100%;height:auto;border:1px solid var(--line)}.chapter-screen figcaption{font:11px/1.7 monospace;color:#aeb4b6;margin-top:10px}.manual-result strong{color:var(--accent)}.manual-icons{display:flex;flex-wrap:wrap;gap:7px;padding-top:10px}
+@media(max-width:850px){.manual-flow{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.manual-overview{padding:16px}.manual-flow{grid-template-columns:1fr}.screen-legend{grid-template-columns:1fr}.screen-pin{width:22px;height:22px;font-size:10px}.procedure li{font-size:14px}.manual-key{font-size:10px}}
+@media print{.manual-key{background:#eee;color:#111}.manual-flow li,.manual-overview,.manual-result{background:#fff;color:#111}.manual-flow p,.flow-note,.procedure li{color:#222}}
