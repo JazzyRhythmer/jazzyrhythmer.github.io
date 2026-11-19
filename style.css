@@ -223,3 +223,6 @@
 
 /* Approved angular JR brand, 2026-11-18 */
 .jr-wordmark-image{display:block;width:auto;height:32px;max-width:100%;object-fit:contain;object-position:left center}.product-brand-title img{display:block;width:min(100%,900px);height:auto}.preview-hero h1.product-brand-title{font-size:inherit;line-height:1;margin:22px 0 45px}.company-identity .jr-company-logo{object-fit:contain;object-position:left center}
+
+/* Approved smooth app icons — 2026-11-20 */
+.jr-app-icon{border-radius:22%;image-rendering:auto}
