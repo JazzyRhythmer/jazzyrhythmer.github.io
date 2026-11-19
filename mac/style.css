@@ -61,3 +61,17 @@ select:focus-visible,input:focus-visible{outline:2px solid #eee;outline-offset:4
 /* One header offset for anchors and keyboard focus, without double spacing. */
 :root{scroll-padding-top:var(--header-offset,106px)}
 #main>section{scroll-margin-top:0}
+
+/* Direct ZIP release and a short Finder installation flow. */
+.hero-availability,.download-meta{font:12px/1.8 ui-monospace,Menlo,monospace;color:#aaa;margin:20px 0 0}
+.download-signing{font-size:14px;line-height:1.7;max-width:560px;margin:18px 0 26px}
+.download-signing a,.requirements .fine a,.install-guide a{color:#ddd;text-decoration:underline;text-underline-offset:4px}
+.release-links{display:flex;flex-wrap:wrap;gap:16px 22px}.release .release-links .textlink{margin:0}
+.install-guide>p{max-width:830px}.install-paths{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;margin:32px 0}
+.install-paths article{border:1px solid var(--line);padding:26px;min-width:0}.install-paths h3{font-size:30px;margin:0 0 26px}
+.install-paths p{margin:22px 0 8px;font-size:16px}.install-paths code{display:block;font-size:14px;line-height:1.9;color:#eee;overflow-wrap:anywhere}
+.install-steps{padding-left:22px;max-width:900px}.install-steps li{padding:10px 0 10px 7px;color:#aaa;line-height:1.8}.install-steps strong{color:#eee}
+.install-guide details{margin:30px 0}.install-guide details ul{max-width:850px;padding-left:24px}.install-guide details li{padding:9px 0;color:#aaa;font-size:17px;line-height:1.8}
+#mac-loading{scroll-margin-top:16px}.install-guide>.textlink{display:inline-block;margin-top:8px}
+@media(max-width:700px){.install-paths{grid-template-columns:1fr;gap:18px}.install-paths article{padding:22px}.release-links{gap:15px}.install-steps{padding-left:20px}.hero-availability{font-size:11px}.release .button{max-width:100%;white-space:normal;text-align:center}}
+.steps a{color:#eee;text-decoration:underline;text-underline-offset:4px}
