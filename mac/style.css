@@ -75,3 +75,6 @@ select:focus-visible,input:focus-visible{outline:2px solid #eee;outline-offset:4
 #mac-loading{scroll-margin-top:16px}.install-guide>.textlink{display:inline-block;margin-top:8px}
 @media(max-width:700px){.install-paths{grid-template-columns:1fr;gap:18px}.install-paths article{padding:22px}.release-links{gap:15px}.install-steps{padding-left:20px}.hero-availability{font-size:11px}.release .button{max-width:100%;white-space:normal;text-align:center}}
 .steps a{color:#eee;text-decoration:underline;text-underline-offset:4px}
+
+/* Three independently installable Mac formats. */
+@media(min-width:1100px){.install-paths{grid-template-columns:repeat(3,minmax(0,1fr))}}
