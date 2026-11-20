@@ -60,3 +60,36 @@
 @media(max-width:760px){.emul-product .emul-hero{grid-template-columns:1fr}.emul-product .emul-hero img{max-width:34rem;margin-inline:auto}.emul-product .emul-process,.emul-product .emul-proof-grid{grid-template-columns:1fr}.emul-product .emul-gallery{grid-template-columns:1fr}.emul-product .emul-hero h1{font-size:clamp(2.25rem,10vw,3.8rem)}.emul-evidence .emul-chart{padding:.25rem}.emul-product .emul-route-diagram{justify-content:flex-start}.emul-evidence .emul-legend button,.emul-evidence [data-audition]{flex:1 0 auto}}
 @media(prefers-reduced-motion:reduce){.emul-evidence *,.emul-product .emul-route-diagram *{scroll-behavior:auto;transition:none;animation:none}}
 .emul-product figure{margin:0}.emul-evidence .emul-chart{overflow-x:auto}.emul-evidence .emul-chart svg{min-width:850px}.emul-product .skip-link{position:absolute;left:16px;top:-80px;background:#a4d4bd;color:#101318;padding:12px;z-index:10}.emul-product .skip-link:focus{top:12px}.emul-product .emul-gallery{align-items:center}.emul-product .emul-gallery h2{margin-top:12px}
+/* Detailed measurement lab: full output spectra, nonlinear response and circuit anatomy. */
+.emul-detail{margin:2rem 0 3.5rem;min-width:0;--lab-orange:#efa86b}
+.emul-detail .detail-heading{display:flex;gap:1rem;align-items:center;flex-wrap:wrap;border-top:1px solid #526261;padding-top:1.5rem;margin-top:2rem}
+.emul-detail .detail-heading p{font-size:clamp(1.15rem,2.6vw,1.7rem);color:#f4f1e8;letter-spacing:-.02em;line-height:1.3;margin:.4rem 0}
+.emul-detail .detail-tag{font:600 .875rem/1.3 ui-monospace,monospace;letter-spacing:.12em;color:#a4d4bd;border:1px solid #61756b;padding:.6rem .8rem;border-radius:3px;white-space:nowrap}
+.emul-detail .detail-tag.warm{color:var(--lab-orange);border-color:#9b704c}
+.emul-detail .detail-model-controls{position:relative;padding:.65rem;background:#1a2023;border-radius:.8rem;border:1px solid #384346}
+.emul-detail .detail-readout{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding:.8rem 1rem;background:#0b1717;border:1px solid #3b5953;color:#a4d4bd;font:500 .875rem/1.5 ui-monospace,monospace;border-radius:.6rem;margin-block:1rem}
+.emul-detail .detail-readout span:first-child{font-weight:700;letter-spacing:.08em}
+.emul-detail figure.detail-figure{margin:1.5rem 0;border:1px solid #3d484b;border-radius:.9rem;overflow:hidden;background:#101518;min-width:0;max-width:100%}
+.emul-detail .detail-figure-head{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;padding:1.1rem 1.25rem;border-bottom:1px solid #354145}
+.emul-detail .detail-figure-head h3{margin:0;font-size:1.15rem}.emul-detail .detail-figure-head span{font:.875rem/1.4 ui-monospace,monospace;color:#a6b8b6}
+.emul-detail .detail-pan,.emul-detail [data-detail-spectrogram-link]{display:block;overflow-x:auto;overscroll-behavior-x:contain;max-width:100%;scrollbar-color:#647b73 #172022}
+.emul-detail .detail-pan img,.emul-detail [data-detail-spectrogram-link] img{display:block;width:100%;height:auto;min-width:880px;max-width:none}
+.emul-detail [data-detail-spectrogram-link] img{min-width:800px}
+.emul-detail figcaption{padding:1rem 1.25rem;font-size:1rem;line-height:1.6;color:#b7c0bc;border-top:1px solid #354145}
+.emul-detail .detail-notes{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;border-left:2px solid #9ac5b4;padding:.2rem 0 .2rem 1.25rem;margin:1.75rem 0 3.5rem}
+.emul-detail .detail-notes p{margin:0;color:#b7c0bc}.emul-detail .detail-notes strong{display:block;color:#f4f1e8;margin-bottom:.4rem}
+.emul-detail .detail-softclip>h3,.emul-detail .detail-circuit>h3{font-size:clamp(1.75rem,3.7vw,2.8rem);line-height:1.08;letter-spacing:-.03em;margin:1.5rem 0}
+.emul-detail .detail-softclip{--emul-mint:#efa86b}.emul-detail .detail-softclip>p,.emul-detail .detail-circuit>p{max-width:80ch}
+.emul-detail .detail-circuit{margin-top:3.5rem}.emul-detail .detail-circuit-board{border:1px solid #4b6760;border-radius:.8rem;padding:clamp(1rem,3vw,2rem);background:radial-gradient(#30443d77 .8px,transparent .8px) 0 0/14px 14px,#101c1a}
+.emul-detail .circuit-rail{display:flex;justify-content:space-between;gap:1rem;font:.875rem/1.5 ui-monospace,monospace;color:#99b5a9;margin-bottom:1.2rem}.emul-detail .circuit-rail span{flex:1;text-align:center}
+.emul-detail .circuit-chain{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2.2rem;position:relative;isolation:isolate}
+.emul-detail .circuit-chain:before{content:"";position:absolute;top:50%;left:2%;right:2%;height:2px;background:#9bc5b4;z-index:-1}
+.emul-detail .circuit-node{border:1px solid #6d8c7e;background:#142620;box-shadow:inset 0 0 30px #73a68e0a;border-radius:.5rem;padding:1rem;text-align:center;min-width:0}
+.emul-detail .circuit-symbol{display:block;height:64px;color:#b9ddc9;margin-bottom:.6rem}.emul-detail .circuit-symbol svg{width:100%;height:58px;max-width:180px;fill:#142620;stroke:currentColor;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.emul-detail .symbol-dim{opacity:.25}
+.emul-detail .circuit-node strong{display:block;font-size:1rem;line-height:1.3;color:#e2f0e6}.emul-detail .circuit-node small{display:block;margin-top:.7rem;font-size:.875rem;line-height:1.45;color:#adbbb2}
+.emul-detail .circuit-explain{margin-top:1.8rem;padding:1.3rem 1.5rem;background:#12201eeb;border:1px solid #3e5c51;border-radius:.6rem}.emul-detail .circuit-explain>strong{font-size:1.125rem;color:#c0e3d1}.emul-detail .circuit-explain p{color:#b7c9bf}
+.emul-detail [hidden]{display:none!important}.emul-detail .detail-status{font:.875rem/1.6 ui-monospace,monospace;color:#b7c0bc;min-height:1.6em}.emul-detail .detail-sources{font-size:.875rem;display:flex;flex-wrap:wrap;gap:.6rem}
+.emul-evidence .detail-foundation{padding-top:2rem;border-top:1px solid #526261}.emul-evidence .detail-foundation>h3{font-size:1.5rem}
+@media(max-width:760px){.emul-detail .detail-notes{grid-template-columns:1fr}.emul-detail .detail-figure-head:after{content:"Swipe the plot to inspect detail";font-size:.875rem;color:#a4d4bd;flex-basis:100%}.emul-detail .circuit-rail{display:none}.emul-detail .circuit-chain{grid-template-columns:1fr;gap:1.5rem}.emul-detail .circuit-chain:before{top:2%;bottom:2%;left:50%;right:auto;height:auto;width:2px}.emul-detail .circuit-node{display:grid;grid-template-columns:100px 1fr;align-items:center;text-align:left;gap:.25rem 1rem;padding:.8rem}.emul-detail .circuit-symbol{grid-row:1/3;margin:0}.emul-detail .circuit-node small{margin:0}.emul-detail .circuit-explain{padding:1rem}.emul-detail .detail-sources span{display:none}}
+@media(max-width:760px){.emul-detail .circuit-node{grid-template-columns:64px minmax(0,1fr);gap:.25rem .6rem}}
+.emul-detail .detail-test-note{padding:1rem 1.25rem;border-left:2px solid var(--lab-orange);background:#efa86b09;color:#d9c5b4}

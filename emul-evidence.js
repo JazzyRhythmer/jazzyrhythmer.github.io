@@ -87,3 +87,46 @@
     select(buttons.find(button => button.getAttribute('aria-pressed') === 'true')?.dataset.route || 'serial');
   });
 })();
+
+/* Measured detail views use a fixed, public asset allowlist. */
+(() => {
+ 'use strict';
+ const names={dry:'Dry',sp1200:'SP1200',s950:'S950',asr10:'ASR-10',mpc60:'MPC60',mpc3000:'MPC3000'};
+ document.querySelectorAll('[data-detail-lab]').forEach(lab=>{
+  let detailModel='sp1200',detailFrequency='difference';
+  const setImage=(selector,file,alt)=>{const img=lab.querySelector(selector);if(img){img.src=new URL('../emul-detail/'+file,document.baseURI).href;img.alt=alt;}};
+  const updateFrequency=()=>{
+   const difference=detailFrequency==='difference';
+   setImage('[data-detail-spectrum]',`${detailFrequency}-${detailModel}.svg`,difference?`${names[detailModel]} minus Dry: measured level-matched spectral energy difference`:`Level-matched synthetic drum spectrum: Dry and ${names[detailModel]} software output`);
+   lab.querySelector('[data-detail-frequency-title]').textContent=difference?'What changes across the band.':'The texture between the peaks.';
+   lab.querySelector('[data-detail-frequency-unit]').textContent=difference?'LEVEL-MATCHED PSD DIFFERENCE':'FULL OUTPUT SPECTRUM';
+   lab.querySelector('[data-detail-frequency-caption]').textContent=difference?'Frequency-by-frequency change in spectral energy after fixed RMS matching. Above zero means more energy than Dry; below zero means less. Weak-input bins are omitted. This is a musical-source PSD comparison, not a filter transfer-function measurement.':'Detailed Welch spectra include the fine structure of the rendered output. The same original drum phrase is shown against Dry with one fixed gain per render to match −23 dBFS RMS.';
+  };
+  lab.querySelectorAll('[data-detail-frequency]').forEach(button=>button.addEventListener('click',()=>{
+   const key=button.dataset.detailFrequency;if(!['spectrum','difference'].includes(key))return;detailFrequency=key;
+   lab.querySelectorAll('[data-detail-frequency]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));updateFrequency();
+  }));
+  lab.querySelectorAll('[data-detail-model]').forEach(button=>button.addEventListener('click',()=>{
+   const key=button.dataset.detailModel;if(!Object.hasOwn(names,key))return;detailModel=key;
+   lab.querySelectorAll('[data-detail-model]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+   lab.querySelector('[data-detail-model-label]').textContent=names[key];
+   setImage('[data-detail-spectrogram]',`spectrogram-${key}.png`,`${names[key]} software output: measured rising-sweep spectrogram`);
+   updateFrequency();
+   lab.querySelector('[data-detail-spectrogram-link]').href=new URL(`../emul-detail/spectrogram-${key}.png`,document.baseURI).href;
+  }));
+  lab.querySelectorAll('[data-detail-clip]').forEach(button=>button.addEventListener('click',()=>{
+   const key=button.dataset.detailClip;if(!['off','3','6','9'].includes(key))return;
+   const label=key==='off'?'Off':`+${key} dB`;
+   lab.querySelectorAll('[data-detail-clip]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+   lab.querySelector('[data-detail-clip-label]').textContent=`SOFT CLIP ${label}`;
+   setImage('[data-detail-clip-image]',`softclip-${key}.svg`,`Actual complete engine waveform and spectrum: SOFT CLIP ${label}, fixed level matching against Off`);
+   lab.querySelector('[data-detail-clip-status]').textContent=`Showing production SOFT CLIP ${label}.`;
+  }));
+  lab.querySelectorAll('[data-detail-circuit]').forEach(button=>button.addEventListener('click',()=>{
+   const key=button.dataset.detailCircuit;if(!['sp','s950','analog'].includes(key))return;
+   lab.querySelectorAll('[data-detail-circuit]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+   lab.querySelectorAll('[data-circuit-view]').forEach(view=>{view.hidden=view.dataset.circuitView!==key;});
+   lab.querySelector('[data-circuit-status]').textContent=`Showing ${key==='sp'?'SP1200':key==='s950'?'S950':'ANALOG'} signal-path anatomy.`;
+  }));
+ });
+})();

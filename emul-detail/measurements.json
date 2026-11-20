@@ -1,0 +1,162 @@
+{
+  "kind": "measured JR software output, not physical hardware capture",
+  "sample_rate": 48000,
+  "conditions": "Stage A only; full mix/unity output; TONE MAX; ANALOG/input drive off; SP RAW; ASR normal clock; output rack disabled. Soft clip off except named soft-clip tests.",
+  "experimental_saturation": false,
+  "swept_tone": {
+    "seconds": 5,
+    "start_hz": 60,
+    "end_hz": 22500,
+    "sample_rate": 48000,
+    "stft_window": 2048,
+    "stft_hop": 256,
+    "common_color_range_dbfs": [
+      -110,
+      -14
+    ],
+    "matching": "one fixed whole-file RMS gain, -23 dBFS",
+    "models": {
+      "dry": {
+        "rms_dbfs": -23.0,
+        "fixed_gain_db": -6.814934146872503,
+        "raw_rms_dbfs": -16.185065853127497,
+        "peak_dbfs": -19.966480530428377
+      },
+      "sp1200": {
+        "rms_dbfs": -23.0,
+        "fixed_gain_db": -3.2777455434526743,
+        "raw_rms_dbfs": -19.722254456547326,
+        "peak_dbfs": -15.329277425442413
+      },
+      "s950": {
+        "rms_dbfs": -23.000000000000004,
+        "fixed_gain_db": -9.888695264559457,
+        "raw_rms_dbfs": -13.111304735440543,
+        "peak_dbfs": -17.912951966211658
+      },
+      "asr10": {
+        "rms_dbfs": -23.0,
+        "fixed_gain_db": -6.179555235489218,
+        "raw_rms_dbfs": -16.820444764510782,
+        "peak_dbfs": -19.157686383706533
+      },
+      "mpc60": {
+        "rms_dbfs": -23.0,
+        "fixed_gain_db": -5.141296079817764,
+        "raw_rms_dbfs": -17.858703920182236,
+        "peak_dbfs": -18.197092877302126
+      },
+      "mpc3000": {
+        "rms_dbfs": -23.0,
+        "fixed_gain_db": -6.24175535115517,
+        "raw_rms_dbfs": -16.75824464884483,
+        "peak_dbfs": -19.31790702000572
+      }
+    }
+  },
+  "drum_spectrum": {
+    "source": "original synthesized drum phrase (public phrase-dry.wav)",
+    "matching": "one fixed whole-file RMS gain, -23 dBFS; not the LUFS-matched listening files",
+    "welch_window": 8192,
+    "welch_hop": 4096,
+    "spectral_change": "10 log10(output PSD / Dry PSD); same fixed-RMS-matched data; 30 Hz..20 kHz, Dry PSD > -110 dBFS/Hz. Energy distribution, not filter transfer function.",
+    "spectral_change_view_range_db": [
+      -18,
+      9
+    ],
+    "spectral_change_deep_rejection": "Values below -18 dB continue outside the common view and have a downward marker with measured minimum.",
+    "models": {
+      "dry": {
+        "fixed_gain_db": -1.3681203156440915,
+        "matched_rms_dbfs": -23.0,
+        "peak_dbfs": -11.240107466151947,
+        "spectral_change_min_db": 0.0,
+        "spectral_change_max_db": 0.0
+      },
+      "sp1200": {
+        "fixed_gain_db": -1.0927142020285636,
+        "matched_rms_dbfs": -23.0,
+        "peak_dbfs": -9.058239434783031,
+        "spectral_change_min_db": -22.06832844950077,
+        "spectral_change_max_db": 0.28654164815180105
+      },
+      "s950": {
+        "fixed_gain_db": -1.5923382574906704,
+        "matched_rms_dbfs": -23.000000000000004,
+        "peak_dbfs": -4.5361049427939,
+        "spectral_change_min_db": -0.38188556314515676,
+        "spectral_change_max_db": 4.902646987376198
+      },
+      "asr10": {
+        "fixed_gain_db": -1.2268078112849672,
+        "matched_rms_dbfs": -23.0,
+        "peak_dbfs": -8.592797215187582,
+        "spectral_change_min_db": -3.7678228905961184,
+        "spectral_change_max_db": 0.45683975554098116
+      },
+      "mpc60": {
+        "fixed_gain_db": -1.159649047973648,
+        "matched_rms_dbfs": -23.000000000000004,
+        "peak_dbfs": -8.396000110115795,
+        "spectral_change_min_db": -49.98051884193445,
+        "spectral_change_max_db": 0.7863825979802637
+      },
+      "mpc3000": {
+        "fixed_gain_db": -1.2365194451997965,
+        "matched_rms_dbfs": -23.000000000000004,
+        "peak_dbfs": -7.566613565012895,
+        "spectral_change_min_db": -0.9261970715083644,
+        "spectral_change_max_db": 0.37284195324480734
+      }
+    }
+  },
+  "soft_clip": {
+    "source": "997 Hz sine at -1 dBFS peak, two seconds; final second analyzed",
+    "model": "MPC3000; full shipping sampler chain",
+    "matching": "one fixed post-render gain to -23 dBFS RMS",
+    "fft": "exact 1-second rectangular window at integer-Hz bins; harmonics 2..24 summed for THD",
+    "transfer": "actual production static drive+shoulder before reconstruction; not a complete hardware circuit transfer",
+    "states": {
+      "0": {
+        "control_label": "OFF",
+        "matched_rms_dbfs": -23.0,
+        "fixed_gain_db": -18.9685856425814,
+        "raw_peak_dbfs": -1.0202586429768532,
+        "matched_peak_dbfs": -19.988844285558255,
+        "crest_db": 3.011155714441747,
+        "thd_percent": 7.680636663055471e-05,
+        "fundamental_dbfs": -19.989700055388766
+      },
+      "3": {
+        "control_label": "+3 dB",
+        "matched_rms_dbfs": -23.0,
+        "fixed_gain_db": -20.800227609697632,
+        "raw_peak_dbfs": -0.1842401161976307,
+        "matched_peak_dbfs": -20.98446772589526,
+        "crest_db": 2.0155322741047366,
+        "thd_percent": 9.33730868087624,
+        "fundamental_dbfs": -20.02740004999749
+      },
+      "6": {
+        "control_label": "+6 dB",
+        "matched_rms_dbfs": -23.0,
+        "fixed_gain_db": -21.587303243597812,
+        "raw_peak_dbfs": -0.14266309080698247,
+        "matched_peak_dbfs": -21.729966334404793,
+        "crest_db": 1.2700336655952063,
+        "thd_percent": 19.907851315066313,
+        "fundamental_dbfs": -20.15849755964115
+      },
+      "9": {
+        "control_label": "+9 dB",
+        "matched_rms_dbfs": -23.000000000000004,
+        "fixed_gain_db": -22.004007206413448,
+        "raw_peak_dbfs": -0.12375030679790328,
+        "matched_peak_dbfs": -22.127757513211353,
+        "crest_db": 0.8722424867886513,
+        "thd_percent": 27.895093705401553,
+        "fundamental_dbfs": -20.315137645243016
+      }
+    }
+  }
+}
