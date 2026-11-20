@@ -1,0 +1,106 @@
+{
+  "sampleRateHz": 48000,
+  "encoding": "stereo PCM 24-bit WAV",
+  "sourceOriginalDurationSeconds": 3,
+  "source": "Amenity pre-firmware supplied Amen loop, 48 kHz stereo PCM24; two complete repetitions, no resampling, channel collapse, DC removal, fades or bit-depth reduction before the models.",
+  "sourceCredit": "Source recording: The Winstons - Amen, Brother (Amen Break).",
+  "sourceProvenance": "Amenity assets/third-party/amen/amen.wav; stored as received by that project; before firmware sample conversion.",
+  "sourceSha256": "6a750fc1722773749fa2f6783c85f3a17b1291a54c4b033ed5636884ba2e0025",
+  "commonInputGainDb": -11.999131223456363,
+  "inputPeakDbfs": -12.0,
+  "commonOutputGainDb": 0.0,
+  "levelMatching": "NONE. Identical common input gain for all sampler and PATINA demos; natural output gain and LUFS differences retained. No per-file RMS/LUFS matching, additional post-render makeup, limiter or dynamic gain normalization. Model-internal gain remains part of the sound.",
+  "scope": "Actual software renders, not hardware captures or hardware accuracy proof. Input source is pre-firmware, not a verified untouched original recording master.",
+  "title": "PATINA - same-input clean Amen demonstration",
+  "engine": "Actual production JR FX FXEngine.cpp, Bus A COLOR type0 PATINA; other categories, Bus B, sampler, output compressor/limiter and pads bypassed. Common 184-frame host latency removed; musical wow motion retained.",
+  "settings": {
+    "dry": "Direct same calibrated source",
+    "squeeze": "SQUEEZE65 / NOISE0 / WOW0",
+    "texture": "SQUEEZE65 / NOISE25 / WOW0",
+    "wow": "SQUEEZE0 / NOISE0 / WOW20",
+    "full": "SQUEEZE65 / NOISE25 / WOW20"
+  },
+  "files": [
+    {
+      "file": "clean-amen-dry.wav",
+      "durationSeconds": 6,
+      "sha256": "cf998823a6235490c331c0e9cc6858bec1397a3d9112c9bc9e411cf9df7208ce",
+      "integratedLufs": -21.81436959874333,
+      "rmsDbfs": -25.11604917358014,
+      "peakDbfs": -12.000000253286988,
+      "estimatedTruePeakDbfs4x": -11.841086998066663,
+      "name": "dry",
+      "inputGainDb": -11.999131223456363,
+      "outputGainDb": 0.0,
+      "macros": null
+    },
+    {
+      "file": "clean-amen-squeeze.wav",
+      "durationSeconds": 6,
+      "sha256": "62426aa8e5f10d56b7354777c94c5fd502879849d29d9471eb7384ac1eb1c73a",
+      "integratedLufs": -16.61364244560983,
+      "rmsDbfs": -19.72102540835609,
+      "peakDbfs": -6.426094882713686,
+      "estimatedTruePeakDbfs4x": -6.420567507682618,
+      "name": "squeeze",
+      "inputGainDb": -11.999131223456363,
+      "outputGainDb": 0.0,
+      "macros": [
+        0.65,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "clean-amen-texture.wav",
+      "durationSeconds": 6,
+      "sha256": "407d14498bd21c8620a06990cacbb3860de7599bd371614c90fbd2eb1ecf1b73",
+      "integratedLufs": -16.6136170613847,
+      "rmsDbfs": -19.72099282293382,
+      "peakDbfs": -6.41842785771603,
+      "estimatedTruePeakDbfs4x": -6.412900482684961,
+      "name": "texture",
+      "inputGainDb": -11.999131223456363,
+      "outputGainDb": 0.0,
+      "macros": [
+        0.65,
+        0.25,
+        0
+      ]
+    },
+    {
+      "file": "clean-amen-wow.wav",
+      "durationSeconds": 6,
+      "sha256": "3a0bb9c77d04257f4016f7fd3462fd8f7687f77e5028e1165b7520e29b3c238a",
+      "integratedLufs": -22.033189938909775,
+      "rmsDbfs": -25.22482297594322,
+      "peakDbfs": -11.945876317752207,
+      "estimatedTruePeakDbfs4x": -11.940348942721137,
+      "name": "wow",
+      "inputGainDb": -11.999131223456363,
+      "outputGainDb": 0.0,
+      "macros": [
+        0,
+        0,
+        0.2
+      ]
+    },
+    {
+      "file": "clean-amen-full.wav",
+      "durationSeconds": 6,
+      "sha256": "6b56648d085c2b1c4ac3513d5d938940abf635e512ebdf87048f1de7e39037fb",
+      "integratedLufs": -16.635063833091035,
+      "rmsDbfs": -19.73131290454509,
+      "peakDbfs": -6.431825169092739,
+      "estimatedTruePeakDbfs4x": -6.42114719980298,
+      "name": "full",
+      "inputGainDb": -11.999131223456363,
+      "outputGainDb": 0.0,
+      "macros": [
+        0.65,
+        0.25,
+        0.2
+      ]
+    }
+  ]
+}

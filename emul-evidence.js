@@ -1,7 +1,7 @@
 /* JR sampler evidence components. Encoded files retain their fixed matching gains. */
 (() => {
   'use strict';
-  const names = { dry: 'Dry', sp1200: 'SP1200', s950: 'S950', asr10: 'ASR10', mpc60: 'MPC60', mpc3000: 'MPC3000' };
+  const names = { dry: 'Dry', sp1200: 'SP1200', s950: 'S950', asr10: 'ASR10', mpc60: 'MPC60', mpc3000: 'MPC3000', squeeze: 'Compression', texture: 'Texture', wow: 'Motion', full: 'PATINA' };
   const roots = document.querySelectorAll('.emul-evidence');
   roots.forEach(root => {
     root.querySelectorAll('[data-emul-graph]').forEach(graph => {
@@ -22,6 +22,7 @@
       if (!audio) return;
       const buttons = [...player.querySelectorAll('[data-audition]')];
       const status = player.querySelector('[data-audio-status]');
+      const levelNote = player.dataset.levelNote || 'fixed −23 LUFS integrated';
       const setStatus = message => { if (status) status.textContent = message; };
       let selected = buttons.find(button => button.getAttribute('aria-pressed') === 'true')?.dataset.audition || 'dry';
       if (!names[selected]) selected = 'dry';
@@ -31,14 +32,14 @@
       const label = () => names[selected];
       const markButtons = () => buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.audition === selected)));
       markButtons();
-      setStatus(`Ready · ${label()} · fixed −23 LUFS integrated`);
+      setStatus(`Ready · ${label()} · ${levelNote}`);
       const metadata = () => {
         const request = pending;
         if (!request || request.generation !== generation || audio.readyState < 1 || audio.currentSrc !== request.url) return;
         pending = null;
         const maximum = Number.isFinite(audio.duration) ? Math.max(0, audio.duration - 0.01) : request.position;
         try { audio.currentTime = Math.min(request.position, maximum); } catch (_) { /* Unseekable media starts at zero. */ }
-        if (!request.resume) { setStatus(`Ready · ${label()} · fixed −23 LUFS integrated`); return; }
+        if (!request.resume) { setStatus(`Ready · ${label()} · ${levelNote}`); return; }
         const result = audio.play();
         if (result && typeof result.catch === 'function') result.catch(error => {
           if (request.generation !== generation) return;
@@ -46,7 +47,7 @@
         });
       };
       audio.addEventListener('loadedmetadata', metadata);
-      audio.addEventListener('play', () => { if (!pending) setStatus(`Playing · ${label()} · fixed −23 LUFS integrated`); });
+      audio.addEventListener('play', () => { document.querySelectorAll('[data-emul-player] audio').forEach(other=>{if(other!==audio&&!other.paused)other.pause();}); if (!pending) setStatus(`Playing · ${label()} · ${levelNote}`); });
       audio.addEventListener('pause', () => { if (!pending && !failed && !audio.ended) setStatus(`Paused · ${label()}`); });
       audio.addEventListener('ended', () => { if (!pending) setStatus(`Finished · ${label()}`); });
       audio.addEventListener('error', () => {
@@ -61,7 +62,7 @@
         const resume = pending ? pending.resume : (!audio.paused && !audio.ended);
         const base = player.dataset.audioBase || '../emul-evidence/';
         const directory = new URL(base.endsWith('/') ? base : `${base}/`, document.baseURI);
-        const url = new URL(`phrase-${key}.wav`, directory).href;
+        const url = new URL(`${player.dataset.audioPrefix || 'phrase'}-${key}.wav`, directory).href;
         selected = key; failed = false; generation += 1;
         pending = { position, resume, generation, url };
         markButtons(); setStatus(`Loading · ${label()}…`);
@@ -94,13 +95,14 @@
  const names={dry:'Dry',sp1200:'SP1200',s950:'S950',asr10:'ASR-10',mpc60:'MPC60',mpc3000:'MPC3000'};
  document.querySelectorAll('[data-detail-lab]').forEach(lab=>{
   let detailModel='sp1200',detailFrequency='difference';
-  const setImage=(selector,file,alt)=>{const img=lab.querySelector(selector);if(img){img.src=new URL('../emul-detail/'+file,document.baseURI).href;img.alt=alt;}};
+  const detailBase=new URL(lab.dataset.detailBase||'../emul-detail/',document.baseURI);
+  const setImage=(selector,file,alt)=>{const img=lab.querySelector(selector);if(img){img.src=new URL(file,detailBase).href;img.alt=alt;const mobile=img.closest('picture')?.querySelector('source');if(mobile)mobile.srcset=new URL(file.replace(/(\.[^.]+)$/,'-mobile$1'),detailBase).href;}};
   const updateFrequency=()=>{
    const difference=detailFrequency==='difference';
-   setImage('[data-detail-spectrum]',`${detailFrequency}-${detailModel}.svg`,difference?`${names[detailModel]} minus Dry: measured level-matched spectral energy difference`:`Level-matched synthetic drum spectrum: Dry and ${names[detailModel]} software output`);
+   setImage('[data-detail-spectrum]',`${detailFrequency}-${detailModel}.svg`,difference?`${names[detailModel]} minus Dry: measured spectral energy difference including natural output gain`:`Same-input-gain Amen Break spectrum: Dry and ${names[detailModel]} software output`);
    lab.querySelector('[data-detail-frequency-title]').textContent=difference?'What changes across the band.':'The texture between the peaks.';
-   lab.querySelector('[data-detail-frequency-unit]').textContent=difference?'LEVEL-MATCHED PSD DIFFERENCE':'FULL OUTPUT SPECTRUM';
-   lab.querySelector('[data-detail-frequency-caption]').textContent=difference?'Frequency-by-frequency change in spectral energy after fixed RMS matching. Above zero means more energy than Dry; below zero means less. Weak-input bins are omitted. This is a musical-source PSD comparison, not a filter transfer-function measurement.':'Detailed Welch spectra include the fine structure of the rendered output. The same original drum phrase is shown against Dry with one fixed gain per render to match −23 dBFS RMS.';
+   lab.querySelector('[data-detail-frequency-unit]').textContent=difference?'OUTPUT PSD DIFFERENCE / SAME INPUT':'FULL OUTPUT SPECTRUM';
+   lab.querySelector('[data-detail-frequency-caption]').textContent=difference?'Frequency-by-frequency change with one shared input gain and no output normalization. Above zero means more energy than Dry; below zero means less. This includes the effect’s gain change. Weak-input bins are omitted; it is not an isolated filter transfer-function measurement.':'Detailed Welch spectra include the fine structure of the rendered output. The same 48 kHz / 24-bit pre-firmware Amen Break source is shown against Dry, with identical input gain and the engine’s output gain retained.';
   };
   lab.querySelectorAll('[data-detail-frequency]').forEach(button=>button.addEventListener('click',()=>{
    const key=button.dataset.detailFrequency;if(!['spectrum','difference'].includes(key))return;detailFrequency=key;
@@ -112,7 +114,7 @@
    lab.querySelector('[data-detail-model-label]').textContent=names[key];
    setImage('[data-detail-spectrogram]',`spectrogram-${key}.png`,`${names[key]} software output: measured rising-sweep spectrogram`);
    updateFrequency();
-   lab.querySelector('[data-detail-spectrogram-link]').href=new URL(`../emul-detail/spectrogram-${key}.png`,document.baseURI).href;
+   lab.querySelector('[data-detail-spectrogram-link]').href=new URL(`spectrogram-${key}.png`,detailBase).href;
   }));
   lab.querySelectorAll('[data-detail-clip]').forEach(button=>button.addEventListener('click',()=>{
    const key=button.dataset.detailClip;if(!['off','3','6','9'].includes(key))return;

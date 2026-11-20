@@ -55,11 +55,25 @@
     }
   },
   "drum_spectrum": {
-    "source": "original synthesized drum phrase (public phrase-dry.wav)",
-    "matching": "one fixed whole-file RMS gain, -23 dBFS; not the LUFS-matched listening files",
+    "source": "Amen Break",
+    "source_file_name": "amen.wav",
+    "source_credit": "Source recording: The Winstons - Amen, Brother (Amen Break). Amenity pre-firmware source.",
+    "source_sample_rate_hz": 48000,
+    "source_duration_seconds": 3.0,
+    "arrangement": "Existing two-bar / 160 BPM loop repeated twice, no arrangement edits.",
+    "source_bandwidth_note": "48 kHz stereo PCM24 pre-firmware source. No firmware downsampling, PCM12 conversion or upsampling applied. Both input channels retained.",
+    "rendered_duration_seconds": 6.0,
+    "source_sample_bits": 24,
+    "source_channels": 2,
+    "source_sha256": "6a750fc1722773749fa2f6783c85f3a17b1291a54c4b033ed5636884ba2e0025",
+    "common_input_gain_db": -11.999131223456363,
+    "input_sample_peak_dbfs": -12.0,
+    "output_normalization": "NONE; identical input gain shared by all sampler and PATINA demos, no per-file gain.",
+    "common_output_gain_db": 0.0,
+    "matching": "NONE. Identical input gain for every model; natural output level retained. No per-model RMS or LUFS normalization.",
     "welch_window": 8192,
     "welch_hop": 4096,
-    "spectral_change": "10 log10(output PSD / Dry PSD); same fixed-RMS-matched data; 30 Hz..20 kHz, Dry PSD > -110 dBFS/Hz. Energy distribution, not filter transfer function.",
+    "spectral_change": "10 log10(output PSD / Dry PSD); average stereo channel power, same input gain, no normalization; 30 Hz..24000 Hz, Dry PSD > -110 dBFS/Hz. Energy distribution, not filter transfer function.",
     "spectral_change_view_range_db": [
       -18,
       9
@@ -67,46 +81,52 @@
     "spectral_change_deep_rejection": "Values below -18 dB continue outside the common view and have a downward marker with measured minimum.",
     "models": {
       "dry": {
-        "fixed_gain_db": -1.3681203156440915,
-        "matched_rms_dbfs": -23.0,
-        "peak_dbfs": -11.240107466151947,
+        "common_input_gain_db": -11.999131223456363,
+        "output_gain_db": 0.0,
+        "output_rms_dbfs": -25.1160491621295,
+        "peak_dbfs": -12.0,
         "spectral_change_min_db": 0.0,
         "spectral_change_max_db": 0.0
       },
       "sp1200": {
-        "fixed_gain_db": -1.0927142020285636,
-        "matched_rms_dbfs": -23.0,
-        "peak_dbfs": -9.058239434783031,
-        "spectral_change_min_db": -22.06832844950077,
-        "spectral_change_max_db": 0.28654164815180105
+        "common_input_gain_db": -11.999131223456363,
+        "output_gain_db": 0.0,
+        "output_rms_dbfs": -25.364090290708766,
+        "peak_dbfs": -11.745359874376069,
+        "spectral_change_min_db": -7.534046060740315,
+        "spectral_change_max_db": 34.00766667333228
       },
       "s950": {
-        "fixed_gain_db": -1.5923382574906704,
-        "matched_rms_dbfs": -23.000000000000004,
-        "peak_dbfs": -4.5361049427939,
-        "spectral_change_min_db": -0.38188556314515676,
-        "spectral_change_max_db": 4.902646987376198
+        "common_input_gain_db": -11.999131223456363,
+        "output_gain_db": 0.0,
+        "output_rms_dbfs": -24.813690233060118,
+        "peak_dbfs": -10.902573397955994,
+        "spectral_change_min_db": -22.578654301124345,
+        "spectral_change_max_db": 5.174602648398933
       },
       "asr10": {
-        "fixed_gain_db": -1.2268078112849672,
-        "matched_rms_dbfs": -23.0,
-        "peak_dbfs": -8.592797215187582,
-        "spectral_change_min_db": -3.7678228905961184,
-        "spectral_change_max_db": 0.45683975554098116
+        "common_input_gain_db": -11.999131223456363,
+        "output_gain_db": 0.0,
+        "output_rms_dbfs": -25.134549143594732,
+        "peak_dbfs": -11.834179058946173,
+        "spectral_change_min_db": -26.279537205096325,
+        "spectral_change_max_db": 0.16162119561364902
       },
       "mpc60": {
-        "fixed_gain_db": -1.159649047973648,
-        "matched_rms_dbfs": -23.000000000000004,
-        "peak_dbfs": -8.396000110115795,
-        "spectral_change_min_db": -49.98051884193445,
-        "spectral_change_max_db": 0.7863825979802637
+        "common_input_gain_db": -11.999131223456363,
+        "output_gain_db": 0.0,
+        "output_rms_dbfs": -25.167776679168362,
+        "peak_dbfs": -11.99023314555577,
+        "spectral_change_min_db": -25.046770802406545,
+        "spectral_change_max_db": 0.09758558821079835
       },
       "mpc3000": {
-        "fixed_gain_db": -1.2365194451997965,
-        "matched_rms_dbfs": -23.000000000000004,
-        "peak_dbfs": -7.566613565012895,
-        "spectral_change_min_db": -0.9261970715083644,
-        "spectral_change_max_db": 0.37284195324480734
+        "common_input_gain_db": -11.999131223456363,
+        "output_gain_db": 0.0,
+        "output_rms_dbfs": -25.15280715370803,
+        "peak_dbfs": -11.938385934949764,
+        "spectral_change_min_db": -31.413237754079173,
+        "spectral_change_max_db": 0.06488476614442006
       }
     }
   },
@@ -158,5 +178,52 @@
         "fundamental_dbfs": -20.315137645243016
       }
     }
+  },
+  "output_filter_response": {
+    "kind": "actual software output-rack small-signal impulse response, not physical hardware data",
+    "sample_rate_hz": 48000,
+    "nominal_cutoff_hz": 4000,
+    "method": "0.001-amplitude impulse after 0.5-second zero preroll; one second of actual whole-engine output analyzed by FFT; each curve normalized to its own 100 Hz gain.",
+    "settings": "A/B sampler stages bypassed; output filter on; motion/resonance macro0; drive0; mix100%; BASIC low-pass; compressor/limiter off; master unity.",
+    "scope": "Native fixed-Q/pole characteristics retained. This compares only the output rack: no sampler recording emphasis, DAC-hold contour or playback-compensation EQ. Same nominal cutoff does not imply equal -3dB points.",
+    "experimental_saturation": false,
+    "models": {
+      "SP1200": {
+        "normalization_gain_db_at_100hz": -0.06185032812586694,
+        "normalized_gain_db_at_1khz": -1.0539732409578322,
+        "normalized_gain_db_at_4khz": -12.065803047448608,
+        "normalized_gain_db_at_8khz": -28.37716967839736,
+        "normalized_gain_db_at_16khz": -50.93124491962012
+      },
+      "S950": {
+        "normalization_gain_db_at_100hz": -0.05091031217910999,
+        "normalized_gain_db_at_1khz": -0.0032405974040226396,
+        "normalized_gain_db_at_4khz": -2.9112177054642943,
+        "normalized_gain_db_at_8khz": -36.03459129614279,
+        "normalized_gain_db_at_16khz": -72.13559915697702
+      },
+      "L24": {
+        "normalization_gain_db_at_100hz": -0.061986505389065964,
+        "normalized_gain_db_at_1khz": -1.0664057308407338,
+        "normalized_gain_db_at_4khz": -12.129570016153838,
+        "normalized_gain_db_at_8khz": -28.277127422998582,
+        "normalized_gain_db_at_16khz": -50.077283946215005
+      },
+      "BASIC LP": {
+        "normalization_gain_db_at_100hz": -0.05632213468948072,
+        "normalized_gain_db_at_1khz": -0.5230395741396452,
+        "normalized_gain_db_at_4khz": -5.916104684640515,
+        "normalized_gain_db_at_8khz": -13.943876610239117,
+        "normalized_gain_db_at_16khz": -24.849209657676454
+      }
+    }
+  },
+  "mobile_figures": {
+    "method": "New compact figure layouts plotted from the same measured arrays and conditions as each desktop figure; not image resizing.",
+    "figure_width_inches": 4.3,
+    "minimum_regular_font_points": 14,
+    "soft_clip_panels": "vertically stacked",
+    "music_gain_policy": "Same input gain, natural output gain retained; no model normalization.",
+    "calibrated_diagnostics": "Sweep and soft-clip sine remain fixed -23 dBFS RMS; output-filter response remains 100 Hz normalized. These differ intentionally from the music demos."
   }
 }

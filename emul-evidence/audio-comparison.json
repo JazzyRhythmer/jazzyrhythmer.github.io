@@ -1,1 +1,90 @@
-{"title":"Original synthetic drum phrase","sampleRateHz":48000,"encoding":"mono PCM 16-bit WAV","levelMatching":"One fixed gain per file to \u221223 LUFS integrated; no limiting, no dynamic loudness matching.","settings":"Same measured model settings as sampler-response.json.","source":"All sounds synthesized for this demonstration; no sampled recordings.","scope":"Software renders. Loudness matching supports comparison; no physical hardware listening validation is claimed.","files":[{"name":"dry","file":"phrase-dry.wav","durationSeconds":6,"integratedLufs":-23.0,"estimatedTruePeakDbfs4x":-5.483,"sha256":"a71c09ee7a888b098f695e292d4a4e3f18cea7aece1e49549388608bf5105d0c"},{"name":"SP1200","file":"phrase-sp1200.wav","durationSeconds":6,"integratedLufs":-23.0,"estimatedTruePeakDbfs4x":-6.728,"sha256":"27a2308611ce57ba50da41128831c44bf804dc7f92d028d37eb39b34dd6546e3"},{"name":"S950","file":"phrase-s950.wav","durationSeconds":6,"integratedLufs":-23.0,"estimatedTruePeakDbfs4x":-3.109,"sha256":"ade7be38423ac80a00837f147a9f3c576721276c1ffcb307c82ecd1009f2a35f"},{"name":"ASR10","file":"phrase-asr10.wav","durationSeconds":6,"integratedLufs":-23.0,"estimatedTruePeakDbfs4x":-5.558,"sha256":"ebe45c0dac04c13b5de011b332c2540a70d0374eeb57d1d75a196432011b1321"},{"name":"MPC60","file":"phrase-mpc60.wav","durationSeconds":6,"integratedLufs":-23.0,"estimatedTruePeakDbfs4x":-6.554,"sha256":"5dd3daa7cdce171346dde622c822f27352c01eb6b5dfc1c1ea0d6108ac73a656"},{"name":"MPC3000","file":"phrase-mpc3000.wav","durationSeconds":6,"integratedLufs":-23.0,"estimatedTruePeakDbfs4x":-5.96,"sha256":"baa2774e7221b5f6b535e7ac651e5ff0257b118c9446deb078c007f3ae0e73e5"}]}
+{
+  "sampleRateHz": 48000,
+  "encoding": "stereo PCM 24-bit WAV",
+  "sourceOriginalDurationSeconds": 3,
+  "source": "Amenity pre-firmware supplied Amen loop, 48 kHz stereo PCM24; two complete repetitions, no resampling, channel collapse, DC removal, fades or bit-depth reduction before the models.",
+  "sourceCredit": "Source recording: The Winstons - Amen, Brother (Amen Break).",
+  "sourceProvenance": "Amenity assets/third-party/amen/amen.wav; stored as received by that project; before firmware sample conversion.",
+  "sourceSha256": "6a750fc1722773749fa2f6783c85f3a17b1291a54c4b033ed5636884ba2e0025",
+  "commonInputGainDb": -11.999131223456363,
+  "inputPeakDbfs": -12.0,
+  "commonOutputGainDb": 0.0,
+  "levelMatching": "NONE. Identical common input gain for all sampler and PATINA demos; natural output gain and LUFS differences retained. No per-file RMS/LUFS matching, additional post-render makeup, limiter or dynamic gain normalization. Model-internal gain remains part of the sound.",
+  "scope": "Actual software renders, not hardware captures or hardware accuracy proof. Input source is pre-firmware, not a verified untouched original recording master.",
+  "title": "Clean Amen - same-input sampler comparison",
+  "settings": "Stage A only, full mix, unity output, TONE MAX, input drive/SOFT CLIP/ANALOG off, SP RAW, ASR normal clock, output rack bypassed; common 254-frame latency removed.",
+  "files": [
+    {
+      "file": "clean-amen-dry.wav",
+      "durationSeconds": 6,
+      "sha256": "cf998823a6235490c331c0e9cc6858bec1397a3d9112c9bc9e411cf9df7208ce",
+      "integratedLufs": -21.81436959874333,
+      "rmsDbfs": -25.11604917358014,
+      "peakDbfs": -12.000000253286988,
+      "estimatedTruePeakDbfs4x": -11.841086998066663,
+      "name": "Dry",
+      "inputGainDb": -11.999131223456363,
+      "outputGainDb": 0.0
+    },
+    {
+      "file": "clean-amen-sp1200.wav",
+      "durationSeconds": 6,
+      "sha256": "48027f43b9d07d992bfb303a0e06de0d01d5b54d12e052fe0d3ff46dc3a58172",
+      "integratedLufs": -22.259011343609476,
+      "rmsDbfs": -25.36409027772627,
+      "peakDbfs": -11.745359874376069,
+      "estimatedTruePeakDbfs4x": -11.707083501244638,
+      "name": "SP1200",
+      "inputGainDb": -11.999131223456363,
+      "outputGainDb": 0.0
+    },
+    {
+      "file": "clean-amen-s950.wav",
+      "durationSeconds": 6,
+      "sha256": "6501d2d66e3a96f47c471f5f905386a03af5380bc0face6b4188b41d4c7d23b2",
+      "integratedLufs": -21.17925635395257,
+      "rmsDbfs": -24.813690239279545,
+      "peakDbfs": -10.902573397955994,
+      "estimatedTruePeakDbfs4x": -10.897046022924924,
+      "name": "S950",
+      "inputGainDb": -11.999131223456363,
+      "outputGainDb": 0.0
+    },
+    {
+      "file": "clean-amen-asr10.wav",
+      "durationSeconds": 6,
+      "sha256": "e7d3b2f042005158a73e1eab2e8b238dcf0966ca3251ab0ff93236631792067c",
+      "integratedLufs": -21.800028986822696,
+      "rmsDbfs": -25.134549143231805,
+      "peakDbfs": -11.834180069997942,
+      "estimatedTruePeakDbfs4x": -11.800075410364343,
+      "name": "ASR-10",
+      "inputGainDb": -11.999131223456363,
+      "outputGainDb": 0.0
+    },
+    {
+      "file": "clean-amen-mpc60.wav",
+      "durationSeconds": 6,
+      "sha256": "0594cb4d378bfe65c05402d81e5cea7a3ddea753163783836114e9329265588a",
+      "integratedLufs": -21.86844436425838,
+      "rmsDbfs": -25.167776678319974,
+      "peakDbfs": -11.99023211617501,
+      "estimatedTruePeakDbfs4x": -11.895470886965171,
+      "name": "MPC60",
+      "inputGainDb": -11.999131223456363,
+      "outputGainDb": 0.0
+    },
+    {
+      "file": "clean-amen-mpc3000.wav",
+      "durationSeconds": 6,
+      "sha256": "6d3c7ae9a10b442a403f2a7187d2833f7ba60732cd7405679305b66e150682f3",
+      "integratedLufs": -21.8411779440333,
+      "rmsDbfs": -25.152807151766872,
+      "peakDbfs": -11.938386958204442,
+      "estimatedTruePeakDbfs4x": -11.879660026848411,
+      "name": "MPC3000",
+      "inputGainDb": -11.999131223456363,
+      "outputGainDb": 0.0
+    }
+  ]
+}
