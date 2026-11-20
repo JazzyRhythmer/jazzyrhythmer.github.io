@@ -35,7 +35,8 @@
     'jr-acid': 'JR ACID', 'jr-fx': 'JR FX', 'jr-trek': 'JR TREK',
     'jr-rytm': 'JR RYTM', 'jr-play': 'JR PLAY',
     'jr-smpl': 'JR SMPL', 'jr-draw': 'JR DRAW',
-    'jr-flow': 'JR FLOW', 'jr-chord': 'JR CHORD'
+    'jr-flow': 'JR FLOW', 'jr-chord': 'JR CHORD',
+    'jr-emul': 'JR EMUL', 'jr-shape': 'JR SHAPE'
   };
   const product = new URLSearchParams(location.search).get('product');
   const signupContext = document.getElementById('signup-context');
